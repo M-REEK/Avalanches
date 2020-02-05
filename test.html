@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Tuto - LeafLet</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+    <link rel="stylesheet" href="test.css">
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+
+
+  </head>
+
+
+
+  <body>
+
+    <nav>
+      <ul>
+        <li><img id="montain_logo"
+            src="img//icons8-montagne-100.png"
+            alt="avalanches">
+          </li>
+        <li><a href="">MAP</a></li>
+        <li><a href="">CHARTS</a></li>
+        <li><a href="">MENU 2</a></li>
+        <li><a href="">MENU 3</a></li>
+        <li><a class="active" href="#about">About</a></li>
+      </ul>
+    </nav>
+    <div id="mapid"></div>
+    <div id="footer">
+      <div><p>Site réalisé par</p><p>Gérome Ferrand & Aymeric Touche</p> </div>
+    </div>
+  </body>
+  
+
+  <!-- Création de la map -->
+  <script> 
+    var mymap = L.map('mapid').setView([46.38, 6.74], 8);
+
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+    }).addTo(mymap);
+  </script>
+
+  <!-- Affiche les avalanches sur la map -->
+  <script type="text/javascript" src="avalacheSample.js"></script>
+  
+  
+
+</html>
+
