@@ -1,0 +1,134 @@
+/*
+    Gestion des polices
+*/
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: "aaarg";
+    src: url('fonts/Aaargh-webfont.woff');
+}
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: "ailerons";
+    src: url('../fonts/Ailerons/Ailerons-Typeface.otf');
+}
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: "slopes";
+    src: url('../fonts/Boris-Garic_Slopes-Free-Typeface/Slopes.ttf');
+}
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: "aaarg";
+    src: url('../fonts/Aaargh.ttf');
+}
+
+body {
+    padding-top: 60px;
+    background-color: #202021;
+}
+
+
+
+    
+
+/*
+    Menu
+*/
+    nav{
+        font-family: "slopes";
+        font-size: 3rem;
+        background-color:cornsilk ;
+    }
+
+    html,
+    body {
+        overflow-x: hidden; /* Prevent scroll on narrow devices */
+    }
+    body {
+        padding-top: 100px;
+    }
+    footer {
+        padding: 30px 0;
+    }
+
+    /*
+    * Custom styles
+    */
+    .navbar-brand {
+        font-size: 5rem;
+        color: #083673;
+    }
+
+    .navbar-container {
+        padding: 20px 0 20px 0;
+    }
+
+    .navbar.navbar-fixed-top.fixed-theme {
+        background-color: rgb(46, 41, 51);
+        border-color: white;
+        box-shadow: 0 0 5px rgba(0,0,0,.8);
+    }
+
+    .navbar-brand.fixed-theme {
+        font-size: 18px;
+    }
+
+    .navbar-container.fixed-theme {
+        padding: 0;
+    }
+
+    .navbar-brand.fixed-theme,
+    .navbar-container.fixed-theme,
+    .navbar.navbar-fixed-top.fixed-theme,
+    .navbar-brand,
+    .navbar-container{
+        transition: 0.8s;
+        -webkit-transition:  0.8s;
+    }
+
+    .active a{
+        color: crimson;
+    }
+
+    .nav > li > a:hover, .nav > li > a:focus {
+        text-decoration: none;
+        background-color: #eeeeee ;
+        background-opacity: 0.3;
+    }
+/*
+    Carte
+*/
+    #mapid{
+        margin-top: 6rem;
+        width: 100%;
+        height: 70rem;
+        border: 0.4rem;
+        border-color: cornsilk;
+        border-style: solid;
+        border-radius: 10px;
+        z-index: 1;
+    }
+
+
+
+
+
+/*
+    Footer
+*/
+
+.footer {
+
+    position: fixed;
+    
+    height: 60px;
+    
+    bottom: 0;
+    
+    width: 100%;
+    
+    background-color: #f5f5f5;
+    
+}
+
+
+@media (min-width: 768px) {
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+
+}

@@ -5,7 +5,8 @@
   <head>
     <title>Tuto - LeafLet</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/test.css">
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
 
 
@@ -14,24 +15,44 @@
 
 
   <body>
+    <!-- Fixed navbar -->
+    <nav id="header" class="navbar navbar-fixed-top">
+        <div id="header-container" class="container navbar-container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="brand" class="navbar-brand" href="#">AVALANCHES</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse " >
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#mapid">MAP</a></li>
+                    <li><a href="#about">CHARTS</a></li>
+                    <li><a href="#contact">MENU 1</a></li>
+                    <li><a href="#contact">MENU 2</a></li>
+                </ul>
+            </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+    </nav><!-- /.navbar -->
 
-    <nav>
-      <ul>
-        <li><img id="montain_logo"
-            src="img//icons8-montagne-100.png"
-            alt="avalanches">
-          </li>
-        <li><a href="">MAP</a></li>
-        <li><a href="">CHARTS</a></li>
-        <li><a href="">MENU 2</a></li>
-        <li><a href="">MENU 3</a></li>
-        <li><a class="active" href="#about">About</a></li>
-      </ul>
-    </nav>
-    <div id="mapid"></div>
-    <div id="footer">
-      <div><p>Site réalisé par</p><p>Gérome Ferrand & Aymeric Touche</p> </div>
+    <div class="container">
+      <div class="row">
+        <div id="mapid" class="col-md-10"></div>
+      </div>
+
     </div>
+
+    <div class=“footer”>
+ 
+        <p>&copy; Company | Privacy | Terms</p>
+ 
+      </div>
+    
+    
+
   </body>
   
 
@@ -45,8 +66,11 @@
   </script>
 
   <!-- Affiche les avalanches sur la map -->
-  <script type="text/javascript" src="avalacheSample.js"></script>
-  
+  <script type="text/javascript" src="js/avalacheSample.js"></script>
+
+
+ 
+    
   
 
 </html>
