@@ -2,9 +2,13 @@
     "name": "aym/avalanches",
     "authors": [
         {
-            "name": "Aym",
+            "name": "Aymeric Touche",
             "email": "aymeric.touche@gmail.com"
         }
+		{
+			"name": "Gerome Ferrand",
+            "email": "gerome.ferrand@gmail.com"
+		}
     ],
     "autoload": {
         "psr-4": {
