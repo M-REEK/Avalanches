@@ -1,0 +1,20 @@
+    
+    {% extends "layout.twig" %}
+
+    {% block content %}
+      <div class="container">
+        <div class="row">
+          <div id="mapid" class="col-md"></div>
+        </div>
+      </div>
+
+    <!-- Création de la map -->
+    <script> 
+      var mymap = L.map('mapid').setView([46.38, 6.74], 8);
+
+      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+      }).addTo(mymap);
+    </script>
+    {% endblock %}
+

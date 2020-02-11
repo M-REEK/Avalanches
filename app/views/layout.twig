@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ base_url() }}/css/test.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|McLaren|Shadows+Into+Light+Two|Spinnaker&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    
+
+    <title>Tuto - LeafLet</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-custom"style="padding: initial;">
+      <a class="navbar-brand" href="#" style="padding: inherit";><img src="{{ base_url() }}img//icons8-montagne-100.png"><span>AVALANCHES - Data Mining</span> </a>
+      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">MAP </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CHARTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MENU 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MENU 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+  
+      </div>
+    </nav>
+
+    {% block content %}{% endblock %}
+
+    <div class="container-fluid footer">
+      <div class="row">
+        <div class="col">
+        </div>
+        <div class="col">
+          Réalisé par Gérome Ferrand & Aymeric Touche
+        </div>
+        <div class="col">
+          <a href="https://github.com/M-REEK/Avalanches" target="_blank"><img src="{{ base_url() }}/img/GitHub-Mark-64px.png"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Création de la map -->
+  <script> 
+    var mymap = L.map('mapid').setView([46.38, 6.74], 8);
+
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+    }).addTo(mymap);
+  </script>
+
+  <!-- Affiche les avalanches sur la map -->
+  <script type="text/javascript" src="{{ base_url() }}/js/avalacheSample.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+
+  
+</html>

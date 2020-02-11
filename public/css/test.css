@@ -29,10 +29,6 @@
         background-color:#FAE8C3 ;
         color: #202021;
     }
-    .navbar .fixed-top .navbar-expand-lg{
-        padding: initial;
-    }
-
     .navbar-brand img{
         width: 5rem;
         color: #202021;
@@ -43,19 +39,18 @@
         font-size: 2.5rem;
         color: #202021;
     }
-
     .nav-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         margin-right: 3rem;
     }
 
     .nav-item a{
         color: #202021;
-        height: 100%;
     }
     
-    .nav-item:first-child a{
-        color: red;
-    }
+   
     .nav-item:last-child a{
         margin-left: 5rem;
     }
@@ -69,6 +64,10 @@
 
     nav a span{
         margin-left: 8%;
+    }
+
+    .active{
+        color: red;
     }
 
 
@@ -129,7 +128,6 @@
     @media (min-width: 1462px){
         .navbar-expand-custom {
             flex-direction: row;
-            flex-wrap: nowrap;
             justify-content: flex-start;
         }
         .navbar-expand-custom .navbar-nav {
