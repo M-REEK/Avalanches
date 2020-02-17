@@ -182,6 +182,7 @@ mymap.on('load', function() {
         'id': 'avalanche-boundary',
         'type': 'fill',
         'source': 'avalanches',
+        //'minzoom': 14,
         'paint': {
         'fill-color': '#E87143',
         'fill-opacity': 0.4,
