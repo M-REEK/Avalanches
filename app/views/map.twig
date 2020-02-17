@@ -10,11 +10,13 @@
 
     <!-- Création de la map -->
     <script> 
-      var mymap = L.map('mapid').setView([46.38, 6.74], 8);
-
-      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
-      }).addTo(mymap);
+  mapboxgl.accessToken = 'pk.eyJ1IjoiYXltZXJpY3QiLCJhIjoiY2s2cWZiM29zMWxucDNtcXN5cXRobHZhdiJ9.cX5vgHzNHwG14iDQRJiWRw';
+  var mymap = new mapboxgl.Map({
+  container: 'mapid', // container id
+  style: 'mapbox://styles/aymerict/ck6qg0rrx3aeo1iqycti86k4d', // stylesheet location
+  center: [6.147068, 46.227253], // starting position [lng, lat]
+  zoom: 9 // starting zoom
+  });
     </script>
     {% endblock %}
 
