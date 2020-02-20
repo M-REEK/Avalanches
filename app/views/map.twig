@@ -2,61 +2,19 @@
     {% extends "layout.twig" %}
 
     {% block content %}
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div id="mapid" class="col-md"></div>
+          <div id="" class="col-md-3"></div>
+          <div id="mapid" class="col-md-9"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-4_offset-4" id="info"></div>
         </div>
       </div>
 
     <!-- Création de la map -->
-    <script> 
-  mapboxgl.accessToken = 'pk.eyJ1IjoiYXltZXJpY3QiLCJhIjoiY2s2cWZiM29zMWxucDNtcXN5cXRobHZhdiJ9.cX5vgHzNHwG14iDQRJiWRw';
-
-  var mymap = new mapboxgl.Map({
-    container: 'mapid', // container id
-    style: 'mapbox://styles/aymerict/ck6qg0rrx3aeo1iqycti86k4d', // stylesheet location
-    center: [6.147068, 46.227253], // starting position [lng, lat]
-    zoom: 9 // starting zoom
-  });
-
-  mymap.on('load', function() {
-    mymap.addSource('mapbox-terrain', {
-      type: 'vector',
-      url: 'mapbox://aymerict.0z79a39n'
-    });
-    mymap.addLayer({
-      'id': 'avalanches-boundary',
-      'type': 'fill',
-      'source': 'mapbox-terrain',
-      'source-layer': 'l_clpa_photointer_s_r82-5o4mj0',
-      'paint': {
-        'fill-color': '#FF392B',
-        'fill-opacity': 0.4,
-        'fill-outline-color' : '#801D16'
-      },
-      'filter': ['==', '$type', 'Polygon']
-    });
-  });
-
-  // When a click event occurs on a feature in the states layer, open a popup at the
-  // location of the click, with description HTML from its properties.
-  mymap.on('click', 'avalanches-boundary', function(e) {
-    new mapboxgl.Popup()
-    .setLngLat(e.lngLat)
-    .setHTML("surface: " + e.features[0].properties.area + " m² </br>périmètre: " + e.features[0].properties.perimeter + " m")
-    .addTo(mymap);
-  });
-  
-  // Change the cursor to a pointer when the mouse is over the states layer.
-  mymap.on('mouseenter', 'avalanches-boundary', function() {
-    mymap.getCanvas().style.cursor = 'pointer';
-  });
-  
-  // Change it back to a pointer when it leaves.
-  mymap.on('mouseleave', 'avalanches-boundary', function() {
-    mymap.getCanvas().style.cursor = '';
-  });
-  
-    </script>
+     <script src="{{ base_url() }}/js/affichageMap.js"</script>
+    
     {% endblock %}
+    
 

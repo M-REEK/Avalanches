@@ -1,0 +1,52 @@
+code accident,date,heure,département,commune,massif,site,latitude,longitude,altitude,inclinaison,orientation,groupe,emportés,"ensevelis 
+tête","ensevelis 
+total","ensevelis partiels 
+critiques","ensevelis partiels 
+non critiques",décédés,blessées,indemnes,activité,"engin 
+progression",évolution,BRA,"qualité 
+neige","cohésion
+neige","type 
+départ",cause départ,"dénivelé
+(mètres)","largeur 
+cassure
+(mètres)","épaisseur
+cassure max.  
+(cm)"
+1718-04-01,06/04/2018,15:10,04,saint paul sur ubaye,ubaye,tete de l'eyssilloun couloir nord principal,44.505423,6.809782,2890,,,4,1,0,0,0,0,0,1,0,randonnée,ski,descente,,,,,,,,
+1718-05-01,08/12/2017,15:15,05,saint véran,queyras,pointe des marcelettes,44.405,6.515,2550,35-39,NO,2,1,0,0,0,0,0,1,0,randonnée,ski,descente,,sèche,dure,linéaire,accidentelle soi-même,200,30,40
+1718-05-04,18/02/2018,12:00,05,orcières,champsaur,pic de barle,44.384,6.1922,2610,35-39,NO,1,1,1,0,1,0,0,0,1,randonnée,ski,montée,,sèche,tendre,linéaire,accidentelle soi-même,120,200,
+1718-05-05,02/03/2018,17:15,05,la grave,oisans,couloir d'orcières,45.124,6.1533,2400,40-44,NO,4,1,1,1,0,0,1,0,0,hors-piste,ski,descente,4,sèche,tendre,linéaire,naturelle,840,,
+1718-05-07,04/03/2018,14:15,05,pelvoux,pelvoux,la blanche / les essanyères,44.5118,6.2749,1990,35-39,SE,2,1,0,0,0,0,0,1,0,randonnée,ski,,,,,linéaire,accidentelle soi-même,,300,40
+1718-05-08,12/03/2018,12:15,05,la salle les alpes,pelvoux,rochers de l'enfer / serre chevalier,44.54445,6.32324,2300,40-44,N,3,1,1,1,0,0,0,1,0,hors-piste,ski,descente,3,sèche,dure,linéaire,accidentelle soi-même,100,80,95
+1718-05-09,22/03/2018,10:35,05,champcella,pelvoux,vallon de la selle / tête de vautisse,44.425,6.2927,2900,30-34,E,2,2,1,1,0,1,1,1,0,randonnée,ski,,3,sèche,dure,linéaire,accidentelle soi-même,80,30,40
+1718-06-01,02/03/2018,10:30,06,entraunes,haut var,estenc / tête de crépine / cabane garret,44.152,6.4440,2280,35-39,E,6,6,5,4,1,1,4,1,1,randonnée,ski fond,arrêt,4,sèche,tendre,linéaire,,230,,110
+1718-38-01,02/12/2017,,38,saint christophe sur guiers,chartreuse,combe de l'ours petit som,45.235,5.4835,1670,35-39,SO,2,2,2,2,0,0,2,0,0,randonnée,ski,montée,,sèche,tendre,linéaire,accidentelle soi-même,125,,
+1718-38-02,02/12/2017,,38,saint pancrasse,chartreuse,pas de l'oeille dent de crolles,45.1831,5.518,1910,40-44,SO,1,1,0,0,0,0,1,0,0,randonnée,ski,descente,,sèche,tendre,linéaire,accidentelle soi-même,50,,
+1718-38-03,17/01/2018,,38,chamrousse,belledonne,brèche robert sud,45.80,5.5438,2000,35-39,NO,1,1,1,1,0,0,1,0,0,randonnée,ski,montée,3,sèche,tendre,linéaire,accidentelle soi-même,40,30,80
+1718-38-04,13/02/2018,13:45,38,saint christophe en oisans,oisans,face est brèche du rateau,44.5926,6.178,3140,35-39,SE,5,1,0,0,0,0,0,1,0,randonnée,ski,descente,2,sèche,tendre,linéaire,accidentelle soi-même,120,50,40
+1718-38-05,14/02/2018,14:45,38,lavaldens,oisans,vallon guillaume,44.563796,5.55188,2300,30-34,NO,1,1,0,0,0,1,0,0,1,randonnée,ski,montée,2,sèche,tendre,linéaire,accidentelle soi-même,200,10,30
+1718-38-07,24/02/2018,09:30,38,pinsot,belledonne,refuge de l'oule,45.1838,6.817,2035,35-39,N,2,1,0,0,0,1,0,1,0,randonnée,ski,montée,,,,linéaire,accidentelle soi-même,160,,
+1718-38-08,02/03/2018,16:45,38,mont de lans,oisans,piste verte bellecombe 1,44.59576,6.91595,2430,35-39,NE,1,1,1,1,0,0,0,1,0,piste,ski,descente,4,sèche,tendre,linéaire,accidentelle tiers,90,,
+1718-38-10,04/03/2018,10:45,38,saint agnès,belledonne,lac de crop,45.1230,5.5930,2000,40-44,NO,2,2,1,1,0,1,0,1,1,randonnée,ski,montée,,sèche,dure,linéaire,accidentelle soi-même,60,40,60
+1718-38-14,18/03/2018,11:45,38,sarcenas,chartreuse,chamechaude couloir folatière,45.1712,5.4714,2040,35-39,O,4,3,0,0,0,0,1,1,1,randonnée,ski,descente,2,sèche,,linéaire,accidentelle soi-même,280,,
+1718-38-16,28/12/2017,13:45,38,la combe de lancey,belledonne,lac de la sitre,45.1052,5.575,2120,35-39,SO,2,1,0,0,0,0,0,1,0,randonnée,raquettes,traversée,,sèche,tendre,linéaire,accidentelle soi-même,,,
+1718-38-17,23/03/2018,13:15,38,mont de lans,oisans,combe de chalance / piège à surfers,45.016,6.1131,2840,40-44,O,2,1,0,0,0,1,0,1,0,hors-piste,ski,descente,,sèche,tendre,linéaire,accidentelle soi-même,,,
+1718-38-18,13/03/2018,09:20,38,alpe d'huez,grandes rousses,combe 3000 pic blanc,45.729,6.739,3300,35-39,S,2,2,0,0,0,2,0,2,0,minage,ski,arrêt,,sèche,dure,linéaire,accidentelle soi-même,200,200,40
+1718-73-02,13/12/2017,12:44,73,tignes,haute tarentaise,pointe de fresse / campanules,45.2655,6.5524,2550,35-39,SE,2,1,1,1,0,0,0,1,0,hors-piste,ski,descente,3,sèche,dure,linéaire,accidentelle tiers,80,40,90
+1718-73-03,15/12/2017,14:10,73,granier,beaufortain,la poula face est pointe combe benite,45.3526,6.374,2410,40-44,E,2,1,1,1,0,0,1,0,0,randonnée,ski,descente,3,sèche,,linéaire,accidentelle soi-même,315,,
+1718-73-04,30/12/2017,16:00,73,val d'isere,haute tarentaise,face ouest pelaou blanc,45.2352,6.5956,2740,35-39,SO,4,2,2,1,1,0,1,0,1,randonnée,ski,montée,,sèche,tendre,linéaire,accidentelle soi-même,200,100,40
+1718-73-05,02/01/2018,14:10,73,lanslebourg,haute maurienne,montagne de montfroid,45.164,6.527,2290,35-39,N,6,2,1,1,0,1,0,1,1,hors-piste,snowboard,traversée,3,sèche,dure,linéaire,accidentelle tiers,120,50,80
+1718-73-06,03/01/2018,16:00,73,bonneval sur arc,haute tarentaise,lécharenne pont de la lama,45.236,7.424,2500,35-39,SE,1,1,1,1,0,0,1,0,0,habitation,à pieds,arrêt,4,sèche,,linéaire,naturelle,600,450,
+1718-73-08,09/01/2018,14:30,73,valmeinier,haute maurienne,piste verte lauze balise 30 31,45.1038,6.3114,2610,>45,O,12,1,1,0,1,0,0,1,0,piste,ski,descente,,sèche,,linéaire,naturelle,270,50,30
+1718-73-09,05/02/2018,17:35,73,sainte foy tarentaise,haute tarentaise,pointe du grand soliet,45.3450,6.5625,2880,40-44,NE,4,1,0,0,0,0,0,1,0,randonnée,ski,descente,,,,linéaire,accidentelle soi-même,,,
+1718-73-10,05/02/2018,13:35,73,pralognan la vanoise,vanoise,couloir de l'eau,45.239,6.4459,1890,30-34,SO,4,1,1,1,0,0,0,0,1,minage,ski,arrêt,2,sèche,tendre,linéaire,accidentelle soi-même,30,20,15
+1718-73-11,18/02/2018,12:06,73,épierre,maurienne,faux gros villan,45.2644,6.2101,2550,40-44,NO,4,1,0,0,0,0,0,0,1,randonnée,ski,descente,3,sèche,tendre,linéaire,accidentelle soi-même,130,25,30
+1718-73-12,18/02/2018,12:35,73,val d'isere,haute tarentaise,piste rouge combe du géant / pisaillas,45.2548,7.0247,3050,>45,S,7,3,2,2,0,0,2,0,1,hors-piste,ski,descente,3,humide,tendre,linéaire,naturelle,200,500,80
+1718-73-14,01/03/2018,09:05,73,pralognan la vanoise,vanoise,couloir de l'eau,45.239,6.4457,1890,30-34,SO,2,1,0,0,0,0,0,1,0,minage,ski,arrêt,2,sèche,dure,linéaire,accidentelle soi-même,60,20,15
+1718-73-20,25/03/2018,16:25,73,modane,haute maurienne,belle plinier nord ouest,45.936,6.4139,2550,35-39,NO,3,2,2,2,0,0,2,0,0,randonnée,ski,descente,2,sèche,,linéaire,accidentelle soi-même,600,80,
+1718-74-06,04/03/2018,14:00,74,vallorcine,mont blanc,posettes,46.05542,6.56936,2050,35-39,O,3,1,0,0,0,0,1,0,0,hors-piste,ski,descente,3,sèche,tendre,linéaire,accidentelle soi-même,300,10,10
+1718-74-07,04/03/2018,16:00,74,vallorcine,mont blanc,posettes,46.05542,6.56936,2050,35-39,O,3,1,0,0,0,0,0,1,0,hors-piste,ski,descente,3,sèche,tendre,linéaire,accidentelle soi-même,300,10,10
+1718-74-09,05/03/2018,16:30,74,Faverges-Seythenex,bauges,sambuy,45.4134,6.1553,2060,35-39,NO,1,1,0,0,0,1,0,1,0,randonnée,ski,descente,,humide,dure,ponctuel,accidentelle soi-même,370,,
+1718-74-12,02/04/2018,11:00,74,chamonix,mont blanc,pointe alphonse favre,45.5918,6.5142,2680,40-44,S,9,7,0,0,0,0,1,5,1,randonnée,ski,montée,3,sèche,tendre,linéaire,accidentelle soi-même,580,80,40
+1718-74-13,30/04/2018,11:00,74,chamonix,mont blanc,glacier rond,45.52414,6.52396,3450,>45,NO,4,1,1,0,1,0,1,0,0,randonnée,ski,arrêt,3,sèche,,linéaire,accidentelle tiers,700,,
+1718-88-01,01/02/2018,,88,saint maurice sur moselle,ballon d'alsace,couloir de Birkel,47.4926,6.5048,1210,>45,E,1,1,1,0,1,0,1,0,0,randonnée,ski,descente,3,,,linéaire,accidentelle soi-même,,,
