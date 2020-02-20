@@ -26,7 +26,7 @@
     nav{
         font-family: "McLaren", cursive;;
         font-size: 1.3rem;
-        background-color:#FAE8C3 ;
+        background-color:#FFFCD3 ;
         color: #202021;
     }
     .navbar-brand img{
@@ -89,15 +89,19 @@
         Carte
     */
         #mapid{
-            margin-top: 20px;
             width: 100%;
             height: 50rem;
             border: 0.4rem;
-            border-color: #FAE8C3;
-            border-style: solid;
-            border-radius: 8px;
+            border-color: #FFFCD3;
+            /*border-style: solid;*/
+            border-radius: 4px;
             z-index: 1;
             padding: unset;
+        }
+
+        #info{
+            color: ivory;
+            text-align: center;
         }
 
     /*
@@ -109,7 +113,7 @@
         bottom: 0;
         width: 100%;
         margin-top: 40px;;
-        background-color: #FAE8C3;
+        background-color: #FFFCD3;
         display: flex;
         flex-direction: column;
         justify-content: center;
