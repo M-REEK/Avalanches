@@ -1,390 +1,469 @@
-code accident;date;heure;d‚partement;commune;massif;site;latitude;longitude;altitude;inclinaison;orientation;groupe;emport‚s;"ensevelis 
-tˆte";"ensevelis 
+code accident;date;mois;année;horaire;heure;département;commune;massif;site;latitude;longitude;altitude;inclinaison;orientation;groupe;emportés;"ensevelis 
+tête";"ensevelis 
 total";"ensevelis partiels 
 critiques";"ensevelis partiels 
-non critiques";d‚c‚d‚s;bless‚es;indemnes;activit‚;"engin 
-progression";‚volution;BRA;"qualit‚ 
-neige";"coh‚sion
+non critiques";décédés;blessées;indemnes;activité;"engin 
+progression";évolution;BRA;"qualité 
+neige";"cohésion
 neige";"type 
-d‚part";cause d‚part;"d‚nivel‚
-(mŠtres)";"largeur 
+départ";cause départ;"dénivelé
+(mètres)";"largeur 
 cassure
-(mŠtres)";"‚paisseur
+(mètres)";"épaisseur
 cassure max.  
-(cm)";;;
-1617-04-01;26/03/2017;14:10;04;saint paul sur ubaye;ubaye;col mirandol vallon grand;44.30154;6.47582;2480;40-44;NO;5;4;2;2;0;2;0;1;3;randonn‚e;ski;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;50;90;45;;;
-1617-05-01;27/12/2016;15:10;05;cerviŠres;queyras;petit peygu face nord est;44.503111;6.422583;2570;35-39;NE;5;5;0;0;0;0;0;3;2;randonn‚e;ski;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;;40;30;;;
-1617-05-02;29/01/2017;11:40;05;ceillac;queyras;col des ugousses;;;;;;2;2;0;0;0;0;0;1;1;randonn‚e;ski;;2;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1617-05-03;04/02/2017;;05;d‚voluy;d‚voluy;vallon pierea d'agnŠre combe sommarel;;;2300;;NO;10;3;2;2;0;1;0;0;3;hors-piste;ski;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1617-05-04;11/02/2017;15:55;05;val des pr‚s;queyras;couloir ombilic;44.533924;6.415731;2350;40-44;N;3;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;250;;80;;;
-1617-05-05;11/02/2017;11:00;05;val des pr‚s;queyras;couloir bois vacher;44.542075;6.42146;2270;35-39;O;2;1;0;0;0;1;0;1;0;hors-piste;ski;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;320;;;;;
-1617-05-06;17/02/2017;12:35;05;montgenŠvre;thabor;couloir nord est mont chaberton;44.57578;6.4526;3040;40-44;NE;3;3;0;0;0;3;3;0;0;randonn‚e;ski;descente;3;sŠche;;lin‚aire;;620;50;;;;
-1617-05-07;03/03/2017;12:30;05;risoul;embrunnais;cabane valbelle;;;;;;;1;0;0;0;1;0;1;0;hors-piste;ski;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1617-05-08;04/03/2017;;05;saint chaffrey;pelvoux;couloir NE sous prorel;44.542667;6.345041;2440;35-39;NE;2;2;0;0;0;1;0;1;1;hors-piste;ski;travers‚e;3;sŠche;;lin‚aire;accidentelle soi-mˆme;210;50;40;;;
-1617-05-09;07/03/2017;16:00;05;saint andr‚ d'embrun;embrunais parpaillon;clos chardon;44.35573;6.382958;2315;>45;NE;3;2;1;1;0;1;1;0;1;hors-piste;ski;descente;4;sŠche;dure;lin‚aire;accidentelle tiers;20;50;120;;;
-1617-05-10;07/03/2017;10:05;05;abriŠs;queyras;crˆte de gilly / grande combe;44.47578;6.57286;2430;40-44;N;2;1;1;1;0;0;0;1;0;hors-piste;ski;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;450;300;150;;;
-1617-05-11;12/03/2017;13:55;05;guillestre;embrunais parpaillon;crˆte de razis;;;;;N;3;1;0;0;0;1;0;1;0;hors-piste;ski;descente;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;200;30;50;;;
-1617-05-12;12/03/2017;14:50;05;cerviŠres;queyras;face N arpelin;44.4938;6.4420;2500;35-39;N;13;1;0;0;0;0;0;0;1;randonn‚e;raquettes;;2;humide;tendre;lin‚aire;accidentelle soi-mˆme;200;450;;;;
-1617-05-13;16/04/2017;09:55;05;crots;embrunais parpaillon;gros ferrant;44.280698;6.273163;2270;40-44;N;2;2;0;0;0;0;0;1;1;randonn‚e;ski;descente;2;humide;dure;lin‚aire;accidentelle soi-mˆme;420;100;;;;
-1617-05-14;08/05/2017;12:00;05;vars;queyras;couloir nord crˆte laugier;44.353838;6.452909;2950;>45;NE;1;1;0;0;0;0;1;0;0;randonn‚e;ski;mont‚e;;humide;tendre;;naturelle;450;;;;;
-1617-06-01;07/03/2017;12:00;06;isola;mercantour;sistron cloutas;;;;;;1;1;0;0;0;1;0;0;1;hors-piste;ski;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1617-06-02;07/03/2017;14:15;06;isola;mercantour;sistron cloutas;;;;;;1;1;0;0;0;1;0;0;1;hors-piste;ski;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1617-38-01;20/12/2016;20:00;38;saint christophe en oisans;oisans;refuge pilatte;44.521433;6.195273;2560;>45;NE;3;3;0;0;0;0;0;1;2;randonn‚e;… pieds;mont‚e;2;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;160;450;;;;
-1617-38-02;12/02/2017;14:00;38;st christophe sur guiers;chartreuse;pas du loup;45.38265721938056;5.80389686727711;1400;30-34;SO;2;1;0;0;0;0;0;1;0;randonn‚e;ski;descente;2;humide;tendre;ponctuel;accidentelle soi-mˆme;50;;;;;
-1617-64-01;14/01/2017;12:17;64;laruns;aspe ossau;crete de gabarderes;42.515;0.226;2300;35-39;N;3;3;2;2;0;1;1;1;1;randonn‚e;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;450;100;;;;
-1617-68-01;12/02/2017;13:45;68;stosswhir;hohneck;couloir en Y;48.0227;7.0047;1300;>45;N;4;2;0;0;0;0;0;1;1;alpinisme;… pieds;mont‚e;;humide;dure;lin‚aire;accidentelle soi-mˆme;120;20;40;;;
-1617-73-01;20/11/2016;12:30;73;champagny en vanoise;vanoise;col des v‚s;;;;;;4;1;0;0;0;1;0;1;0;hors-piste;ski;descente;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1617-73-02;13/01/2017;11:00;73;tignes;haute-tarentaise;secteur palet, entre pentes Lognan et t‚l‚siŠge Tichot;;;2400;30-34;SE;3;1;1;1;0;0;0;1;0;hors-piste;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;20;40;160;;;
-1617-73-03;14/01/2017;14:00;73;bonneval sur arc;haute maurienne;plan de l'aigle NO Ouille Motta;;;2300;40-44;NO;5;2;0;0;0;2;0;0;2;randonn‚e;ski;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;240;50;;;;
-1617-73-04;14/01/2017;13:00;73;saint bon tarentaise;vanoise;saulire;;;;;;;1;1;1;0;0;0;0;1;hors-piste;ski;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1617-73-05;19/01/2017;11:50;73;saint bon tarentaise;vanoise;col du biol;45.224452;6.411404;2430;30-34;O;15;1;1;1;0;0;0;0;1;randonn‚e;ski;travers‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;120;50;30;;;
-1617-73-06;20/01/2017;14:30;73;sainte foy tarentaise;haute-tarentaise;col de l'argentiere archeboc;45.355277;6.573375;2150;35-39;NO;3;1;1;1;0;0;1;0;0;randonn‚e;ski;descente;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;130;200;50;;;
-1617-73-07;28/01/2017;16:17;73;montricher albane;maurienne;combe des sallanches;45.11494;6.232114;2460;35-39;NE;2;1;0;0;0;1;0;1;0;randonn‚e;ski;descente;3;sŠche;;lin‚aire;accidentelle tiers;220;20;40;;;
-1617-73-08;05/02/2017;14:40;73;modane;haute maurienne;couloir en Y du seuil;45.95076;6.395686;2240;35-39;NE;2;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;430;40;100;;;
-1617-73-09;12/02/2017;14:55;73;le chatel;vanoise;la barniŠre;45.19464;6.22149;1490;;;5;1;0;0;0;0;0;0;1;randonn‚e;;;3;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1617-73-10;13/02/2017;10:35;73;tignes;haute-tarentaise;pentes du lavachet;45.275474;6.55635;2450;40-44;NO;4;4;4;4;0;0;4;0;0;hors-piste;… pieds;travers‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;330;50;100;;;
-1617-73-11;16/02/2017;11:00;73;lanslevillard;haute maurienne;secteur pas de l'arcelle;45.164538;6.570931;2450;35-39;NE;9;5;0;0;0;5;0;0;5;randonn‚e;ski;travers‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;160;200;70;;;
-1617-73-12;03/03/2017;14:25;73;villaroger;vanoise;combe des lanchettes;;;2300;;;7;5;0;0;0;0;0;0;5;hors-piste;ski;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1617-73-14;07/03/2017;16:00;73;modane;haute maurienne;couloir du seuil;45.95005;6.395724;2251;35-39;NE;3;3;2;2;0;1;3;0;0;hors-piste;snowboard;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;475;115;200;;;
-1617-73-15;30/04/2017;12:05;73;bourg saint maurice;beaufortain;versant nord col nova;;;;;;1;1;0;0;0;1;0;1;0;randonn‚e;ski;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1617-73-16;05/05/2017;;73;avrieux;haute maurienne;face NO aiguille scolette;;;;;;2;2;0;0;0;0;0;1;1;randonn‚e;;;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1617-73-17;09/05/2017;11:00;73;bonneval sur arc;haute maurienne;col du greffier couloir;45.204138;7.54464;2990;>45;NO;3;3;0;0;0;3;3;0;0;alpinisme;… pieds;mont‚e;;sŠche;dure;lin‚aire;accidentelle soi-mˆme;350;40;100;;;
-1617-73-18;20/05/2017;18:10;73;sainte foy tarentaise;haute tarentaise;face nord pointe des plates des chamois sous point cot‚ 3441 m;45.321801;6.582003;3240;>45;N;2;1;0;0;0;0;1;0;0;randonn‚e;ski;descente;;humide;tendre;lin‚aire;accidentelle soi-mˆme;640;;;;;
-1617-73-19;13/11/2016;11:15;73;tignes;haute tarentaise;face nord pointe du chardonnet;;;2800;;;4;1;0;0;0;0;0;0;1;randonn‚e;ski;mont‚e;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1617-73-20;01/03/2017;15:00;73;lanslevillard;haute maurienne;pas du loup;;;2250;>45;;3;1;0;0;0;0;0;1;0;randonn‚e;ski;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1617-73-13;07/03/2017;09:45;73;tignes;haute tarentaise;grande balme piste Carline;45.264309;6.53877;2650;40-44;N;33;33;6;1;5;14;0;2;31;piste;ski;descente;4;sŠche;tendre;lin‚aire;naturelle;350;120;200;;;
-1011-65-02;08/05/2011;10:00;65;gedre;haute bigorre;pic de Gabiedou;42.719622875365395;0.09459442206330827;2280;>45;NO;2;1;1;;;;1;0;0;randonn‚e;;mont‚e;;humide;tendre;lin‚aire;naturelle;100;;;;;
-1617-74-01;12/02/2017;13:15;74;la clusaz;aravis;combe du rocher jaune face N pointe merdassier;45.86422029545258;6.450720593279136;1970;35-39;N;4;2;1;1;0;0;1;0;1;randonn‚e;ski;descente;2;sŠche;tendre;lin‚aire;accidentelle tiers;320;100;;;;
-1617-74-03;28/04/2017;;74;avoriaz;chablais;;;;;;;;1;1;1;0;0;0;1;0;randonn‚e;ski;;;;;;;;;;;;
-1516-04-01;05/03/2016;16:40;04;enchastrayes;ubaye;les roubines / super sauze;44.20521;6.40454;1970;40-44;N;2;2;0;0;0;1;0;1;1;hors-piste;ski;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;70;40;40;;;
-1516-05-01;16/01/2016;12:00;05;les orres;embrunnais-parpaillon;tˆte de la mazeliŠre / rocher marcelinas;;;;;;2;1;0;0;0;1;0;1;0;randonn‚e;ski;mont‚e;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1516-05-02;14/02/2016;12:30;05;Vars;embrunnais-parpaillon;chagnon de peinier;;;;;;2;1;1;1;0;0;0;1;0;hors-piste;ski;descente;3;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1516-05-03;23/02/2016;13:00;05;ceillac;queyras;vallon ste anne;44.37146;6.48645;2520;35-39;NE;20;3;1;1;0;0;1;0;2;randonn‚e;ski;descente;3;humide;tendre;lin‚aire;accidentelle soi-mˆme;80;;60;;;
-1516-05-04;24/04/2016;;05;pelvoux;pelvoux;coup de sabre;;;;>45;NO;2;2;0;0;0;0;0;0;2;alpinisme;… pieds;;;;;;;;;;;;
-1516-38-01;13/01/2016;15:45;38;mont de lans;oisans;piste noire de Bellecombe / montagne de Rachas;44.594159;6.92808;2690;35-39;NE;11;5;4;3;1;0;3;1;1;hors-piste;ski;descente;3;sŠche;;lin‚aire;accidentelle tiers;370;100;200;;;
-1516-38-02;05/03/2016;12:00;38;les adrets;belledonne;;;;;;;2;2;0;0;0;0;0;2;0;hors-piste;ski;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1516-38-03;07/03/2016;11:45;38;la ferriŠre;belledonne;combe perdue;;;;;;1;1;1;0;1;0;0;1;0;hors-piste;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle tiers;;;;;;
-1516-38-04;24/04/2016;11:00;38;laval;belledonne;cime de la jasse est;;;2300;30-34;SE;9;5;3;2;1;1;0;0;5;randonn‚e;ski;mont‚e;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1516-63-01;01/05/2016;12:00;63;mont dore;mont dore;cascade de la dore;;;;;N;2;1;1;1;0;0;0;1;0;randonn‚e;ski;;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1516-65-01;08/03/2016;;65;bagnŠres de bigorre;haute bigorre;col d'aouet;;;;;NO;5;2;1;1;0;1;0;1;1;randonn‚e;ski;;;;;;;;;;;;
-1516-65-02;22/03/2016;17:35;65;bareges;haute bigorre;entr‚e vallon dets coubous;42.53382;0.64411;1850;>45;O;15;15;0;0;0;3;0;6;9;randonn‚e;raquettes;travers‚e;2;humide;tendre;lin‚aire;naturelle;300;10;40;;;
-1516-65-03;17/04/2016;08:30;65;bagnŠres de bigorre;haute bigorre;couloir des poubelles pic du midi (couloir nord est);42.561926;0.085307;2360;40-44;NE;3;3;0;0;0;3;2;1;0;alpinisme;… pieds;mont‚e;3;;;;;;;;;;
-1516-66-01;20/03/2016;11:00;66;porta;capcir puymorens;roc des isards;;;;;;4;4;0;0;0;0;0;1;3;randonn‚e;… pieds;;3;humide;;;accidentelle soi-mˆme;;;;;;
-1516-68-01;13/02/2016;14:15;68;stockersohn;ballon des vosges;secteur col des perches;;;;;;8;1;0;0;0;0;0;0;1;randonn‚e;raquettes;travers‚e;;;;;naturelle;;;;;;
-1516-73-01;05/01/2016;13:58;73;saint colomban les villards;maurienne;pierre du turc / crˆte de tˆte bellard;45.1509;6.1326;2150;40-44;NO;2;1;1;1;0;0;1;0;0;hors-piste;ski;descente;4;;;lin‚aire;accidentelle soi-mˆme;290;50;;;;
-1516-73-02;05/01/2016;11:50;73;val d'isere;haute tarentaise;super santon;44.266;6.5724;2375;35-39;SE;4;1;1;1;0;0;1;0;0;hors-piste;ski;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;100;50;80;;;
-1516-73-03;05/01/2016;10:24;73;val d'isere;haute tarentaise;HP du Cairn / Bellevarde;45.2639;6.5717;2650;40-44;E;3;3;2;2;0;0;0;1;2;hors-piste;ski;travers‚e;4;sŠche;;lin‚aire;accidentelle soi-mˆme;80;70;;;;
-1516-73-04;09/01/2016;13:00;73;les allues;vanoise;mont de p‚clet;;;;;;1;1;0;0;0;0;0;0;1;hors-piste;ski;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;150;;;;;
-1516-73-05;13/01/2016;13:54;73;tignes;haute tarentaise;pentes du lac de Tignes;45.2751;6.5438;2205;35-39;NO;1;1;0;0;0;1;0;1;0;hors-piste;ski;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;125;80;100;;;
-1516-73-06;17/01/2016;16:30;73;saint martin de belleville;vanoise;piste david douillet;;;;;;1;1;0;0;0;0;0;0;1;piste;ski;descente;3;;;lin‚aire;;;30;;;;
-1516-73-07;18/01/2016;15:05;73;tignes;haute tarentaise;couloir des gendarmes;;;2600;35-39;NE;4;1;0;0;0;0;0;1;0;hors-piste;ski;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;300;60;50;;;
-1516-73-08;18/01/2016;13:05;73;modane;haute maurienne;col du petit argentier;45.8847;6.385322;2600;>45;E;52;18;11;8;3;7;6;8;4;randonn‚e;ski;mont‚e;3;sŠche;;lin‚aire;accidentelle soi-mˆme;260;220;180;;;
-1516-73-09;20/01/2016;12:25;73;les allues;vanoise;crˆte roc des trois/mont de la chambre versant est;45.1958;6.3421;2650;>45;E;2;1;1;1;0;0;0;1;0;hors-piste;ski;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;130;180;200;;;
-1516-73-10;21/01/2016;;73;champagny en vanoise;vanoise;combe des arri‚r‚s;;;;;;3;3;0;0;0;0;0;0;3;hors-piste;ski;descente;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;200;;;;
-1516-73-11;21/01/2016;13:55;73;la cote d'aime;beaufortain;mont rosset;;;2440;;;1;1;0;0;0;0;0;1;0;randonn‚e;ski;;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1516-73-12;25/01/2016;14:50;73;champagny en vanoise;vanoise;vallon de la veliŠre;;;;>45;S;3;1;0;0;0;0;0;1;0;randonn‚e;… pieds;travers‚e;;humide;tendre;;naturelle;;;;;;
-1516-73-13;27/01/2016;11:38;73;saint bon courchevel;vanoise;couloir du ruisseau de la planche / vall‚e des avanchers;45.225;6.3939;2490;30-34;NE;9;4;0;0;0;1;0;1;3;hors-piste;ski;descente;2;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;50;30;;;
-1516-73-14;06/02/2016;14:35;73;landry;vanoise;couloir NO aiguille grive;;;;;;3;1;0;0;0;1;0;1;0;hors-piste;ski;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1516-73-15;13/02/2016;12:55;73;la perriŠre;vanoise;les lanches;45.2440;6.3555;2150;40-44;N;1;1;1;0;1;0;1;0;0;hors-piste;ski;descente;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;380;50;;;;
-1516-73-16;15/02/2016;16:25;73;bonneval sur arc;haute maurienne;pointe d'andagne;45.205578;7.33119;3000;40-44;O;4;1;1;1;0;0;0;1;0;hors-piste;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;125;150;100;;;
-1516-73-17;15/03/2016;14:15;73;saint martin belleville;vanoise;face SE cochet;;;1700;;;2;2;0;0;0;0;0;0;2;randonn‚e;ski;mont‚e;;;;;;;;;;;
-1516-73-18;05/04/2016;10:30;73;bessans;haute maurienne;piste noire de fond Barmette / couloir issu pointe de Tierce;45.1857;7.021;1970;35-39;NO;12;7;0;0;0;3;0;2;5;piste;ski;arrˆt;3;humide;tendre;lin‚aire;naturelle;220;30;120;;;
-1516-73-19;19/04/2016;13:05;73;tignes;haute tarentaise;rocher de la grande balme;;;2880;40-44;N;4;1;0;0;0;1;0;1;0;hors-piste;ski;descente;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;280;40;80;;;
-1516-74-01;03/01/2016;12:45;74;chamonix;mont blanc;petite verte grand montets;45.56404;6.57465;3390;30-34;N;3;3;1;0;1;1;2;0;1;alpinisme;… pieds;mont‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;290;40;50;;;
-1516-74-02;11/01/2016;;74;chamonix;mont blanc;route col des montets;;;;;;1;1;0;0;0;0;0;0;1;voie de communication;;;4;;;;naturelle;;;;;;
-1516-74-03;13/01/2016;13:35;74;morzine;chablais;secteur arare;;;2255;40-44;NO;5;1;0;0;0;0;0;1;0;piste;ski;descente;3;sŠche;dure;lin‚aire;naturelle;110;60;250;;;
-1516-74-04;30/01/2016;09:57;74;la clusaz;aravis;combe du grand crˆt / tˆte pelouse;45.54349;6.30369;2500;40-44;NO;2;1;1;1;0;0;1;0;0;randonn‚e;ski;descente;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;440;150;150;;;
-1516-74-05;12/02/2016;;74;chamonix;mont blanc;couloir ortha;;;;;NO;2;2;0;0;0;0;0;1;1;randonn‚e;raquettes;travers‚e;;;;;;;;;;;
-1617-74-02;12/02/2017;08:30;74;praz sur arly;mont blanc;secteur V‚ry;45.86422029545258;6.450720593279136;2250;35-39;NO;1;1;1;1;0;0;1;0;0;randonn‚e;ski;descente;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;375;150;150;;;
-1516-74-06;27/02/2016;18:00;74;saint gervais les bains;mont blanc;mont lachat;45.86414678597452;6.79344642010466;2015;30-34;O;1;1;0;0;0;1;0;1;0;randonn‚e;raquettes;mont‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;200;50;200;;;
-1516-74-07;27/02/2016;10:15;74;chamonix;mont blanc;lac du br‚vent;45.933421371607196;6.82563079264952;2100;30-34;SO;1;1;1;1;0;0;1;0;0;randonn‚e;ski;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;100;75;;;;
-1516-74-08;27/02/2016;11:10;74;la clusaz;aravis;combe de la grande forclaz;45.93390980591135;6.521299810058128;1980;35-39;NO;3;1;1;1;0;0;0;0;1;randonn‚e;ski;descente;;sŠche;dure;lin‚aire;accidentelle soi-mˆme;90;30;40;;;
-1516-74-10;09/03/2016;;74;le petit bornand des gliŠres;aravis;pointe de sosay;;;;;;3;2;1;1;0;0;1;0;1;randonn‚e;ski;;3;sŠche;;lin‚aire;accidentelle soi-mˆme;;;150;;;
-1516-74-09;27/02/2016;13:45;74;sixt fer … cheval;chablais;couloir du lion;46.02083578296514;6.824246394136527;1750;35-39;SE;1;1;0;0;0;1;0;1;0;randonn‚e;… pieds;mont‚e;3;sŠche;tendre;lin‚aire;naturelle;100;20;200;;;
-1516-88-01;03/03/2016;13:45;88;saint maurice sur moselle;ballon d'alsace;belvedere de birken;47.4926;6.5046;1225;>45;E;2;1;0;0;0;1;0;1;0;randonn‚e;ski;travers‚e;;humide;;lin‚aire;accidentelle soi-mˆme;200;50;;;;
-1516-74-11;20/06/2016;11:30;74;chamonix;mont blanc;tacul;45.86139073502624;6.885176834040952;4020;30-34;NO;2;3;1;0;1;2;1;2;0;alpinisme;… pieds;descente;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;1200;60;80;;;
-1415-05-01;31/12/2014;12:50;05;le monetier les bains;thabor;secteur col du galibier;45.3353;6.23564;2750;30-34;E;4;1;1;1;0;0;1;0;0;randonn‚e;ski;travers‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;100;100;70;;;
-1415-05-02;18/01/2015;13:00;05;puy saint vincent;pelvoux;col du bal;;;2400;;NE;3;3;2;2;0;0;0;2;1;hors-piste;ski;descente;4;sŠche;;lin‚aire;accidentelle soi-mˆme;300;;;;;
-1415-05-03;21/01/2015;09:55;05;puy saint vincent;pelvoux;couloir des faveyrettes;44.48371;6.27305;2350;35-39;NO;2;2;1;0;1;1;2;0;0;hors-piste;ski;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;400;15;100;;;
-1415-05-04;24/01/2015;11:40;05;ceillac;queyras;combe du bachas;44.38168;6.45597;2770;35-39;NE;6;6;6;6;0;0;6;0;0;randonn‚e;ski;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;450;200;80;;;
-1415-05-05;06/02/2015;;05;le monetier les bains;thabor;ruisseau rif blanc;;;;;;3;1;0;0;0;0;0;1;0;randonn‚e;ski;;;;;;;;;;;;
-1415-05-06;08/02/2015;13:30;05;molines en queyras;queyras;route col agnel;44.41530;6.56558;2340;30-34;SO;1;1;1;1;0;0;1;0;0;randonn‚e;raquettes;travers‚e;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;50;120;120;;;
-1415-05-07;09/02/2015;10:45;05;cerviŠres;queyras;col de chaudemaison;;;2400;30-34;O;3;1;1;1;0;0;1;0;0;randonn‚e;ski;travers‚e;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;100;40;50;;;
-1415-05-08;14/02/2015;16:00;05;le monetier les bains;pelvoux;source des fraches;;;2200;>45;NO;1;1;0;0;0;1;0;1;0;hors-piste;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;240;2;15;;;
-1415-05-09;16/02/2015;;05;cerviŠres;queyras;col perdu;44.49172;6.44304;2550;35-39;NO;2;2;2;2;0;0;2;0;0;randonn‚e;raquettes;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;200;70;70;;;
-1415-05-10;01/04/2015;14:45;05;pelvoux;pelvoux;col emile pic;44.57168;6.23123;3420;>45;SE;14;12;6;4;2;2;3;2;7;randonn‚e;ski;arrˆt;;sŠche;dure;lin‚aire;accidentelle soi-mˆme;360;200;350;;;
-1415-05-11;28/04/2015;;05;le monetier les bains;pelvoux;couloir davin;;;3000;40-44;N;1;1;0;0;0;0;1;0;0;alpinisme;… pieds;mont‚e;;sŠche;;lin‚aire;;800;100;;;;
-1415-05-12;15/09/2015;11:45;05;pelvoux;pelvoux;dome de neige des Ecrins;44.55232;6.21307;3965;40-44;N;8;8;5;1;4;0;7;1;0;alpinisme;… pieds;travers‚e;;humide;dure;lin‚aire;accidentelle soi-mˆme;220;250;200;;;
-1415-06-01;07/12/2014;10:45;06;isola;mercantour;cime lombarde;44.1215;7.0937;2600;35-39;SO;4;4;0;0;0;0;0;0;4;randonn‚e;ski;mont‚e;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;100;100;20;;;
-1415-06-02;28/12/2014;11:40;06;saint etienne de tinee;mercantour;secteur cimetiŠre des dames;44.13233;6.53277;2300;40-44;NE;3;1;1;1;0;0;1;0;0;hors-piste;ski;descente;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;225;15;30;;;
-1415-06-03;06/02/2015;;06;isola;mercantour;route accŠs isola M97;;;;;;3;3;0;0;0;0;0;0;3;voie de communication;v‚hicule route;travers‚e;4;sŠche;;;naturelle;;;;;;
-1415-06-04;16/02/2015;10:15;06;saint dalmas de selvage;mercantour;route col bonnette lieudit Le Pra;;;;;;;3;2;2;0;1;0;0;3;randonn‚e;ski;mont‚e;3;;;;;;;;;;
-1415-09-01;18/01/2015;13:00;09;auzat;haute ariege;secteur etang du pinet;42.40591;1.23254;2440;35-39;NO;2;1;1;1;0;0;1;0;0;alpinisme;… pieds;travers‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;50;;;;;
-1415-09-02;03/03/2015;15:00;09;l'hospitalet pres l'andorre;haute ariege;roc de carroux / voie RN 320;42.34491;1.47064;1900;40-44;SE;2;2;0;0;0;0;0;0;2;voie de communication;v‚hicule route;travers‚e;3;humide;dure;lin‚aire;naturelle;350;15;150;;;
-1415-31-01;02/02/2015;14:30;31;boutx;luchonnais;couloir fontaine de pan;;;;;N;5;5;1;1;0;0;1;1;3;hors-piste;ski;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;;;;;
-1415-38-01;28/01/2015;12:20;38;villards de lans;vercors;combe chaulange;45.04126;5.36163;1870;35-39;SO;18;3;1;1;0;2;1;0;2;randonn‚e;ski;mont‚e;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;170;200;250;;;
-1415-38-02;07/02/2015;15:00;38;Freney d'Oisans;grandes rousses;grandes buffes;45.04065;6.06307;1970;35-39;O;1;1;0;0;0;0;0;0;1;randonn‚e;ski;mont‚e;;sŠche;;lin‚aire;accidentelle soi-mˆme;;40;40;;;
-1415-38-03;08/02/2015;11:30;38;villard de lans;vercors;roc cornafion;45.4975;5.36333;1830;40-44;SO;3;1;0;0;0;0;0;0;1;randonn‚e;ski;descente;;;;lin‚aire;accidentelle soi-mˆme;90;80;50;;;
-1415-38-04;22/02/2015;13:15;38;saint honor‚;oisans;combe de la mouche;44.47570;5.50175;1950;30-34;O;4;4;2;1;1;2;1;2;1;randonn‚e;ski;mont‚e;3;humide;dure;lin‚aire;accidentelle soi-mˆme;300;80;20;;;
-1415-38-05;28/02/2015;10:10;38;saint pierre de chartreuse;charteuse;combe ouest charmant som;45.19370;5.45413;1690;30-34;O;7;1;1;1;0;0;1;0;0;randonn‚e;ski;descente;2;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;105;;10;;;
-1415-38-06;05/03/2015;13:00;38;allemond;belledonne;col de roche noire;45.11774;5.592636;2500;30-34;NE;2;1;1;1;0;0;0;0;1;randonn‚e;ski;;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1415-38-07;23/01/2015;12:30;38;villard de lans;vercors;crˆte des crocs;45.44213;5.36228;;35-39;NO;4;1;0;0;0;0;0;1;0;randonn‚e;snowboard;descente;;;;;;;;;;;
-1415-64-01;17/02/2015;16:15;64;eaux bonnes;ossau;route D918 / ravin des arrious;42.57584;0.19413;1690;35-39;SO;5;5;4;4;0;1;0;3;2;randonn‚e;… pieds;travers‚e;3;humide;tendre;ponctuel;naturelle;365;;;;;
-1415-65-01;12/12/2014;;65;sers;haute bigorre;pic de barbe;;;;;;4;2;0;0;0;2;0;2;0;randonn‚e;ski;mont‚e;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1415-65-02;01/02/2015;08:15;65;aulon;haute bigorre;village / couloir La Peyrie;42.5210;0.1711;2200;35-39;SE;2;2;0;0;0;2;0;0;2;habitation;… pieds;arrˆt;4;sŠche;dure;lin‚aire;naturelle;1000;;;;;
-1415-73-01;18/12/2014;09:20;73;tignes;haute tarentaise;grattalu / aiguillette;;;2747;>45;SE;11;4;1;1;0;3;0;1;3;randonn‚e;ski;mont‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;;;;;;
-1415-73-02;22/12/2014;12:35;73;modane;vanoise;lac de chaviŠre;45.161070;6.380940;3100;35-39;SE;5;2;1;1;0;1;1;0;1;randonn‚e;ski;descente;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;300;25;100;;;
-1415-73-03;30/12/2014;15:00;73;les allues;vanoise;lac de la chambre;45.190285;6.352517;2720;40-44;NO;2;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;170;400;40;;;
-1415-73-04;05/01/2015;13:05;73;sainte foy tarentaise;haute tarentaise;face nord fogliettaz;45.34559;6.561766;2820;40-44;N;6;5;0;0;0;3;0;4;1;randonn‚e;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;330;800;100;;;
-1415-73-05;15/01/2015;15:10;73;tignes;haute tarentaise;couloir lac chardonnet;;;2550;>45;NE;2;1;1;1;0;0;0;1;0;hors-piste;ski;descente;3;humide;dure;lin‚aire;accidentelle soi-mˆme;200;40;150;;;
-1415-73-21;23/01/2015;12:50;73;valloire;thabor;pointe des cerces face nord;45.442;6.29295;2980;35-39;NE;2;1;1;1;0;0;1;0;0;randonn‚e;ski;mont‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;530;250;100;;;
-1415-73-06;29/01/2015;;73;aillons le vieux;bauges;col de la cochette;;;;;;1;1;1;1;0;0;1;0;0;randonn‚e;… pieds;arrˆt;;;;;naturelle;;;;;;
-1415-73-07;30/01/2015;16:10;73;la perriŠre;vanoise;dou des lanches;;;2100;;;1;1;0;0;0;0;0;1;0;hors-piste;ski;descente;4;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1415-73-08;31/01/2015;;73;aussois;vanoise;ruisseau de la fournache;45.155509;6.434225;2370;30-34;S;1;1;1;1;0;0;1;0;0;relev‚s EDF / d‚placement ski de rando;ski;mont‚e;4;sŠche;;lin‚aire;accidentelle soi-mˆme;50;50;80;;;
-1415-73-09;31/01/2015;;73;m‚ribel;vanoise;secteur du verdet;;;;;;1;1;1;1;0;0;1;0;0;hors-piste;snowboard;descente;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1415-73-10;02/02/2015;08:55;73;valloire;haute maurienne;secteur S‚taz;;;2200;35-39;NE;2;1;0;0;0;1;0;0;1;minage;ski;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;;50;30;;;
-1415-73-11;02/02/2015;15:45;73;saint bon tarentaise;vanoise;hors-piste chanrossa;;;2250;;;2;1;1;1;0;0;0;0;1;hors-piste;snowboard;descente;;;;lin‚aire;accidentelle soi-mˆme;;50;;;;
-1415-73-12;02/02/2015;16:55;73;la bathie;beaufortain;pionte de la grande combe;45.39383;6.312353;2150;30-34;NO;2;1;0;0;0;1;0;0;1;hors-piste;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;300;250;100;;;
-1415-73-13;03/02/2015;;73;saint martin de belleville;vanoise;hors piste de l'entonnoir;;;;;;1;1;1;1;0;0;1;0;0;hors-piste;snowboard;descente;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1415-73-14;07/02/2015;13:03;73;peisey nancroix;vanoise;couloir des canadiens face nord bellecote;45.29544;6.461599;3050;40-44;NO;3;1;1;0;1;0;1;0;0;hors-piste;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;1250;30;50;;;
-1415-73-15;03/03/2015;11:35;73;orelle;vanoise;;;;;;;4;4;1;1;0;0;0;1;3;hors-piste;snowboard;descente;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1415-73-16;03/03/2015;12:00;73;orelle;vanoise;face ouest col r‚nod;;;;;SO;4;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;100;;;;
-1415-73-17;29/03/2015;11:45;73;bonneval sur arc;haute maurienne;col du montet;45.25577;7.05378;3200;40-44;S;9;5;2;1;1;2;1;0;4;randonn‚e;ski;mont‚e;2;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;60;20;;;;
-1415-73-18;31/03/2015;12:28;73;tignes;haute tarentaise;couloir chardonnet;;;2550;30-34;NE;2;1;1;1;0;0;0;1;0;hors-piste;ski;descente;4;humide;dure;lin‚aire;accidentelle soi-mˆme;150;200;80;;;
-1415-73-19;06/04/2015;13:35;73;bourg saint maurice;vanoise;couloir t‚l‚cabine aiguille rouge;;;2700;;;3;1;0;0;0;0;0;1;0;hors-piste;ski;descente;;;;lin‚aire;accidentelle soi-mˆme;400;;;;;
-1415-73-20;06/04/2015;;73;saint jean de belleville;vanoise;mont du fut face nord;;;2730;;;2;1;0;0;0;0;0;0;1;randonn‚e;ski;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;400;;;;;
-1415-74-01;24/12/2014;;74;les contamines montjoie;mont blanc;glacier armancette;45.48242;6.47014;3400;35-39;O;2;2;0;0;0;2;2;0;0;randonn‚e;ski;descente;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;1800;300;30;;;
-1415-74-02;21/01/2015;12:00;74;chamonix;mont blanc;couloir requiin;;;2450;40-44;NE;7;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;50;20;;;;
-1415-74-03;31/01/2015;;74;chatel;chablais;les combes;46.135904;6.484150;1960;35-39;O;2;1;1;1;0;0;0;0;1;hors-piste;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;90;40;80;;;
-1415-74-04;31/01/2015;12:30;74;chamonix;mont blanc;pr‚ du rocher;45.90515848388159;6.8860030607805855;2190;30-34;NO;3;1;1;1;0;0;0;0;1;hors-piste;ski;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;70;20;40;;;
-1415-74-05;02/02/2015;16:25;74;chatel;chablais;sous le val linga;;;1900;;;4;4;0;0;0;0;0;1;3;hors-piste;ski;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;;;;;
-1415-04-01;08/02/2015;11:20;04;le vernet;ubaye;sommet grisonniere;44.26127980684879;6.410656893332375;1910;35-39;NO;4;1;0;0;0;1;1;0;0;randonn‚e;ski;travers‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;360;50;30;;;
-1415-74-07;09/02/2015;16:00;74;le grand bornand;aravis;piste noire lachat piste rouge lanche;;;;;;4;4;0;0;0;0;0;2;2;hors-piste;ski;descente;;sŠche;dure;lin‚aire;accidentelle soi-mˆme;;;;;;
-1415-74-08;05/03/2015;;74;chatel;chablais;secteur piste rennes;;;;;;1;1;0;0;0;0;0;1;0;hors-piste;ski;descente;;sŠche;dure;lin‚aire;accidentelle soi-mˆme;;;;;;
-1415-74-09;06/04/2015;13:00;74;la clusaz;aravis;couloir lana / combe creuse;;;;;;3;3;1;1;0;1;0;2;1;randonn‚e;ski;mont‚e;;sŠche;;lin‚aire;accidentelle tiers;;;;;;
-1415-74-06;08/02/2015;11:55;74;cordon;aravis;croise baulet couloir nant d'enfer;45.89652575468682;6.544866232526041;1930;30-34;O;2;1;0;0;0;1;0;1;0;randonn‚e;ski;descente;2;humide;dure;lin‚aire;accidentelle soi-mˆme;410;20;30;;;
-1415-74-11;25/08/2015;08:40;74;chamonix;mont blanc;face nord go–ter;;;;;;3;2;0;0;0;0;0;0;2;alpinisme;… pieds;;;;;;;;;;;;
-1314-04-01;17/01/2014;14:00;4;uvernet fours;ubaye;pra loup teleski du lac;;;;;;2;1;1;0;1;0;1;0;0;hors-piste;ski;descente;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1314-05-01;23/12/2013;;5;cerviŠres;queyras;col peygus;;;2600;;;2;2;0;0;0;0;0;1;1;randonn‚e;ski;;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1314-05-02;26/12/2013;14:20;5;monetier;pelvoux;cucumelle;44.56046;6.30350;2565;35-39;SO;2;2;0;0;0;1;0;2;0;hors-piste;ski;travers‚e;4;sŠche;dure;lin‚aire;accidentelle soi-mˆme;350;120;60;;;
-1314-05-03;27/12/2013;14:50;5;la salle les alpes;pelvoux;cucumelle;44.55519;6.31314;2150;40-44;NE;1;1;1;1;0;0;1;0;0;hors-piste;… pieds;mont‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;15;50;50;;;
-1314-05-04;05/01/2014;15:00;5;pelvoux;pelvoux;ravin du bouisset;;;;;;3;1;0;0;0;0;0;1;0;hors-piste;ski;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1314-05-05;25/01/2014;17:00;5;n‚vache;thabor;pointe riou blanc;;;;;;6;1;1;1;0;0;0;1;0;randonn‚e;ski;;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1314-05-06;26/01/2014;;5;st etienne d‚voluy;d‚voluy;vallon d'ane;;;;;;2;1;0;0;0;0;0;1;0;randonn‚e;ski;mont‚e;;sŠche;;lin‚aire;accidentelle soi-mˆme;;30;40;;;
-1314-05-07;28/01/2014;13:00;5;r‚allon;champsaur;col coupa;;;;;;5;2;0;0;0;2;0;0;2;randonn‚e;ski;;;sŠche;;lin‚aire;accidentelle soi-mˆme;;30;;;;
-1314-05-08;17/02/2014;;5;st v‚ran;queyras;chateau renard;;;;;;2;1;0;0;0;1;0;0;1;hors-piste;ski;descente;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1314-05-09;02/03/2014;12:00;5;la salle les alpes;thabor;crˆte echaillon;44.99943;6.58156;2560;30-34;NE;7;1;0;0;0;0;0;1;0;randonn‚e;ski;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;;5;30;;;
-1314-05-10;05/03/2014;;5;chateauroux les alpes;champsaur;tˆte clotinailles;;;;;NE;;1;0;0;0;0;0;1;0;randonn‚e;ski;;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1314-05-11;08/03/2014;14:00;5;villar arene;oisans;passe de midi;;;;;NE;2;1;0;0;0;0;0;1;0;randonn‚e;ski;;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1314-06-01;26/01/2014;10:10;6;st etienne tinee;mercantour;Auron sous telesiege d“me;44.12448;6.54048;2300;35-39;E;2;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;350;30;20;;;
-1314-09-01;29/03/2014;12:55;9;rabat les trois seigneurs;couserans;pic des trois seigneurs;;;2050;;NE;3;3;2;2;0;0;2;1;0;alpinisme;raquettes;mont‚e;2;humide;tendre;lin‚aire;;700;;;;;
-1314-09-02;06/03/2014;10:30;9;ax les thermes;haute ariŠge;station le saquet;;;;;;4;1;1;1;0;0;0;1;0;hors-piste;ski;descente;4;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1314-15-01;29/03/2014;14:00;15;la vigerie;lioran;puy bataillouse;45.060575;2.432183;1540;40-44;N;1;1;0;0;0;1;0;1;0;randonn‚e;ski;mont‚e;;humide;dure;lin‚aire;accidentelle soi-mˆme;50;20;25;;;
-1314-38-01;26/01/2014;14:40;38;auris;grandes rousses;combe des girauds;45.03926;6.05497;2000;30-34;S;2;2;2;2;0;0;2;0;0;hors-piste;ski;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;250;120;60;;;
-1314-38-02;27/01/2014;12:40;38;chamrousse;belledonne;piste lacs roberts;45.07682;5.54499;2170;30-34;SE;4;1;1;0;1;0;0;1;0;hors-piste;ski;arrˆt;3;sŠche;dure;lin‚aire;accidentelle tiers;50;100;100;;;
-1314-38-03;31/01/2014;15:50;38;revel;belledonne;grand colon face ouest;45.09680;5.55219;2165;30-34;O;2;1;1;1;0;0;1;0;0;randonn‚e;ski;descente;2;sŠche;dure;lin‚aire;accidentelle tiers;720;30;30;;;
-1314-38-04;06/03/2014;13:45;38;la ferriŠre d'allevard;belledonne;couloir NO rocher blanc;;;;;;3;1;0;0;0;0;0;1;0;randonn‚e;ski;descente;3;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1314-38-05;13/03/2014;17:00;38;pinsot;belledonne;couloir pertuis;;;;;O;1;1;0;0;0;1;0;1;0;randonn‚e;ski;travers‚e;2;humide;tendre;;naturelle;;;;;;
-1314-66-01;26/01/2014;14:00;66;err;cerdagne canigou;puigmal err;;;;;;7;1;0;0;0;1;0;0;1;randonn‚e;raquettes;;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1314-68-01;26/01/2014;;68;stosswihr;vosges;grand couloir dagobert;48.02271;7.00476;1300;>45;N;2;2;0;0;0;0;0;2;0;alpinisme;… pieds;mont‚e;;sŠche;;lin‚aire;accidentelle soi-mˆme;260;;;;;
-1314-73-01;13/10/2013;12:10;73;tignes;haute tarentaise;pointe de la grande motte;;;3665;35-39;NE;5;2;0;0;0;1;0;0;2;hors-piste;ski;descente;;sŠche;dure;lin‚aire;accidentelle soi-mˆme;300;100;60;;;
-1314-73-02;26/10/2013;13:30;73;pralognan;vanoise;passage de rosoire;45.18056;6.43584;3450;>45;O;2;2;0;0;0;2;0;1;1;alpinisme;… pieds;mont‚e;;sŠche;dure;lin‚aire;accidentelle soi-mˆme;150;100;80;;;
-1314-73-03;22/12/2013;11:15;73;pralognan;vanoise;entre chalet ritort et rosoire, lit du ruisseau du ritort;45.18661;6.41137;2150;35-39;NO;2;2;1;1;0;0;1;0;1;randonn‚e;ski;descente;1;sŠche;;lin‚aire;accidentelle soi-mˆme;150;80;50;;;
-1314-73-04;26/12/2013;11:00;73;aime;vanoise;dos des frasses;45.302779;6.394068;2245;35-39;N;2;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;145;;125;;;
-1314-73-05;27/12/2013;09:55;73;saint martin belleville;vanoise;boismint val thorens;45.165389;6.331406;2540;35-39;E;6;3;1;1;0;1;0;1;2;hors-piste;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;100;50;40;;;
-1314-73-06;27/12/2013;12:15;73;st bon tarentaise;vanoise;vall‚e avals;;;2100;35-39;NE;2;1;1;1;0;0;1;0;0;accŠs refuge gardien ski rando;ski;mont‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;40;40;40;;;
-1415-74-10;18/04/2015;10:45;74;chamonix;mont blanc;face nord aiguille grands montets;45.94925265283693;6.96076394126266;3230;40-44;NE;2;1;0;0;0;1;1;0;0;equipement piste;ski;descente;2;humide;tendre;lin‚aire;accidentelle soi-mˆme;100;25;20;;;
-1314-73-09;05/01/2014;14:00;73;la l‚chŠre;beaufortain;croix de la bagnaz;;;2300;;;4;2;0;0;0;0;0;0;2;randonn‚e;ski;arrˆt;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;150;;;;;
-1314-73-08;05/01/2014;14:05;73;macot;vanoise;crˆte des bourtes;45.2956;6.4259;2350;35-39;NO;2;2;1;1;0;1;0;0;2;hors-piste;ski;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;250;30;100;;;
-1314-73-10;07/01/2014;11:00;73;champagny;vanoise;col des v‚s;45.264262;6.514138;2830;35-39;NO;4;1;0;0;0;0;0;1;0;hors-piste;ski;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;310;50;100;;;
-1314-73-11;09/01/2014;12:30;73;valloire;maurienne;crˆte de lachat;;;2840;40-44;NO;3;3;0;0;0;0;0;2;1;randonn‚e;ski;mont‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;290;;;;;
-1314-73-12;10/01/2014;12:00;73;bonneval;haute maurienne;ouille mouta;45.214802;7.45146;2635;40-44;NO;2;1;1;1;0;0;0;1;0;randonn‚e;ski;travers‚e;2;sŠche;;lin‚aire;accidentelle soi-mˆme;300;120;80;;;
-1314-73-13;25/01/2014;13:45;73;presle;belledonne;"couloir SO ""intime"" Gargoton";45.41996;6.21212;2330;35-39;SO;2;2;1;1;0;1;1;1;0;randonn‚e;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;250;10;60;;;
-1314-73-15;26/01/2014;16:10;73;tignes;haute tarentaise;palet droite Tichat;;;2400;30-34;SE;2;1;1;1;0;0;0;1;0;hors-piste;ski;arrˆt;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;10;15;50;;;
-1314-73-07;29/12/2013;16:15;73;aime;vanoise;dos des frasses;45.506576114282865;6.659342025357228;2200;40-44;NO;1;1;0;0;0;0;0;1;0;hors-piste;snowboard;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;200;;;;;
-1314-73-17;27/01/2014;16:30;73;montchavin;vanoise;;;;;;;;1;1;1;0;0;0;1;0;hors-piste;ski;descente;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1314-73-20;19/03/2014;14:50;73;bourg st maurice;vanoise;face ouest aiguille rouge grande cascade;;;;;NO;1;1;0;0;0;0;1;0;0;hors-piste;… pieds;mont‚e;3;humide;tendre;lin‚aire;accidentelle soi-mˆme;;;40;;;
-1314-73-18;12/02/2014;14:50;73;la l‚chŠre;beaufortin;pointe du dzonfi‚;45.34960;6.34326;2340;30-34;SO;2;1;1;1;0;0;0;1;0;randonn‚e;ski;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;170;160;120;;;
-1314-73-19;06/03/2014;10:40;73;peisey;vanoise;nord bellecote;45.294372;6.463949;3150;40-44;N;3;1;0;0;0;0;1;0;0;hors-piste;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;30;30;;;
-1314-73-21;15/04/2014;13:15;73;val isere;haute tarentaise;ruisseau du pisset;45.24244;6.57450;2375;35-39;NO;7;2;0;0;0;1;0;1;1;hors-piste;ski;descente;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;250;125;100;;;
-1314-73-22;29/04/2014;11:30;73;modane;haute maurienne;couloir sud aiguille peclet;45.16514;6.37269;3490;35-39;S;6;4;0;0;0;4;0;4;0;randonn‚e;… pieds;mont‚e;2;humide;dure;lin‚aire;accidentelle soi-mˆme;110;70;100;;;
-1314-73-23;04/05/2014;;73;orelle;maurienne;roche des marches;;;;;;1;1;0;0;0;0;0;0;1;randonn‚e;ski;;;;;lin‚aire;naturelle s‚rac/corniche;;;;;;
-1314-73-24;04/05/2014;;73;ste foy tarentaise;haute tarentaise;grande sassiere;;;;;;1;1;0;0;0;0;0;1;0;randonn‚e;ski;;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1314-73-25;04/05/2014;11:15;73;bessans;haute maurienne;face ouest pointe charbonnel;45.164826;7.3439;3600;>45;O;1;1;0;0;0;0;1;0;0;alpinisme;… pieds;mont‚e;;humide;;lin‚aire;accidentelle soi-mˆme;500;100;50;;;
-1314-73-26;04/05/2014;11:00;73;bessans;haute maurienne;selle de l'albaron;45.194424;7.062485;3430;40-44;SO;3;1;1;1;0;0;1;0;0;randonn‚e;ski;descente;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;310;200;100;;;
-1314-73-27;18/05/2014;12:30;73;bessans;haute maurienne;pointe charbonnel;;;;;NE;2;2;1;0;1;0;1;0;1;randonn‚e;ski;descente;;humide;tendre;;naturelle;;;;;;
-1314-73-29;02/03/2014;15:00;73;bonneval sur arc;haute maurienne;;;;2900;35-39;N;2;1;0;0;0;0;0;0;1;hors-piste;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;180;20;60;;;
-1314-73-30;09/02/2014;14:50;73;saint jean de belleville;vanoise;point 2482 combe pierreux;45.415449;6.425394;2400;40-44;NE;4;1;0;0;0;0;0;0;1;randonn‚e;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;350;20;30;;;
-1314-74-01;11/11/2013;16:55;74;les contamines;mont blanc;aiguille croche;;;2300;30-34;SE;1;1;0;0;0;1;0;1;0;randonn‚e;ski;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;100;20;;;;
-1314-74-02;01/12/2013;12:25;74;avoriaz;chablais;pointe de vorlaz;46.10877;6.48004;2290;35-39;S;2;2;0;0;0;0;0;2;0;randonn‚e;ski;mont‚e;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;150;30;;;;
-1314-74-03;27/12/2013;10:45;74;la clusaz;aravis;combe de torchere;45.5325;6.2915;2375;30-34;NO;3;2;2;2;0;0;2;0;0;hors-piste;ski;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;125;115;100;;;
-1314-74-04;29/12/2013;13:50;74;chatel;chablais;barbossine;;;;;;2;1;0;0;0;0;0;0;1;hors-piste;ski;descente;4;sŠche;;lin‚aire;accidentelle tiers;;50;;;;
-1314-74-05;30/12/2013;12:25;74;sixt;chablais;passage du d‚rochoir;45.58047;6.44597;2150;30-34;N;2;1;0;0;0;1;0;1;0;randonn‚e;ski;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;60;40;80;;;
-1314-74-06;05/01/2014;17:30;74;les houches;mont blanc;couloir vogealle;45.92101672832807;6.803430766044558;2175;35-39;NO;2;1;0;0;0;1;0;1;0;randonn‚e;ski;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;400;20;80;;;
-1314-74-07;12/02/2014;15:50;74;le grand bornand;aravis;mont lachat de chatillon;45.57460;6.28772;1975;40-44;SE;3;2;0;0;0;1;0;1;1;hors-piste;ski;descente;3;humide;dure;lin‚aire;accidentelle soi-mˆme;225;15;30;;;
-1314-73-16;26/01/2014;10:05;73;modane;haute maurienne;couloir du seuil valfr‚jus;45.16467481880298;6.665579904872608;2200;35-39;NE;3;2;0;0;0;0;0;1;1;hors-piste;ski;travers‚e;;sŠche;;lin‚aire;accidentelle soi-mˆme;140;;;;;
-1314-74-08;25/02/2014;12:30;74;vallorcine;mont blanc;Mont Buet;46.02694364732046;6.8516448876050235;3040;>45;NE;2;1;1;0;1;0;1;0;0;randonn‚e;ski;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;650;;;;;
-1314-74-10;13/04/2014;11:10;74;la clusaz;aravis;combe … marion;;;;;;;8;0;0;0;2;0;4;4;randonn‚e;ski;mont‚e;;humide;tendre;lin‚aire;naturelle;;;;;;
-1314-74-11;02/03/2014;10:30;74;la clusaz;aravis;;;;;;;2;2;0;0;0;0;0;0;2;randonn‚e;ski;mont‚e;;;;lin‚aire;accidentelle tiers;;10;;;;
-1213-04-01;19/03/2013;15:30;04;montclar;ubaye;face ouest dormillouse;44.24236;6.22569;2340;35-39;O;3;1;1;1;0;0;1;0;0;hors-piste;;descente;4;humide;tendre;lin‚aire;accidentelle soi-mˆme;450;150;;;;
-1213-05-01;14/12/2012;;05;la grave;oisans;rd 1091 les traverses;;;;;;3;3;0;0;0;0;0;2;1;voie de communication;;;;;;;naturelle;;;;;;
-1213-05-02;16/12/2012;12:25;05;risoul;embrunais parpaillon;crete de razis;44.597714;6.648739;2520;30-34;NO;1;1;1;1;0;0;1;0;0;hors-piste;;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;140;300;190;;;
-1213-05-03;26/12/2012;15:30;05;molines en queyras;queyras;chateau renard couloir NE;;;2865;>45;N;1;1;0;0;0;1;1;0;0;hors-piste;;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;620;100;60;;;
-1213-05-04;20/01/2013;13:30;05;n‚vache;thabor;;;;;;;1;1;0;0;0;0;0;1;0;randonn‚e;;;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-05-05;03/02/2013;;05;montgenevre;thabor;vallon des baysses;;;;;;1;1;0;0;0;0;0;1;0;hors-piste;;descente;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-05-06;06/02/2013;;05;freissiniere;pelvoux;lac palluel;;;;;;12;1;0;0;0;1;0;1;0;randonn‚e;;;;;;;;;;;;;
-1213-05-07;13/02/2013;14:15;05;arvieux;queyras;barre noire villargaudin;44.44331;6.44204;2400;30-34;E;2;1;0;0;0;0;0;1;0;randonn‚e;;descente;3;humide;tendre;lin‚aire;accidentelle soi-mˆme;100;50;50;;;
-1213-05-08;05/03/2013;;05;cr‚voux;embrunais parpaillon;goulotte barre des enfers;;;;;;5;5;0;0;0;0;4;1;0;alpinisme;;mont‚e;2;sŠche;;lin‚aire;naturelle;;;;;;
-1213-05-09;09/03/2013;10:30;05;molines;queyras;combe crose;;;2600;;;3;3;1;1;0;1;2;0;1;hors-piste;;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;;;30;;;
-1213-05-10;15/03/2013;13:30;05;monetier les bains;oisans;route du galibier;;;;;;3;3;0;0;0;0;0;1;2;randonn‚e;;mont‚e;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-05-11;22/03/2013;13:00;05;ceillac;queyras;col tronchet;;;;;;10;2;0;0;0;0;1;0;1;randonn‚e;;;3;;;;;;;;;;
-1213-05-12;25/03/2013;;05;puy st vincent;pelvoux;col de bal;;;;;;2;2;0;0;0;0;0;0;2;hors-piste;;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-05-13;25/03/2013;13:45;05;orcieres;champsaur;la coupa;44.37340;6.18089;2600;30-34;N;2;1;1;0;1;0;0;0;1;randonn‚e;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;500;50;;;;
-1213-05-14;19/04/2013;10:20;05;vars;embrunais parpaillon;piste bleue vallon crˆte peyrol;;;2300;;;1;1;0;0;0;0;0;1;0;piste;;descente;;;;lin‚aire;naturelle;;;;;;
-1213-05-15;13/04/2013;10:00;05;orcieres;champsaur;mourre froid;44.38396;6.23533;2500;30-34;NO;1;1;0;0;0;1;0;0;1;randonn‚e;;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;200;60;70;;;
-1213-05-16;13/04/2013;13:00;05;orcieres;champsaur;mourre froid;44.3839;6.2338;2750;30-34;N;2;2;1;1;0;1;1;0;1;randonn‚e;;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;250;200;40;;;
-1213-06-01;15/04/2013;13:25;06;st etienne tinee;mercantour;secteur dome station auron;44.1250;6.5425;2150;30-34;E;2;1;1;1;0;0;1;0;0;hors-piste;;descente;4;humide;tendre;lin‚aire;;100;100;70;;;
-1213-09-01;15/03/2013;;09;ax les thermes;haute ariŠge;;;;;;;1;1;0;0;0;0;0;0;1;hors-piste;;descente;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-09-02;15/03/2013;;09;ax les thermes;haute ariŠge;;;;;;;1;1;1;1;0;0;0;1;0;hors-piste;;descente;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-26-01;09/12/2012;;26;bezaudun sur bine;vercors diois;pas de sierra le veyou;;;1270;40-44;S;;1;0;0;0;0;0;1;0;randonn‚e;;;;;;;;;;;;;
-1213-38-01;13/12/2012;12:45;38;saint christophe sur guiers;chartreuse;col de l‚chaud;45.23203;5.48382;1680;30-34;NO;2;2;2;2;0;0;1;1;0;randonn‚e;;mont‚e;;sŠche;dure;lin‚aire;accidentelle soi-mˆme;100;90;;;;
-1213-38-02;02/01/2013;;38;la morte;oisans;pas de la mine;45.02023;5.54052;2450;35-39;O;3;1;0;0;0;0;0;1;0;randonn‚e;;travers‚e;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-38-03;12/01/2013;11:30;38;pinsot;belledonne;pic des grandes lanches;;;;35-39;O;1;1;0;0;0;1;1;0;0;randonn‚e;;mont‚e;3;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-38-04;20/01/2013;13:50;38;auris en oisans;grandes rousses;signal de l'homme;45.03931;6.04543;1790;35-39;SO;6;3;3;3;0;0;0;1;2;hors-piste;;descente;3;humide;dure;lin‚aire;accidentelle soi-mˆme;60;30;20;;;
-1213-38-05;30/01/2013;;38;chantelouve;oisans;voie cros de quinchiol / Gd Armet;44.59016;;2320;>45;SE;2;2;2;0;2;0;2;0;0;alpinisme;;mont‚e;;humide;tendre;lin‚aire;naturelle;;;;;;
-1213-38-06;19/03/2013;11:45;38;La FerriŠre;belledonne;secteur le pleynet F9;;5.56472;1850;;;1;1;1;0;1;0;0;1;0;hors-piste;;descente;4;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-38-07;07/04/2013;11:45;38;allemond;belledonne;col de roche noire;45.11098;5.59209;2600;40-44;E;50;3;0;0;0;3;0;1;2;randonn‚e;;mont‚e;;humide;dure;lin‚aire;naturelle s‚rac/corniche;300;75;400;;;
-1213-38-08;14/04/2013;09:55;38;saint christophe en oisans;oisans;col de la lauze;;;2900;30-34;SE;8;2;0;0;0;0;0;1;1;randonn‚e;;descente;;humide;tendre;lin‚aire;accidentelle tiers;;;;;;
-1213-38-09;17/04/2013;;38;le freney d'oisans;grandes rousses;proche refuge sarenne;;;;35-39;S;2;2;1;1;0;1;0;2;0;voie de communication;;travers‚e;;humide;dure;lin‚aire;naturelle;100;;;;;
-1213-64-01;02/01/2013;12:45;64;eaux bonnes;aspe ossau;vallon anglas;;;;;;2;1;1;1;0;0;1;0;0;hors-piste;;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-65-01;06/03/2013;16:00;65;st lary soulan;haute bigorre;GR Espiaube Plat Adet;;;;;;8;6;0;0;0;6;0;3;3;randonn‚e;;travers‚e;3;humide;tendre;;naturelle;;;;;;
-1213-65-02;15/03/2013;;65;bagnŠres de bigorre;haute bigorre;sud pic du midi de bigorre;;;;;S;1;1;0;0;0;0;1;0;0;hors-piste;;descente;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-73-01;05/12/2012;11:25;73;tignes;haute tarentaise;secteur paquerette;;;2600;30-34;N;11;2;2;2;0;0;1;1;0;hors-piste;;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;150;80;60;;;
-1213-73-02;12/12/2012;12:55;73;tignes;haute tarentaise;pente barthelemy aiguille percee;;;2750;35-39;NO;7;4;2;1;1;0;0;3;1;hors-piste;;descente;4;sŠche;dure;lin‚aire;accidentelle soi-mˆme;250;70;100;;;
-1213-73-03;21/12/2012;12:05;73;val isere;haute tarentaise;pointe du grand vallon creux de l'ouille;;;2755;30-34;N;3;3;1;1;0;0;1;0;2;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;300;200;300;;;
-1213-73-04;28/12/2012;;73;saint martin de belleville (val thorens);vanoise;lac du lou;;;;;;5;1;1;1;0;0;0;1;0;hors-piste;;descente;;;;;;;;;;;
-1213-73-05;20/01/2013;;73;valloire;maurienne;telesiege montissot;;;;;;1;1;1;1;0;0;1;0;0;hors-piste;;descente;4;;;;;;;;;;
-1213-73-06;30/01/2013;11:30;73;sainte marie de cuines;maurienne;crˆte de la raverotte;45.17349;6.16471;2000;30-34;NO;4;2;0;0;0;2;0;2;0;randonn‚e;;travers‚e;;humide;dure;lin‚aire;accidentelle soi-mˆme;600;40;50;;;
-1213-73-07;03/02/2013;;73;saint martin de belleville (val thorens);vanoise;lac du lou;;;;;;2;2;0;0;0;0;0;1;1;hors-piste;;descente;;;;;;;;;;;
-1213-73-08;08/02/2013;;73;saint martin de belleville (val thorens);vanoise;cime caron;;;;;;3;3;0;0;0;0;0;0;3;hors-piste;;descente;;;;;;;;;;;
-1314-74-09;02/03/2014;15:30;74;chamonix;mont blanc;aiguille belvedere;45.987010978180855;6.87634174604996;2880;35-39;SO;3;1;1;0;1;0;0;1;0;randonn‚e;ski;mont‚e;2;humide;;lin‚aire;accidentelle soi-mˆme;180;10;15;;;
-1213-73-10;13/02/2013;12:55;73;cote d'aime;vanoise;combe benite;;;2400;;O;7;5;1;1;0;1;0;1;4;randonn‚e;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;200;100;130;;;
-1213-73-11;20/02/2013;10:00;73;valloire;maurienne;camp des rochilles;;;2510;30-34;O;22;2;1;1;0;1;1;0;1;entrainement militaire descente couloir;;descente;;sŠche;dure;lin‚aire;accidentelle soi-mˆme;110;20;60;;;
-1213-73-12;26/02/2013;16:40;73;pralognan;vanoise;cirque du petit arcellin;45.23017;6.45689;2100;30-34;NO;1;1;0;0;0;1;0;1;0;randonn‚e;;travers‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;80;20;20;;;
-1213-73-13;02/03/2013;16:40;73;sainte foy tarentaise;haute tarentaise;sous pointe des gavies / ruisseau des gavies;45.35446;6.57202;2200;30-34;N;2;1;0;0;0;1;0;1;0;hors-piste;;descente;3;;tendre;ponctuel;accidentelle soi-mˆme;100;;;;;
-1213-73-14;05/03/2013;16:15;73;valloire;maurienne;combe des granges;;;;35-39;NO;2;2;1;1;0;1;0;2;0;hors-piste;;descente;;sŠche;dure;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-73-15;06/03/2013;11:00;73;modane;maurienne;vall‚e perdue valfr‚jus;45.09269;6.39255;2200;30-34;NO;2;2;0;0;0;2;0;2;0;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;70;150;100;;;
-1213-73-16;06/03/2013;11:30;73;tignes;haute tarentaise;couloir bois de la laye;45.28134;6.55355;2200;35-39;N;2;2;2;1;1;0;2;0;0;hors-piste;;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;360;100;80;;;
-1213-73-17;18/03/2013;13:10;73;montvalezan;haute tarentaise;hp des ecudets;45.38230;6.50412;1880;35-39;SO;2;1;1;1;0;0;1;0;0;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;100;60;50;;;
-1213-73-09;08/02/2013;11:10;73;saint bon tarentaise;vaoise;sous pas du roc merlet;45.36660891949922;6.6372356318708565;2350;30-34;NO;3;2;1;1;0;1;1;0;1;hors-piste;;descente;2;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;40;70;50;;;
-1213-73-18;19/03/2013;15:55;73;saint martin de belleville (val thorens);vanoise;lac du lou;45.296249657563365;6.5349031310654055;1990;40-44;NO;5;1;1;1;0;0;0;1;0;hors-piste;;descente;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;15;30;80;;;
-1213-73-20;19/03/2013;;73;les allues;vanoise;t‚l‚siŠge cote brune;;;;;N;1;1;0;0;0;0;0;1;0;hors-piste;;descente;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-73-21;29/03/2013;16:15;73;bourg saint maurice;vanoise;piste rouge grand renard balise nø14;;;2490;40-44;E;6;1;1;1;0;0;1;0;0;piste;;travers‚e;3;sŠche;tendre;lin‚aire;naturelle;50;60;20;;;
-1213-73-22;01/04/2013;14:00;73;les allues;vanoise;aiguille du fruit;45.21128;6.37495;2900;>45;NO;3;2;0;0;0;0;0;2;0;randonn‚e;;mont‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;600;10;;;;
-1213-73-23;01/04/2013;;73;saint martin de belleville (val thorens);vanoise;face ouest aiguille des st pŠres;;;2800;;O;3;1;0;0;0;0;0;1;0;hors-piste;;descente;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1213-73-24;14/04/2013;;73;aussois;vanoise;chaise aux papes / dent parrach‚e;45.17182;6.45138;3600;30-34;SE;;6;6;6;0;0;3;3;0;randonn‚e;;mont‚e;3;sŠche;dure;lin‚aire;accidentelle tiers;400;400;;;;
-1213-73-25;02/05/2013;10:25;73;pralognan;vanoise;grands couloirs grande casse;45.2416;6.49012;3530;>45;O;4;3;1;1;0;2;1;2;0;alpinisme;;mont‚e;;humide;dure;lin‚aire;accidentelle soi-mˆme;500;350;50;;;
-1213-73-19;19/03/2013;15:05;73;les avanchers;maurienne;hors piste des lauziŠres;45.44292575456428;6.379231641636423;1825;30-34;NE;6;1;1;1;0;0;0;1;0;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;30;25;60;;;
-1213-74-01;30/10/2012;11:55;74;chamonix;mont blanc;aiguille marbr‚e;45.85122553770268;6.941153556972861;3500;30-34;SE;2;2;0;0;0;0;0;1;1;alpinisme;;mont‚e;;sŠche;dure;lin‚aire;accidentelle soi-mˆme;250;15;15;;;
-1213-74-03;19/01/2013;13:10;74;abondance;chablais;mont de grange;;;2100;40-44;O;2;1;0;0;0;0;0;1;0;randonn‚e;;mont‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;100;10;30;;;
-1213-74-04;05/02/2013;16:10;74;chatel;chablais;t‚l‚siŠge des combes;;;;;;1;1;1;0;1;0;0;0;1;hors-piste;;descente;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;40;;;
-1213-74-05;08/02/2013;10:55;74;chamonix;mont blanc;br‚vent nant pcheu;45.55482;6.50140;2280;35-39;SE;1;1;1;1;0;0;1;0;0;hors-piste;;descente;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;1000;150;80;;;
-1213-74-06;26/02/2013;09:30;74;saint gervais;mont blanc;mont lachat;45.86970;6.78810;1970;35-39;SO;15;6;0;0;0;0;0;1;5;randonn‚e;;mont‚e;1;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;170;30;20;;;
-1213-74-07;19/03/2013;;74;bernex;chablais;;;;;;;1;1;1;0;1;0;1;0;0;randonn‚e;;descente;;;;;;;;;;;
-1213-74-08;22/03/2013;12:45;74;samoens;chablais;couloir pas de la latte;46.0816;6.4734;2000;40-44;NO;2;1;0;0;0;0;0;1;0;hors-piste;;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;300;25;70;;;
-1213-74-09;22/03/2013;09:35;74;chamonix;mont blanc;carlaveyron;45.55598;6.49299;2070;40-44;O;2;1;0;0;0;1;0;1;0;randonn‚e;;descente;2;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;50;25;80;;;
-1213-74-10;01/04/2013;13:30;74;contamines;beaufortain;col des chasseurs;;;2400;35-39;N;3;2;0;0;0;2;0;1;1;randonn‚e;;descente;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;100;30;;;
-1213-74-11;14/04/2013;13:10;74;vallorcine;mont blanc;tete de la chevrette;46.01439;6.54133;1970;30-34;S;4;1;0;0;0;0;0;1;0;randonn‚e;;descente;4;humide;tendre;lin‚aire;accidentelle soi-mˆme;300;40;50;;;
-1213-74-12;13/08/2013;03:50;74;chamonix;mont blanc;face nord tacul;;;4300;40-44;N;6;3;2;2;0;1;2;1;0;alpinisme;;mont‚e;;sŠche;dure;lin‚aire;naturelle s‚rac/corniche;250;;;;;
-1112-04-01;16/02/2012;14:45;04;saint paul s/ ubaye;ubaye;col girardin crˆte observatoire;44.36274;6.49429;2800;30-34;SO;4;1;0;0;0;0;0;1;0;randonn‚e;;mont‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;300;400;40;;;
-1112-05-01;10/12/2011;14:40;05;puy st vincent;pelvoux;vallon de narreyroux;;;2600;<30;NE;2;1;1;1;0;0;0;1;0;randonn‚e;;descente;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;25;30;;;
-1112-05-02;10/03/2012;11:25;05;ristolas;queyras;pic de s‚gur;44.44286;6.58041;2770;30-34;NO;6;1;0;0;0;0;0;0;1;randonn‚e;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;80;20;50;;;
-1112-05-03;20/03/2012;10:00;05;saint crepin;queyras;pic beal traversier;;;2800;40-44;N;4;1;0;0;0;0;0;1;0;randonn‚e;;mont‚e;2;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;50;5;30;;;
-1112-05-04;24/03/2012;11:30;05;saint veran;queyras;pas de la cula;44.39326;6.54389;2980;35-39;NO;7;1;0;0;0;0;0;1;0;randonn‚e;;descente;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;50;80;80;;;
-1112-26-01;05/02/2012;12:55;26;glandage;vercors;jocou;44.424337;5.385103;1680;30-34;S;3;2;1;1;0;1;1;1;0;randonn‚e;;mont‚e;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;140;40;100;;;
-1112-31-01;18/02/2012;;31;bagnŠres de luchon;luchonnais;pic d'aubas;42.444766;0.394289;2030;30-34;NO;5;5;0;0;0;0;0;0;5;randonn‚e;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;150;100;;;
-1112-31-02;05/04/2012;15:30;31;bagnŠres de luchon;luchonnais;sentier cascade enfer;;;;;NE;;2;2;2;0;0;1;1;0;randonn‚e;;arrˆt;2;humide;tendre;;naturelle;;;;;;
-1112-38-01;06/02/2012;15:30;38;la morte;oisans;pas de la mine;45.031326;5.901677;2400;30-34;NO;2;1;1;1;0;0;0;1;0;randonn‚e;;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;100;80;30;;;
-1112-38-02;17/02/2012;08:25;38;saint pierre de chartreuse;chartreuse;combe bovinant;45.225235;5.485264;1774;35-39;O;1;1;1;1;0;0;0;1;0;randonn‚e;;mont‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;165;25;40;;;
-1112-38-03;17/02/2012;14:05;38;vaujany;grandes rousses;rissiou;45.10730;6.04903;2050;35-39;SE;4;1;1;1;0;0;0;1;0;randonn‚e;;mont‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;30;40;100;;;
-1112-38-04;23/03/2012;12:10;38;sainte agnes;belledonne;ferrouillet;45.12360;5.59590;2200;35-39;N;2;1;1;0;1;0;0;1;0;randonn‚e;;descente;2;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;80;80;80;;;
-1213-74-02;06/12/2012;12:45;74;serraval;aravis;sulens;45.826057661802935;6.369410313534949;1710;40-44;O;2;2;1;1;0;1;1;0;1;randonn‚e;;travers‚e;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;50;100;40;;;
-1112-65-01;18/02/2012;;65;bagnŠre de bigorre;haute bigorre;pain de sucre;;;;;;1;1;1;1;0;0;1;0;0;hors-piste;;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;;20;;;;
-1112-65-02;18/02/2012;;65;vieille aure;haute bigorre;corneblanque;;;;;;1;1;0;0;0;1;0;0;1;hors-piste;;descente;3;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1112-65-03;19/02/2012;;65;bagnŠre de bigorre;haute bigorre;la blanche;;;;;;2;1;0;0;0;1;0;1;0;hors-piste;;descente;2;sŠche;;lin‚aire;accidentelle soi-mˆme;400;150;100;;;
-1112-73-01;01/02/2012;10:25;73;valloire;maurienne;combe aiguille noire;;;;;;19;10;6;6;0;0;1;5;4;randonn‚e;;travers‚e;2;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1112-38-05;20/04/2012;15:45;38;vaujany;grandes rousses;couloir perrin;45.1317004258058;6.10201965623362;2600;40-44;O;2;1;1;0;1;0;0;0;1;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;100;50;40;;;
-1112-73-03;27/02/2012;;73;doucy en bauges;bauges;;;;;;;1;1;1;1;0;0;1;0;0;randonn‚e;;;2;humide;tendre;lin‚aire;naturelle;;;;;;
-1112-73-04;09/04/2012;11:30;73;pralognan;haute maurienne;combe de rosoire;;;3200;;NO;7;3;0;0;0;0;0;0;3;randonn‚e;;mont‚e;2;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;300;;;;;
-1112-73-05;09/04/2012;11:30;73;valmeinier;maurienne;roche noire;;;2800;;;2;1;1;1;0;0;1;0;0;randonn‚e;;travers‚e;2;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;50;;;;
-1112-73-02;18/02/2012;11:05;73;jarsy;bauges;face SO mont de la Coche;45.667458049723145;6.223734181079973;1980;30-34;SO;2;1;0;0;0;1;0;1;0;randonn‚e;;travers‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;250;5;50;;;
-1112-73-06;17/04/2012;19:00;73;saint martin de belleville;vanoise;mont du borgne;45.30192848402022;6.6063281767692645;2950;40-44;NO;3;1;1;1;0;0;1;0;0;randonn‚e;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;200;180;100;;;
-1112-73-08;29/04/2012;13:40;73;bonneval;vanoise;;;;;;O;15;1;0;0;0;0;0;1;0;randonn‚e;;mont‚e;;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1112-74-01;21/01/2012;10:00;74;praz sur arly;mont blanc;crˆt du midi;;;1780;>45;NE;3;1;0;0;0;1;0;0;1;minage;;travers‚e;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;25;;40;;;
-1112-74-02;29/01/2012;15:55;74;chamonix;mont blanc;couloir cosmique/la para;45.5337;6.5151;2300;;NO;4;1;1;1;0;0;1;0;0;hors-piste;;descente;2;humide;dure;lin‚aire;accidentelle soi-mˆme;1000;100;30;;;
-1112-73-07;17/04/2012;19:00;73;saint martin de belleville;vanoise;mont du borgne;45.30192848402022;6.6063281767692645;2950;40-44;NO;3;1;0;0;0;1;0;0;1;randonn‚e;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;400;;100;;;
-1112-74-03;04/02/2012;12:30;74;thollon les m‚mises;chablais;tete de neuva;46.367963950590365;6.736883390744491;1840;35-39;NO;4;1;0;0;0;0;1;0;0;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;300;70;50;;;
-1112-74-05;16/02/2012;;74;contamines montjoie;mont blanc;envers mont joly;;;;;;3;3;0;0;0;0;1;0;2;hors-piste;;descente;2;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1112-74-04;04/02/2012;11:15;74;mieussy;chablais;combe du v‚lard;46.15138136537421;6.561433861945105;1780;;NO;4;1;1;0;1;0;0;1;0;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;50;10;15;;;
-1112-74-06;21/02/2012;10:00;74;bellevaux;chablais;pointe de chalune;46.180208791220906;6.577469661551132;2050;40-44;O;2;2;0;0;0;0;1;1;0;randonn‚e;;mont‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;200;20;50;;;
-1112-74-08;28/04/2012;12:55;74;chamonix;mont blanc;glacier du milieu;;;;;;3;1;0;0;0;0;1;0;0;alpinisme;;;;sŠche;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1112-74-07;03/04/2012;15:50;74;chamonix;mont blanc;bec de la cluy;45.991588;6.959983;1900;30-34;NO;2;1;1;0;1;0;1;0;0;randonn‚e;;travers‚e;2;humide;tendre;lin‚aire;naturelle;300;10;;;;
-1011-05-01;08/01/2011;11:06;05;monetier les bains;pelvoux;cibouit;;;;;;2;1;1;;;;0;0;1;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;100;50;;;
-1112-74-09;12/07/2012;05:20;74;chamonix;mont blanc;mont maudit;45.84948712340163;6.8747447095806535;4200;40-44;N;23;23;9;9;0;0;9;7;7;alpinisme;;mont‚e;;sŠche;dure;lin‚aire;naturelle s‚rac/corniche;200;;;;;
-1011-05-03;19/02/2011;13:10;05;orciŠres;champsaur;col de la montagne haute / mourre froid;;;2800;35-39;N;6;3;1;;;;0;1;2;randonn‚e;;mont‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;200;150;80;;;
-1011-05-02;30/01/2011;10:00;05;molines;queyras;col agnel;44.688296388273194;6.978866152958157;2650;35-39;O;8;4;1;;;;1;0;3;randonn‚e;;mont‚e;2;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;30;40;100;;;
-1011-05-05;02/03/2011;16:40;05;val des pr‚s;queyras;vallon de Vachette / secteur ombilic;;;2005;35-39;NO;3;1;0;;;;0;0;1;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;500;60;60;;;
-1011-05-06;16/03/2011;14:30;05;ceillac;queyras;col du tronchet;;;2600;35-39;NO;;1;1;;;;0;0;1;randonn‚e;;;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;;;;;
-1011-05-07;18/03/2011;14:00;05;ceillac;queyras;ravin clausis;44.38329;6.51409;2300;30-34;N;2;1;1;;;;1;0;0;randonn‚e;;descente;4;sŠche;dure;lin‚aire;accidentelle soi-mˆme;50;90;50;;;
-1011-05-04;26/02/2011;16:10;05;orciŠres;champsaur;col combeau / grande autane;44.65107028265496;6.387560916625337;2100;40-44;N;7;3;0;;;;0;1;2;randonn‚e;;descente;3;sŠche;tendre;lin‚aire;naturelle;100;5;30;;;
-1011-05-08;19/03/2011;12:05;05;ceillac;queyras;vallon beaubarnon;44.64024419215997;6.838935368106755;2530;30-34;N;4;4;3;;;;3;0;1;randonn‚e;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;150;500;60;;;
-1011-05-10;03/04/2011;11:30;05;risoul;embrunnais;les c“tes du liŠvre;;;2400;;NO;2;1;1;;;;0;1;0;hors-piste;;descente;4;sŠche;dure;lin‚aire;accidentelle soi-mˆme;;;;;;
-1011-09-01;18/02/2011;;09;ustou;couserans;etang de la lacarde;42.44305;1.16224;2000;30-34;N;2;1;1;;;;0;0;1;randonn‚e;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;80;350;40;;;
-1011-26-01;03/12/2010;16:00;26;ombleze;vercors;roc de toulan;44.53268;5.14054;1000;30-34;O;1;1;0;;;;0;1;0;randonn‚e;;mont‚e;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;40;40;;;
-1011-31-01;22/02/2011;;31;O“;;vallon d'esquierry;42.45208;0.27562;2250;35-39;SE;2;2;2;;;;2;0;0;randonn‚e;;descente;4;humide;tendre;ponctuel;naturelle;180;;;;;
-1011-38-01;05/12/2010;11:45;38;st pierre de chartreuse;chartreuse;col des ayes;45.18397;5.50239;1570;35-39;NE;3;3;3;;;;3;0;0;randonn‚e;;mont‚e;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;100;25;50;;;
-1011-38-02;26/12/2010;15:15;38;alpe d'huez;grandes rousses;pic blanc;;;3200;;O;2;1;0;;;;0;1;0;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;;;;;
-1011-38-03;12/01/2011;13:30;38;les deux alpes;oisans;chalance;;;2800;30-34;SO;4;2;0;;;;0;0;2;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;;;;;;
-1011-38-04;21/02/2011;14:00;38;les deux alpes;oisans;chalance;;;2500;30-34;SO;2;2;0;;;;0;0;2;hors-piste;;;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;80;45;30;;;
-1011-38-05;28/02/2011;;38;corren‡on en vercors;vercors;rancs de combevieux;45.00184;5.32405;1850;30-34;N;4;3;3;;;;1;2;0;hors-piste;;travers‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;150;50;70;;;
-1011-63-01;28/11/2010;14:00;63;le mont dore;sancy;puy redon / couloir de l'envers du redon;45.31580;2.4823;1725;40-44;NO;2;1;0;;;;0;1;0;randonn‚e;;descente;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;200;;;;;
-1011-65-01;06/03/2011;13:30;65;cauteret;haute bigorre;refuge d'ilh‚ou/pic N‚;;;2000;;;3;3;1;;;;0;1;2;randonn‚e;;;2;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1011-05-09;19/03/2011;15:30;05;molines;queyras;rif ousselat;44.7160424997295;6.89815692320845;2540;40-44;N;2;1;1;;;;1;0;0;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;450;800;70;;;
-1011-66-01;05/03/2011;12:50;66;port‚ puymorens;capcir puymorens;face NO pic de l'Estagnol;;;2300;35-39;NO;2;1;1;;;;0;1;0;hors-piste;;descente;3;sŠche;dure;lin‚aire;accidentelle tiers;100;15;60;;;
-1011-68-01;17/12/2010;12:40;68;mittlach;hohneck;couloir du rainkopf;48.0260;6.58592;1300;30-34;E;2;1;0;;;;0;1;0;randonn‚e;;descente;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;200;30;30;;;
-1011-68-02;28/12/2010;13:45;68;Metzeral;hohneck;wormspel;48.216;7.1138;1244;35-39;NE;5;1;0;;;;0;1;0;alpinisme;;travers‚e;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;90;25;25;;;
-1011-73-01;01/11/2010;09:00;73;Bessans;Haute Maurienne;couloir Roche MIchel;;;3100;35-39;N;3;3;3;;;;3;0;0;alpinisme;;mont‚e;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;700;150;50;;;
-1011-73-02;12/11/2010;08:20;73;val isŠre;haute tarentaise;RD col Iseran Le Quartz;;;2480;;N;5;2;0;;;;1;1;0;voie de communication;;mont‚e;;humide;tendre;lin‚aire;;100;;;;;
-1011-73-03;09/12/2010;12:37;73;val isŠre;haute tarentaise;charvet couloir des pisteurs;45.25399;6.57133;2650;>45;N;2;2;1;;;;1;1;0;hors-piste;;descente;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;300;3;100;;;
-1011-73-04;10/12/2010;15:00;73;orelle;vanoise;hors-piste sous cime caron;45.1579;6.33327;2820;30-34;S;9;4;0;;;;0;1;3;hors-piste;;travers‚e;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;200;80;80;;;
-1011-73-05;26/12/2010;09:34;73;val isŠre;haute tarentaise;combe du signal;45.25475;7.01406;2740;40-44;N;4;2;2;;;;1;0;1;hors-piste;;travers‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;100;50;140;;;
-1011-73-06;14/12/2010;12:50;73;tignes;haute tarentaise;grande combe / grande sassiŠre;45.30222;6.58336;3100;35-39;SO;7;1;1;;;;1;0;0;randonn‚e;;mont‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;150;50;60;;;
-1011-73-07;11/01/2011;11:03;73;val isŠre;haute tarentaise;pointe du grand vallon;45.26389;7.02166;2700;35-39;N;7;5;4;;;;4;0;1;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;700;70;80;;;
-1011-73-08;26/02/2011;11:30;73;montricher albanne;maurienne;col du pertuite grande chible;45.10429;6.23096;2500;30-34;NE;2;1;0;;;;0;0;1;randonn‚e;;descente;2;sŠche;dure;lin‚aire;accidentelle soi-mˆme;50;100;70;;;
-1011-73-09;04/03/2011;15:15;73;val isŠre;haute tarentaise;barriere de quartz;;;2400;35-39;NO;2;1;1;;;;0;1;0;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;120;60;50;;;
-1011-73-10;04/03/2011;;73;villarodin bourget;maurienne;station la norma;;;;;;2;1;0;;;;0;1;0;hors-piste;;descente;3;;;;;;;;;;
-1011-73-11;05/03/2011;14:30;73;bessans;haute maurienne;andagne;;;3000;;NO;3;2;1;;;;0;1;1;hors-piste;;descente;4;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;300;200;180;;;
-1011-73-12;18/03/2011;12:00;73;val isŠre;haute tarentaise;envers de cugna‹;;;2850;35-39;NO;6;1;1;;;;1;0;0;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;580;120;90;;;
-1011-73-13;18/03/2011;13:00;73;m‚ribel;vanoise;mont du vallon lac du borgne;;;;;;;1;1;;;;1;0;0;hors-piste;;descente;3;sŠche;tendre;lin‚aire;;;;;;;
-1011-73-14;20/03/2011;14:35;73;champagny;vanoise;GliŠres;;;;;;4;1;1;;;;1;0;0;randonn‚e;;;3;;;;;;;;;;
-1011-73-15;21/03/2011;12:40;73;lanslebourg;haute maurienne;;;;2530;;NE;2;2;0;;;;0;0;2;hors-piste;;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;180;40;60;;;
-1011-73-16;21/03/2011;12:54;73;ste foy tarentaise;haute tarentaise;pointe de l'argentiŠre;;;2750;35-39;NO;10;2;2;;;;0;1;1;randonn‚e;;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;400;80;60;;;
-1011-73-17;31/03/2011;11:10;73;val isŠre;haute tarentaise;solaise;;;3000;35-39;SE;2;2;1;;;;0;1;1;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;80;30;50;;;
-1011-73-18;01/04/2011;11:35;73;val isŠre;haute tarentaise;face est de Charvet;;;2660;40-44;E;7;1;0;;;;0;1;0;hors-piste;;travers‚e;3;humide;tendre;ponctuel;accidentelle soi-mˆme;600;;;;;
-1011-73-19;03/04/2011;13:00;73;bessans;haute maurienne;vallon oney - ouille arb‚ron;;;2500;35-39;NO;8;4;0;;;;0;1;3;randonn‚e;;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;;;;;;
-1011-73-20;16/05/2011;09:35;73;orelle;vanoise;col de gebroulaz;;;3434;30-34;E;1;1;0;;;;0;0;1;randonn‚e;;mont‚e;;sŠche;dure;lin‚aire;accidentelle soi-mˆme;150;200;;;;
-1011-73-21;02/12/2010;11:30;73;tignes;haute tarentaise;toviŠre;;;2580;35-39;O;3;1;1;;;;0;1;0;hors-piste;;descente;;sŠche;tendre;lin‚aire;accidentelle tiers;80;50;50;;;
-1011-73-22;10/01/2011;;73;tignes;haute tarentaise;couloir des tuffs;;;2400;35-39;O;4;1;0;;;;0;1;0;hors-piste;;descente;3;sŠche;tendre;lin‚aire;accidentelle tiers;200;20;20;;;
-1011-73-23;20/03/2011;10:00;73;tignes;haute tarentaise;oreilles de mickey;;;2600;;SO;3;2;0;;;;0;2;0;hors-piste;;descente;3;sŠche;;lin‚aire;accidentelle tiers;150;80;150;;;
-1011-74-01;28/11/2010;12:00;74;mieussy;chablais;haute-pointe;;;1950;40-44;SE;15;2;2;;;;0;0;2;randonn‚e;;mont‚e;;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;100;20;10;;;
-1011-74-02;04/12/2010;13:05;74;la clusaz;aravis;combe borderan;45.5310;6.2830;2350;;NO;3;3;1;;;;0;3;0;randonn‚e;;mont‚e;;sŠche;tendre;lin‚aire;accidentelle tiers;400;50;100;;;
-1011-74-03;21/12/2010;13:20;74;chamonix;chablais;combe d'encrenaz;46.00277491920038;6.911217132862983;2300;40-44;SE;3;1;1;;;;0;0;1;randonn‚e;;descente;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;400;20;40;;;
-1011-74-04;21/12/2010;;74;samoens;chablais;station;;;;;;2;2;0;;;;0;2;0;hors-piste;;descente;3;;;lin‚aire;accidentelle soi-mˆme;;;;;;
-1011-74-05;22/12/2010;11:00;74;contamines;mont blanc;chalet balme;45.44576;6.42333;2050;35-39;SO;9;1;1;;;;0;1;0;randonn‚e;;travers‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;250;80;50;;;
-1011-74-06;22/12/2010;11:00;74;Hauteluce;mont blanc;col de la fenˆtre;;;2150;<30;O;2;2;1;;;;0;2;0;randonn‚e;;mont‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;50;50;40;;;
-1011-74-07;24/12/2010;15:00;74;Vallorcine;mont blanc;balme;;;2175;>45;NE;1;1;0;;;;0;1;0;minage;;travers‚e;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;75;15;30;;;
-1011-74-08;26/12/2010;10:55;74;le reposoir;aravis;col de l'encrenaz;;;1950;30-34;S;3;1;1;;;;0;1;0;randonn‚e;;mont‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;30;15;20;;;
-1011-74-09;03/03/2011;;74;vacheresse;chablais;pointe de b‚n‚vent;;;;;;3;3;0;;;;0;2;1;randonn‚e;;;3;;;lin‚aire;accidentelle soi-mˆme;150;;;;;
-1011-74-10;17/03/2011;15:15;74;chamonix;mont blanc;plan de l'aiguille torrent de blaitiere;45.54284;6.53423;2230;35-39;N;5;1;0;;;;0;1;0;randonn‚e;;mont‚e;3;sŠche;dure;lin‚aire;accidentelle soi-mˆme;450;40;40;;;
-1011-74-11;20/03/2011;12:05;74;magland;aravis;face nord pointe d'Areu;45.982606753253435;6.583189836659246;2430;35-39;NO;3;1;1;;;;1;0;0;randonn‚e;;descente;3;sŠche;tendre;lin‚aire;accidentelle soi-mˆme;500;350;40;;;
-1011-74-12;04/06/2011;17:25;74;chamonix;mont blanc;aiguille du chardonnet;45.58085;6.59512;3650;>45;SO;2;1;1;;;;1;0;0;alpinisme;;descente;;humide;tendre;ponctuel;naturelle;150;;;;;
+(cm)"
+1718-04-01;06/04/2018;4;2018;15:10;15;4;saint paul sur ubaye;ubaye;tete de l'eyssilloun couloir nord principal;44.505423 ; 6.809782;2890;;;4;1;0;0;0;0;0;1;0;randonnée;ski;descente;;;;;;;;
+1718-05-02;02/02/2018;2;2018;;;5;le monetier les bains;grandes rousses;vallon roche noire pic blanc galibier;;;;;;3;1;0;0;0;0;0;0;1;randonnée;ski;descente;;;;;;;;
+1718-05-03;17/02/2018;2;2018;;;5;villard d'arene;oisans;couloir express col roc noir combeynot;;;;;;1;1;0;0;0;1;0;0;1;randonnée;;descente;;humide;tendre;linéaire;accidentelle soi-même;;;
+1718-05-04;18/02/2018;2;2018;12:00;12;5;orcières;champsaur;pic de barle;44.384 ; 6.1922;2610;35-39;NO;1;1;1;0;1;0;0;0;1;randonnée;ski;montée;;sèche;tendre;linéaire;accidentelle soi-même;120;200;
+1718-05-05;02/03/2018;3;2018;17:15;17;5;la grave;oisans;couloir d'orcières;45.124 ; 6.1533;2400;40-44;NO;4;1;1;1;0;0;1;0;0;hors-piste;ski;descente;4;sèche;tendre;linéaire;naturelle;840;;
+1718-05-06;04/03/2018;3;2018;13:50;13;5;la grave;grandes rousses;puy golèfre;;;;;;;1;0;0;0;1;0;0;1;randonnée;ski;;;;;linéaire;accidentelle soi-même;;;
+1718-05-07;04/03/2018;3;2018;14:15;14;5;pelvoux;pelvoux;la blanche / les essanyères;44.5118 ; 6.2749;1990;35-39;SE;2;1;0;0;0;0;0;1;0;randonnée;ski;;;;;linéaire;accidentelle soi-même;;300;40
+1718-05-08;12/03/2018;3;2018;12:15;12;5;la salle les alpes;pelvoux;rochers de l'enfer / serre chevalier;44.54445 ; 6.32324;2300;40-44;N;3;1;1;1;0;0;0;1;0;hors-piste;ski;descente;3;sèche;dure;linéaire;accidentelle soi-même;100;80;95
+1718-05-09;22/03/2018;3;2018;10:35;10;5;champcella;pelvoux;vallon de la selle / tête de vautisse;44.425 ; 6.2927;2900;30-34;E;2;2;1;1;0;1;1;1;0;randonnée;ski;;3;sèche;dure;linéaire;accidentelle soi-même;80;30;40
+1718-05-10;26/05/2018;5;2018;;;5;la chapelle en valgaudemar;pelvoux;couloir ouest brèche des roux;;;;>45;O;11;2;1;1;0;1;0;1;1;alpinisme;à pieds;arrêt;;humide;tendre;;naturelle;;;
+1718-06-01;02/03/2018;3;2018;10:30;10;6;entraunes;haut var;estenc / tête de crépine / cabane garret;44.152 ; 6.4440;2280;35-39;E;6;6;5;4;1;1;4;1;1;randonnée;ski fond;arrêt;4;sèche;tendre;linéaire;;230;;110
+1718-38-03;17/01/2018;1;2018;;;38;chamrousse;belledonne;brèche robert sud;45.80 ; 5.5438;2000;35-39;NO;1;1;1;1;0;0;1;0;0;randonnée;ski;montée;3;sèche;tendre;linéaire;accidentelle soi-même;40;30;80
+1718-38-04;13/02/2018;2;2018;13:45;13;38;saint christophe en oisans;oisans;face est brèche du rateau;44.5926 ; 6.178;3140;35-39;SE;5;1;0;0;0;0;0;1;0;randonnée;ski;descente;2;sèche;tendre;linéaire;accidentelle soi-même;120;50;40
+1718-38-05;14/02/2018;2;2018;14:45;14;38;lavaldens;oisans;vallon guillaume;44.563796 ; 5.55188;2300;30-34;NO;1;1;0;0;0;1;0;0;1;randonnée;ski;montée;2;sèche;tendre;linéaire;accidentelle soi-même;200;10;30
+1718-38-06;18/02/2018;2;2018;15:40;15;38;saint christophe en oisans;oisans;refuge de la selle;;;2850;;S;;1;0;0;0;0;0;1;0;hors-piste;ski;descente;;;;linéaire;accidentelle soi-même;;;
+1718-38-07;24/02/2018;2;2018;09:30;9;38;pinsot;belledonne;refuge de l'oule;45.1838 ; 6.817;2035;35-39;N;2;1;0;0;0;1;0;1;0;randonnée;ski;montée;;;;linéaire;accidentelle soi-même;160;;
+1718-38-08;02/03/2018;3;2018;16:45;16;38;mont de lans;oisans;piste verte bellecombe 1;44.59576 ; 6.91595;2430;35-39;NE;1;1;1;1;0;0;0;1;0;piste;ski;descente;4;sèche;tendre;linéaire;accidentelle tiers;90;;
+1718-38-09;03/03/2018;3;2018;;;38;saint pancrasse;chartreuse;pas de l'oeille dent de crolles;;;;;;;1;0;0;0;0;0;0;1;randonnée;ski;;;;;;;;;
+1718-38-10;04/03/2018;3;2018;10:45;10;38;saint agnès;belledonne;lac de crop;45.1230 ; 5.5930;2000;40-44;NO;2;2;1;1;0;1;0;1;1;randonnée;ski;montée;;sèche;dure;linéaire;accidentelle soi-même;60;40;60
+1718-38-11;04/03/2018;3;2018;11:55;11;38;oz en oisans;grandes rousses;poutran;;;;;;1;1;0;0;0;0;0;1;0;hors-piste;ski;descente;;;;linéaire;accidentelle soi-même;;;
+1718-38-12;04/03/2018;3;2018;14:35;14;38;oz en oisans;grandes rousses;couloir perrins;;;;;;5;3;1;1;0;1;0;3;0;hors-piste;ski;descente;;;;linéaire;accidentelle soi-même;;;
+1718-38-13;04/03/2018;3;2018;15:10;15;38;vaujany;grandes rousses;cote belle;;;;;;6;1;1;1;0;0;0;1;0;randonnée;ski;;;;;linéaire;accidentelle soi-même;;;
+1718-38-14;18/03/2018;3;2018;11:45;11;38;sarcenas;chartreuse;chamechaude couloir folatière;45.1712 ; 5.4714;2040;35-39;O;4;3;0;0;0;0;1;1;1;randonnée;ski;descente;2;sèche;;linéaire;accidentelle soi-même;280;;
+1718-38-15;03/05/2018;5;2018;12:20;12;38;saint christophe en oisans;oisans;col des écrins;;;;;;2;1;0;0;0;0;0;1;0;randonnée;ski;descente;;sèche;;linéaire;accidentelle soi-même;;;
+1718-38-17;23/03/2018;3;2018;13:15;13;38;mont de lans;oisans;combe de chalance / piège à surfers;45.016 ; 6.1131;2840;40-44;O;2;1;0;0;0;1;0;1;0;hors-piste;ski;descente;;sèche;tendre;linéaire;accidentelle soi-même;;;
+1718-38-18;13/03/2018;3;2018;09:20;9;38;alpe d'huez;grandes rousses;combe 3000 pic blanc;45.729 ; 6.739;3300;35-39;S;2;2;0;0;0;2;0;2;0;minage;ski;arrêt;;sèche;dure;linéaire;accidentelle soi-même;200;200;40
+1718-65-02;09/01/2018;1;2018;13:30;13;65;cauterets;haute bigorre;cascade ilhéou;42.5210 ; 0.946;1790;30-34;N;2;1;0;0;0;1;0;1;0;randonnée;ski;descente;3;sèche;dure;linéaire;accidentelle soi-même;60;;30
+1718-65-03;09/01/2018;1;2018;15:00;15;65;aragnouet;haute bigorre;;;;1600;;;2;1;1;1;0;0;1;0;0;randonnée;ski;;3;;;linéaire;accidentelle soi-même;200;;
+1718-65-04;13/02/2018;2;2018;14:45;14;65;gavarnie;haute bigorre;piste gypaete / pic de la Pahule;42.4322 ; 0.149;2120;35-39;N;1;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sèche;dure;linéaire;accidentelle soi-même;100;8;30
+1718-65-05;14/02/2018;2;2018;14:45;14;65;cauterets;haute bigorre;piste asphodele / pic de Monné;42.5330 ; 0.1014;2600;>45;SE;3;3;3;3;0;0;3;0;0;hors-piste;snowboard;descente;3;humide;dure;linéaire;naturelle;800;200;
+1718-65-06;03/03/2018;3;2018;12:00;12;65;aragnouet;haute bigorre;pic de marioules;;;;;;5;3;2;2;0;1;2;0;1;randonnée;ski;;3;;;linéaire;accidentelle soi-même;600;;
+1718-65-07;21/03/2018;3;2018;11:40;11;65;bagnères de bigorre;haute bigorre;pic du midi;;;;;;4;1;0;0;0;0;0;1;0;hors-piste;ski;descente;4;;;linéaire;accidentelle soi-même;;;
+1718-65-08;31/03/2018;3;2018;15:30;15;65;ferrère;haute bigorre;montagne d'areng / couloir le potager du retraité;42.545460 ; 0.275420;1900;35-39;N;3;2;1;0;1;1;1;1;0;alpinisme;à pieds;montée;3;sèche;tendre;linéaire;accidentelle soi-même;185;;
+1718-65-09;23/02/2018;2;2018;;;65;vieille aure;aure louron;versant sud pic d'aygues cluses;42.52158 ; 0.1000;2570;>45;SE;1;1;1;1;0;0;1;0;0;randonnée;ski;montée;3;sèche;;linéaire;naturelle sérac/corniche;140;;
+1718-73-05;02/01/2018;1;2018;14:10;14;73;lanslebourg;haute maurienne;montagne de montfroid;45.164 ; 6.527;2290;35-39;N;6;2;1;1;0;1;0;1;1;hors-piste;snowboard;traversée;3;sèche;dure;linéaire;accidentelle tiers;120;50;80
+1718-73-06;03/01/2018;1;2018;16:00;16;73;bonneval sur arc;haute tarentaise;lécharenne pont de la lama;45.236 ; 7.424;2500;35-39;SE;1;1;1;1;0;0;1;0;0;habitation;à pieds;arrêt;4;sèche;;linéaire;naturelle;600;450;
+1718-73-07;09/01/2018;1;2018;;;73;val d'isere;haute tarentaise;solaise super S;;;;;;2;1;0;0;0;0;0;1;0;hors-piste;ski;descente;5;sèche;;linéaire;accidentelle soi-même;;;
+1718-73-08;09/01/2018;1;2018;14:30;14;73;valmeinier;haute maurienne;piste verte lauze balise 30 31;45.1038 ; 6.3114;2610;>45;O;12;1;1;0;1;0;0;1;0;piste;ski;descente;;sèche;;linéaire;naturelle;270;50;30
+1718-73-09;05/02/2018;2;2018;17:35;17;73;sainte foy tarentaise;haute tarentaise;pointe du grand soliet;45.3450 ; 6.5625;2880;40-44;NE;4;1;0;0;0;0;0;1;0;randonnée;ski;descente;;;;linéaire;accidentelle soi-même;;;
+1718-73-10;05/02/2018;2;2018;13:35;13;73;pralognan la vanoise;vanoise;couloir de l'eau;45.239 ; 6.4459;1890;30-34;SO;4;1;1;1;0;0;0;0;1;minage;ski;arrêt;2;sèche;tendre;linéaire;accidentelle soi-même;30;20;15
+1718-73-11;18/02/2018;2;2018;12:06;12;73;épierre;maurienne;faux gros villan;45.2644 ; 6.2101;2550;40-44;NO;4;1;0;0;0;0;0;0;1;randonnée;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;130;25;30
+1718-73-12;18/02/2018;2;2018;12:35;12;73;val d'isere;haute tarentaise;piste rouge combe du géant / pisaillas;45.2548 ; 7.0247;3050;>45;S;7;3;2;2;0;0;2;0;1;hors-piste;ski;descente;3;humide;tendre;linéaire;naturelle;200;500;80
+1718-73-13;24/02/2018;2;2018;;;73;beaufort;beaufortain;lac d'amour / pierra menta;;;;;NO;3;3;0;0;0;0;0;2;1;randonnée;ski;montée;;;;linéaire;accidentelle soi-même;250;100;60
+1718-73-14;01/03/2018;3;2018;09:05;9;73;pralognan la vanoise;vanoise;couloir de l'eau;45.239 ; 6.4457;1890;30-34;SO;2;1;0;0;0;0;0;1;0;minage;ski;arrêt;2;sèche;dure;linéaire;accidentelle soi-même;60;20;15
+1718-73-15;03/03/2018;3;2018;13:35;13;73;arêche beaufor;beaufortain;lac tournant;;;2000;30-34;N;;2;1;0;1;1;0;1;1;randonnée;ski;descente;3;humide;tendre;linéaire;accidentelle soi-même;;;
+1718-73-16;03/03/2018;3;2018;16:30;16;73;beaufort;beaufortain;plan des planes;;;1550;35-39;NE;2;1;1;1;0;0;0;1;0;hors-piste;ski;descente;3;humide;tendre;linéaire;accidentelle soi-même;100;100;30
+1718-73-17;04/03/2018;3;2018;;;73;arêche beaufort;beaufortain;couloir des grangettes;;;;;;4;1;0;0;0;1;0;0;1;hors-piste;ski;descente;;;;linéaire;accidentelle soi-même;300;;
+1718-73-18;04/03/2018;3;2018;13:15;13;73;arêche beaufort;beaufortain;combe nord col de la bathie;;;;;;2;2;2;2;0;0;2;0;0;hors-piste;ski;descente;3;;;linéaire;accidentelle soi-même;;;
+1718-73-19;16/03/2018;3;2018;14:50;14;73;lanslebourg;haute maurienne;amont de la piste solert;;;2550;;;6;4;0;0;0;3;0;0;4;hors-piste;ski;descente;;;;linéaire;accidentelle soi-même;;;
+1718-73-20;25/03/2018;3;2018;16:25;16;73;modane;haute maurienne;belle plinier nord ouest;45.936 ; 6.4139;2550;35-39;NO;3;2;2;2;0;0;2;0;0;randonnée;ski;descente;2;sèche;;linéaire;accidentelle soi-même;600;80;
+1718-73-21;31/03/2018;3;2018;11:45;11;73;villaroger;vanoise;bas du couloir en S / envers aiguille rouge;;;2450;;;;1;0;0;0;0;0;1;0;hors-piste;ski;traversée;;;;linéaire;accidentelle soi-même;;;
+1718-73-22;13/04/2018;4;2018;12:20;12;73;val d'isere;haute tarentaise;grand vallon;;;2550;;;2;1;1;1;0;0;0;0;1;hors-piste;ski;descente;;;;linéaire;accidentelle soi-même;;;
+1718-74-02;13/02/2018;2;2018;;;74;chamonix;mont blanc;balme combe d'arve;;;;;;2;2;0;0;0;1;0;0;2;hors-piste;ski;descente;;;;linéaire;accidentelle soi-même;;30;20
+1718-74-03;03/03/2018;3;2018;14:05;14;74;le grand bornand;aravis;refuge gramusset;;;1800;40-44;SE;6;6;0;0;0;6;0;0;6;randonnée;ski;montée;3;sèche;dure;linéaire;accidentelle soi-même;40;;
+1718-74-04;04/03/2018;3;2018;11:15;11;74;samoens;chablais;bostan;;;;;NO;2;2;2;2;0;0;1;1;0;randonnée;raquettes;traversée;3;sèche;;linéaire;accidentelle soi-même;;200;
+1718-74-05;04/03/2018;3;2018;;;74;vallorcine;mont blanc;couloir rand;;;;;;4;2;0;0;0;0;1;1;0;randonnée;ski;descente;;;;linéaire;accidentelle soi-même;;;
+1718-74-06;04/03/2018;3;2018;14:00;14;74;vallorcine;mont blanc;posettes;46.05542 ; 6.56936;2050;35-39;O;3;1;0;0;0;0;1;0;0;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;300;10;10
+1718-74-07;04/03/2018;3;2018;16:00;16;74;vallorcine;mont blanc;posettes;46.05542 ; 6.56936;2050;35-39;O;3;1;0;0;0;0;0;1;0;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;300;10;10
+1718-74-08;05/03/2018;3;2018;;;74;le reposoir;aravis;pointe d'areu;;;;;;2;2;0;0;0;0;0;1;1;randonnée;ski;;;;;;;;;
+1718-74-09;05/03/2018;3;2018;16:30;16;74;Faverges-Seythenex;bauges;sambuy;45.4134;6.1553;2060;35-39;NO;1;1;0;0;0;1;0;1;0;randonnée;ski;descente;;humide;dure;ponctuel;accidentelle soi-même;370;;
+1718-74-10;24/03/2018;3;2018;;;74;chevaline;bauges;couloir nord Trélod;;;;;;1;1;0;0;0;1;1;0;0;randonnée;ski;;3;;;;;;;
+1718-74-11;31/03/2018;3;2018;13:00;13;74;sixt fer à cheval;chablais;désert de platé;;;;;;8;8;0;0;0;8;0;0;8;randonnée;ski;;;;;;;;;
+1718-74-12;02/04/2018;4;2018;11:00;11;74;chamonix;mont blanc;pointe alphonse favre;45.5918 ; 6.5142;2680;40-44;S;9;7;0;0;0;0;1;5;1;randonnée;ski;montée;3;sèche;tendre;linéaire;accidentelle soi-même;580;80;40
+1718-74-13;30/04/2018;4;2018;11:00;11;74;chamonix;mont blanc;glacier rond;45.52414 ; 6.52396;3450;>45;NO;4;1;1;0;1;0;1;0;0;randonnée;ski;arrêt;3;sèche;;linéaire;accidentelle tiers;700;;
+1718-74-14;29/03/2018;3;2018;15:00;15;74;araches la frasse;chablais;;;;1700;>45;;6;1;0;0;0;1;0;1;0;hors-piste;ski;descente;3;humide;tendre;linéaire;accidentelle soi-même;100;30;
+1718-88-01;01/02/2018;2;2018;;;88;saint maurice sur moselle;ballon d'alsace;couloir de Birkel;47.4926 ; 6.5048;1210;>45;E;1;1;1;0;1;0;1;0;0;randonnée;ski;descente;3;;;linéaire;accidentelle soi-même;;;
+1617-04-01;26/03/2017;3;2017;14:10;14;4;saint paul sur ubaye;ubaye;col mirandol vallon grand;44.30154;6.47582;2480;40-44;NO;5;4;2;2;0;2;0;1;3;randonnée;ski;descente;4;sèche;tendre;linéaire;accidentelle soi-même;50;90;45
+1617-05-02;29/01/2017;1;2017;11:40;11;5;ceillac;queyras;col des ugousses;;;;;;2;2;0;0;0;0;0;1;1;randonnée;ski;;2;;;linéaire;accidentelle soi-même;;;
+1617-05-03;04/02/2017;2;2017;;;5;dévoluy;dévoluy;vallon pierea d'agnère combe sommarel;;;2300;;NO;10;3;2;2;0;1;0;0;3;hors-piste;ski;descente;;sèche;;linéaire;accidentelle soi-même;;;
+1617-05-04;11/02/2017;2;2017;15:55;15;5;val des prés;queyras;couloir ombilic;44.533924;6.415731;2350;40-44;N;3;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sèche;;linéaire;accidentelle soi-même;250;;80
+1617-05-05;11/02/2017;2;2017;11:00;11;5;val des prés;queyras;couloir bois vacher;44.542075;6.42146;2270;35-39;O;2;1;0;0;0;1;0;1;0;hors-piste;ski;descente;3;sèche;;linéaire;accidentelle soi-même;320;;
+1617-05-06;17/02/2017;2;2017;12:35;12;5;montgenèvre;thabor;couloir nord est mont chaberton;44.57578;6.4526;3040;40-44;NE;3;3;0;0;0;3;3;0;0;randonnée;ski;descente;3;sèche;;linéaire;;620;50;
+1617-05-07;03/03/2017;3;2017;12:30;12;5;risoul;embrunnais;cabane valbelle;;;;;;;1;0;0;0;1;0;1;0;hors-piste;ski;descente;3;sèche;;linéaire;accidentelle soi-même;;;
+1617-05-08;04/03/2017;3;2017;;;5;saint chaffrey;pelvoux;couloir NE sous prorel;44.542667;6.345041;2440;35-39;NE;2;2;0;0;0;1;0;1;1;hors-piste;ski;traversée;3;sèche;;linéaire;accidentelle soi-même;210;50;40
+1617-05-09;07/03/2017;3;2017;16:00;16;5;saint andré d'embrun;embrunais parpaillon;clos chardon;44.35573;6.382958;2315;>45;NE;3;2;1;1;0;1;1;0;1;hors-piste;ski;descente;4;sèche;dure;linéaire;accidentelle tiers;20;50;120
+1617-05-10;07/03/2017;3;2017;10:05;10;5;abriès;queyras;crête de gilly / grande combe;44.47578;6.57286;2430;40-44;N;2;1;1;1;0;0;0;1;0;hors-piste;ski;descente;4;sèche;tendre;linéaire;accidentelle soi-même;450;300;150
+1617-05-11;12/03/2017;3;2017;13:55;13;5;guillestre;embrunais parpaillon;crête de razis;;;;;N;3;1;0;0;0;1;0;1;0;hors-piste;ski;descente;2;sèche;dure;linéaire;accidentelle soi-même;200;30;50
+1617-05-12;12/03/2017;3;2017;14:50;14;5;cervières;queyras;face N arpelin;44.4938;6.4420;2500;35-39;N;13;1;0;0;0;0;0;0;1;randonnée;raquettes;;2;humide;tendre;linéaire;accidentelle soi-même;200;450;
+1617-05-13;16/04/2017;4;2017;09:55;9;5;crots;embrunais parpaillon;gros ferrant;44.280698;6.273163;2270;40-44;N;2;2;0;0;0;0;0;1;1;randonnée;ski;descente;2;humide;dure;linéaire;accidentelle soi-même;420;100;
+1617-05-14;08/05/2017;5;2017;12:00;12;5;vars;queyras;couloir nord crête laugier;44.353838;6.452909;2950;>45;NE;1;1;0;0;0;0;1;0;0;randonnée;ski;montée;;humide;tendre;;naturelle;450;;
+1617-06-01;07/03/2017;3;2017;12:00;12;6;isola;mercantour;sistron cloutas;;;;;;1;1;0;0;0;1;0;0;1;hors-piste;ski;descente;3;sèche;;linéaire;accidentelle soi-même;;;
+1617-06-02;07/03/2017;3;2017;14:15;14;6;isola;mercantour;sistron cloutas;;;;;;1;1;0;0;0;1;0;0;1;hors-piste;ski;descente;3;sèche;;linéaire;accidentelle soi-même;;;
+1617-38-02;12/02/2017;2;2017;14:00;14;38;st christophe sur guiers;chartreuse;pas du loup;45.38265721938056;5.80389686727711;1400;30-34;SO;2;1;0;0;0;0;0;1;0;randonnée;ski;descente;2;humide;tendre;ponctuel;accidentelle soi-même;50;;
+1617-64-01;14/01/2017;1;2017;12:17;12;64;laruns;aspe ossau;crete de gabarderes;42.515;0.226;2300;35-39;N;3;3;2;2;0;1;1;1;1;randonnée;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;450;100;
+1617-68-01;12/02/2017;2;2017;13:45;13;68;stosswhir;hohneck;couloir en Y;48.0227;7.0047;1300;>45;N;4;2;0;0;0;0;0;1;1;alpinisme;… pieds;montée;;humide;dure;linéaire;accidentelle soi-même;120;20;40
+1617-73-02;13/01/2017;1;2017;11:00;11;73;tignes;haute-tarentaise;secteur paleté entre pentes Lognan et télésiège Tichot;;;2400;30-34;SE;3;1;1;1;0;0;0;1;0;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;20;40;160
+1617-73-03;14/01/2017;1;2017;14:00;14;73;bonneval sur arc;haute maurienne;plan de l'aigle NO Ouille Motta;;;2300;40-44;NO;5;2;0;0;0;2;0;0;2;randonnée;ski;descente;3;sèche;;linéaire;accidentelle soi-même;240;50;
+1617-73-04;14/01/2017;1;2017;13:00;13;73;saint bon tarentaise;vanoise;saulire;;;;;;;1;1;1;0;0;0;0;1;hors-piste;ski;descente;3;sèche;;linéaire;accidentelle soi-même;;;
+1617-73-05;19/01/2017;1;2017;11:50;11;73;saint bon tarentaise;vanoise;col du biol;45.224452;6.411404;2430;30-34;O;15;1;1;1;0;0;0;0;1;randonnée;ski;traversée;3;sèche;dure;linéaire;accidentelle soi-même;120;50;30
+1617-73-06;20/01/2017;1;2017;14:30;14;73;sainte foy tarentaise;haute-tarentaise;col de l'argentiere archeboc;45.355277;6.573375;2150;35-39;NO;3;1;1;1;0;0;1;0;0;randonnée;ski;descente;2;sèche;dure;linéaire;accidentelle soi-même;130;200;50
+1617-73-07;28/01/2017;1;2017;16:17;16;73;montricher albane;maurienne;combe des sallanches;45.11494;6.232114;2460;35-39;NE;2;1;0;0;0;1;0;1;0;randonnée;ski;descente;3;sèche;;linéaire;accidentelle tiers;220;20;40
+1617-73-08;05/02/2017;2;2017;14:40;14;73;modane;haute maurienne;couloir en Y du seuil;45.95076;6.395686;2240;35-39;NE;2;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sèche;;linéaire;accidentelle soi-même;430;40;100
+1617-73-09;12/02/2017;2;2017;14:55;14;73;le chatel;vanoise;la barnière;45.19464;6.22149;1490;;;5;1;0;0;0;0;0;0;1;randonnée;;;3;;;linéaire;accidentelle soi-même;;;
+1617-73-10;13/02/2017;2;2017;10:35;10;73;tignes;haute-tarentaise;pentes du lavachet;45.275474;6.55635;2450;40-44;NO;4;4;4;4;0;0;4;0;0;hors-piste;… pieds;traversée;3;sèche;dure;linéaire;accidentelle soi-même;330;50;100
+1617-73-11;16/02/2017;2;2017;11:00;11;73;lanslevillard;haute maurienne;secteur pas de l'arcelle;45.164538;6.570931;2450;35-39;NE;9;5;0;0;0;5;0;0;5;randonnée;ski;traversée;3;sèche;dure;linéaire;accidentelle soi-même;160;200;70
+1617-73-12;03/03/2017;3;2017;14:25;14;73;villaroger;vanoise;combe des lanchettes;;;2300;;;7;5;0;0;0;0;0;0;5;hors-piste;ski;descente;3;sèche;;linéaire;accidentelle soi-même;;;
+1617-73-14;07/03/2017;3;2017;16:00;16;73;modane;haute maurienne;couloir du seuil;45.95005;6.395724;2251;35-39;NE;3;3;2;2;0;1;3;0;0;hors-piste;snowboard;descente;4;sèche;tendre;linéaire;accidentelle soi-même;475;115;200
+1617-73-15;30/04/2017;4;2017;12:05;12;73;bourg saint maurice;beaufortain;versant nord col nova;;;;;;1;1;0;0;0;1;0;1;0;randonnée;ski;descente;;sèche;;linéaire;accidentelle soi-même;;;
+1617-73-16;05/05/2017;5;2017;;;73;avrieux;haute maurienne;face NO aiguille scolette;;;;;;2;2;0;0;0;0;0;1;1;randonnée;;;;;;linéaire;accidentelle soi-même;;;
+1617-73-17;09/05/2017;5;2017;11:00;11;73;bonneval sur arc;haute maurienne;col du greffier couloir;45.204138;7.54464;2990;>45;NO;3;3;0;0;0;3;3;0;0;alpinisme;… pieds;montée;;sèche;dure;linéaire;accidentelle soi-même;350;40;100
+1617-73-18;20/05/2017;5;2017;18:10;18;73;sainte foy tarentaise;haute tarentaise;face nord pointe des plates des chamois sous point coté 3441 m;45.321801;6.582003;3240;>45;N;2;1;0;0;0;0;1;0;0;randonnée;ski;descente;;humide;tendre;linéaire;accidentelle soi-même;640;;
+1617-73-20;01/03/2017;3;2017;15:00;15;73;lanslevillard;haute maurienne;pas du loup;;;2250;>45;;3;1;0;0;0;0;0;1;0;randonnée;ski;descente;;sèche;;linéaire;accidentelle soi-même;;;
+1617-73-13;07/03/2017;3;2017;09:45;9;73;tignes;haute tarentaise;grande balme piste Carline;45.264309;6.53877;2650;40-44;N;33;33;6;1;5;14;0;2;31;piste;ski;descente;4;sèche;tendre;linéaire;naturelle;350;120;200
+1617-74-01;12/02/2017;2;2017;13:15;13;74;la clusaz;aravis;combe du rocher jaune face N pointe merdassier;45.86422029545258;6.450720593279136;1970;35-39;N;4;2;1;1;0;0;1;0;1;randonnée;ski;descente;2;sèche;tendre;linéaire;accidentelle tiers;320;100;
+1617-74-03;28/04/2017;4;2017;;;74;avoriaz;chablais;;;;;;;;1;1;1;0;0;0;1;0;randonnée;ski;;;;;;;;;
+1617-74-02;12/02/2017;2;2017;08:30;8;74;praz sur arly;mont blanc;secteur Véry;45.86422029545258;6.450720593279136;2250;35-39;NO;1;1;1;1;0;0;1;0;0;randonnée;ski;descente;2;sèche;dure;linéaire;accidentelle soi-même;375;150;150
+1718-05-01;08/12/2017;12;2017;15:15;15;5;saint véran;queyras;pointe des marcelettes;44.405 ; 6.515;2550;35-39;NO;2;1;0;0;0;0;0;1;0;randonnée;ski;descente;;sèche;dure;linéaire;accidentelle soi-même;200;30;40
+1718-15-01;16/12/2017;12;2017;;;15;laveissière;lioran;fond alagnon;45.533 ; 2.433;1530;35-39;SE;1;1;1;0;1;0;1;0;0;randonnée;ski;descente;;humide;tendre;linéaire;accidentelle soi-même;50;;
+1718-38-01;02/12/2017;12;2017;;;38;saint christophe sur guiers;chartreuse;combe de l'ours petit som;45.235 ; 5.4835;1670;35-39;SO;2;2;2;2;0;0;2;0;0;randonnée;ski;montée;;sèche;tendre;linéaire;accidentelle soi-même;125;;
+1718-38-02;02/12/2017;12;2017;;;38;saint pancrasse;chartreuse;pas de l'oeille dent de crolles;45.1831 ; 5.518;1910;40-44;SO;1;1;0;0;0;0;1;0;0;randonnée;ski;descente;;sèche;tendre;linéaire;accidentelle soi-même;50;;
+1718-38-16;28/12/2017;12;2017;13:45;13;38;la combe de lancey;belledonne;lac de la sitre;45.1052 ; 5.575;2120;35-39;SO;2;1;0;0;0;0;0;1;0;randonnée;raquettes;traversée;;sèche;tendre;linéaire;accidentelle soi-même;;;
+1718-38-19;09/12/2017;12;2017;09:30;9;38;alpe d'huez;grandes rousses;sommet marmottes 2;;;;;;2;2;0;0;0;1;0;2;0;minage;ski;descente;;sèche;;linéaire;accidentelle soi-même;;;15
+1718-65-01;26/11/2017;11;2017;;;65;aragnouet;haute bigorre;pic du piau;;;;;N;3;1;0;0;0;0;0;1;0;randonnée;ski;;;;;linéaire;accidentelle soi-même;;;
+1718-66-01;30/12/2017;12;2017;13:10;13;66;porta;capcir puymorens;pic dels pedrons;42.3155 ; 1.4511;2610;40-44;SE;4;4;0;0;0;4;0;0;4;randonnée;ski;descente;4;sèche;dure;linéaire;accidentelle soi-même;130;100;120
+1718-73-01;09/12/2017;12;2017;15:55;15;73;aime;vanoise;piste pavane;;;;;;2;2;0;0;0;2;0;1;1;autre;à pieds;;;sèche;;linéaire;accidentelle soi-même;;;
+1718-73-02;13/12/2017;12;2017;12:44;12;73;tignes;haute tarentaise;pointe de fresse / campanules;45.2655 ; 6.5524;2550;35-39;SE;2;1;1;1;0;0;0;1;0;hors-piste;ski;descente;3;sèche;dure;linéaire;accidentelle tiers;80;40;90
+1718-73-03;15/12/2017;12;2017;14:10;14;73;granier;beaufortain;la poula face est pointe combe benite;45.3526 ; 6.374;2410;40-44;E;2;1;1;1;0;0;1;0;0;randonnée;ski;descente;3;sèche;;linéaire;accidentelle soi-même;315;;
+1718-73-04;30/12/2017;12;2017;16:00;16;73;val d'isere;haute tarentaise;face ouest pelaou blanc;45.2352 ; 6.5956;2740;35-39;SO;4;2;2;1;1;0;1;0;1;randonnée;ski;montée;;sèche;tendre;linéaire;accidentelle soi-même;200;100;40
+1718-74-01;09/12/2017;12;2017;;;74;Faverges-Seythenex;bauges;petite sambuy;;;;;;3;3;1;1;0;1;0;2;1;randonnée;ski;;;;;linéaire;accidentelle soi-même;;40;60
+1617-05-01;27/12/2016;12;2016;15:10;15;5;cervières;queyras;petit peygu face nord est;44.503111;6.422583;2570;35-39;NE;5;5;0;0;0;0;0;3;2;randonnée;ski;descente;3;sèche;dure;linéaire;accidentelle soi-même;;40;30
+1617-38-01;20/12/2016;12;2016;20:00;20;38;saint christophe en oisans;oisans;refuge pilatte;44.521433;6.195273;2560;>45;NE;3;3;0;0;0;0;0;1;2;randonnée;… pieds;montée;2;sèche;tendre;linéaire;accidentelle soi-même;160;450;
+1617-73-01;20/11/2016;11;2016;12:30;12;73;champagny en vanoise;vanoise;col des vés;;;;;;4;1;0;0;0;1;0;1;0;hors-piste;ski;descente;;;;linéaire;accidentelle soi-même;;;
+1617-73-19;13/11/2016;11;2016;11:15;11;73;tignes;haute tarentaise;face nord pointe du chardonnet;;;2800;;;4;1;0;0;0;0;0;0;1;randonnée;ski;montée;;;;linéaire;accidentelle soi-même;;;
+1516-04-01;05/03/2016;3;2016;16:40;16;4;enchastrayes;ubaye;les roubines / super sauze;44.20521;6.40454;1970;40-44;N;2;2;0;0;0;1;0;1;1;hors-piste;ski;descente;4;sèche;tendre;linéaire;accidentelle soi-même;70;40;40
+1516-05-01;16/01/2016;1;2016;12:00;12;5;les orres;embrunnais-parpaillon;tête de la mazelière / rocher marcelinas;;;;;;2;1;0;0;0;1;0;1;0;randonnée;ski;montée;;;;linéaire;accidentelle soi-même;;;
+1516-05-02;14/02/2016;2;2016;12:30;12;5;Vars;embrunnais-parpaillon;chagnon de peinier;;;;;;2;1;1;1;0;0;0;1;0;hors-piste;ski;descente;3;;;linéaire;accidentelle soi-même;;;
+1516-05-03;23/02/2016;2;2016;13:00;13;5;ceillac;queyras;vallon ste anne;44.37146;6.48645;2520;35-39;NE;20;3;1;1;0;0;1;0;2;randonnée;ski;descente;3;humide;tendre;linéaire;accidentelle soi-même;80;;60
+1516-05-04;24/04/2016;4;2016;;;5;pelvoux;pelvoux;coup de sabre;;;;>45;NO;2;2;0;0;0;0;0;0;2;alpinisme;… pieds;;;;;;;;;
+1516-38-01;13/01/2016;1;2016;15:45;15;38;mont de lans;oisans;piste noire de Bellecombe / montagne de Rachas;44.594159;6.92808;2690;35-39;NE;11;5;4;3;1;0;3;1;1;hors-piste;ski;descente;3;sèche;;linéaire;accidentelle tiers;370;100;200
+1516-38-02;05/03/2016;3;2016;12:00;12;38;les adrets;belledonne;;;;;;;2;2;0;0;0;0;0;2;0;hors-piste;ski;descente;;sèche;;linéaire;accidentelle soi-même;;;
+1516-38-03;07/03/2016;3;2016;11:45;11;38;la ferrière;belledonne;combe perdue;;;;;;1;1;1;0;1;0;0;1;0;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle tiers;;;
+1516-38-04;24/04/2016;4;2016;11:00;11;38;laval;belledonne;cime de la jasse est;;;2300;30-34;SE;9;5;3;2;1;1;0;0;5;randonnée;ski;montée;;;;linéaire;accidentelle soi-même;;;
+1516-63-01;01/05/2016;5;2016;12:00;12;63;mont dore;mont dore;cascade de la dore;;;;;N;2;1;1;1;0;0;0;1;0;randonnée;ski;;;;;linéaire;accidentelle soi-même;;;
+1516-65-01;08/03/2016;3;2016;;;65;bagnères de bigorre;haute bigorre;col d'aouet;;;;;NO;5;2;1;1;0;1;0;1;1;randonnée;ski;;;;;;;;;
+1516-65-02;22/03/2016;3;2016;17:35;17;65;bareges;haute bigorre;entrée vallon dets coubous;42.53382;0.64411;1850;>45;O;15;15;0;0;0;3;0;6;9;randonnée;raquettes;traversée;2;humide;tendre;linéaire;naturelle;300;10;40
+1516-65-03;17/04/2016;4;2016;08:30;8;65;bagnères de bigorre;haute bigorre;couloir des poubelles pic du midi (couloir nord est);42.561926;0.085307;2360;40-44;NE;3;3;0;0;0;3;2;1;0;alpinisme;… pieds;montée;3;;;;;;;
+1516-66-01;20/03/2016;3;2016;11:00;11;66;porta;capcir puymorens;roc des isards;;;;;;4;4;0;0;0;0;0;1;3;randonnée;… pieds;;3;humide;;;accidentelle soi-même;;;
+1516-68-01;13/02/2016;2;2016;14:15;14;68;stockersohn;ballon des vosges;secteur col des perches;;;;;;8;1;0;0;0;0;0;0;1;randonnée;raquettes;traversée;;;;;naturelle;;;
+1516-73-01;05/01/2016;1;2016;13:58;13;73;saint colomban les villards;maurienne;pierre du turc / crête de tête bellard;45.1509;6.1326;2150;40-44;NO;2;1;1;1;0;0;1;0;0;hors-piste;ski;descente;4;;;linéaire;accidentelle soi-même;290;50;
+1516-73-02;05/01/2016;1;2016;11:50;11;73;val d'isere;haute tarentaise;super santon;44.266;6.5724;2375;35-39;SE;4;1;1;1;0;0;1;0;0;hors-piste;ski;descente;4;sèche;tendre;linéaire;accidentelle soi-même;100;50;80
+1516-73-03;05/01/2016;1;2016;10:24;10;73;val d'isere;haute tarentaise;HP du Cairn / Bellevarde;45.2639;6.5717;2650;40-44;E;3;3;2;2;0;0;0;1;2;hors-piste;ski;traversée;4;sèche;;linéaire;accidentelle soi-même;80;70;
+1516-73-04;09/01/2016;1;2016;13:00;13;73;les allues;vanoise;mont de péclet;;;;;;1;1;0;0;0;0;0;0;1;hors-piste;ski;descente;;sèche;;linéaire;accidentelle soi-même;150;;
+1516-73-05;13/01/2016;1;2016;13:54;13;73;tignes;haute tarentaise;pentes du lac de Tignes;45.2751;6.5438;2205;35-39;NO;1;1;0;0;0;1;0;1;0;hors-piste;ski;descente;4;sèche;tendre;linéaire;accidentelle soi-même;125;80;100
+1516-73-06;17/01/2016;1;2016;16:30;16;73;saint martin de belleville;vanoise;piste david douillet;;;;;;1;1;0;0;0;0;0;0;1;piste;ski;descente;3;;;linéaire;;;30;
+1516-73-07;18/01/2016;1;2016;15:05;15;73;tignes;haute tarentaise;couloir des gendarmes;;;2600;35-39;NE;4;1;0;0;0;0;0;1;0;hors-piste;ski;descente;3;sèche;dure;linéaire;accidentelle soi-même;300;60;50
+1516-73-08;18/01/2016;1;2016;13:05;13;73;modane;haute maurienne;col du petit argentier;45.8847;6.385322;2600;>45;E;52;18;11;8;3;7;6;8;4;randonnée;ski;montée;3;sèche;;linéaire;accidentelle soi-même;260;220;180
+1516-73-09;20/01/2016;1;2016;12:25;12;73;les allues;vanoise;crête roc des trois/mont de la chambre versant est;45.1958;6.3421;2650;>45;E;2;1;1;1;0;0;0;1;0;hors-piste;ski;descente;3;sèche;;linéaire;accidentelle soi-même;130;180;200
+1516-73-10;21/01/2016;1;2016;;;73;champagny en vanoise;vanoise;combe des arriérés;;;;;;3;3;0;0;0;0;0;0;3;hors-piste;ski;descente;;sèche;tendre;linéaire;accidentelle soi-même;;200;
+1516-73-11;21/01/2016;1;2016;13:55;13;73;la cote d'aime;beaufortain;mont rosset;;;2440;;;1;1;0;0;0;0;0;1;0;randonnée;ski;;;sèche;;linéaire;accidentelle soi-même;;;
+1516-73-12;25/01/2016;1;2016;14:50;14;73;champagny en vanoise;vanoise;vallon de la velière;;;;>45;S;3;1;0;0;0;0;0;1;0;randonnée;… pieds;traversée;;humide;tendre;;naturelle;;;
+1516-73-13;27/01/2016;1;2016;11:38;11;73;saint bon courchevel;vanoise;couloir du ruisseau de la planche / vallée des avanchers;45.225;6.3939;2490;30-34;NE;9;4;0;0;0;1;0;1;3;hors-piste;ski;descente;2;sèche;tendre;linéaire;accidentelle soi-même;;50;30
+1516-73-14;06/02/2016;2;2016;14:35;14;73;landry;vanoise;couloir NO aiguille grive;;;;;;3;1;0;0;0;1;0;1;0;hors-piste;ski;descente;;sèche;;linéaire;accidentelle soi-même;;;
+1516-73-15;13/02/2016;2;2016;12:55;12;73;la perrière;vanoise;les lanches;45.2440;6.3555;2150;40-44;N;1;1;1;0;1;0;1;0;0;hors-piste;ski;descente;;sèche;tendre;linéaire;accidentelle soi-même;380;50;
+1516-73-16;15/02/2016;2;2016;16:25;16;73;bonneval sur arc;haute maurienne;pointe d'andagne;45.205578;7.33119;3000;40-44;O;4;1;1;1;0;0;0;1;0;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;125;150;100
+1516-73-17;15/03/2016;3;2016;14:15;14;73;saint martin belleville;vanoise;face SE cochet;;;1700;;;2;2;0;0;0;0;0;0;2;randonnée;ski;montée;;;;;;;;
+1516-73-18;05/04/2016;4;2016;10:30;10;73;bessans;haute maurienne;piste noire de fond Barmette / couloir issu pointe de Tierce;45.1857;7.021;1970;35-39;NO;12;7;0;0;0;3;0;2;5;piste;ski;arrêt;3;humide;tendre;linéaire;naturelle;220;30;120
+1516-73-19;19/04/2016;4;2016;13:05;13;73;tignes;haute tarentaise;rocher de la grande balme;;;2880;40-44;N;4;1;0;0;0;1;0;1;0;hors-piste;ski;descente;2;sèche;dure;linéaire;accidentelle soi-même;280;40;80
+1516-74-01;03/01/2016;1;2016;12:45;12;74;chamonix;mont blanc;petite verte grand montets;45.56404;6.57465;3390;30-34;N;3;3;1;0;1;1;2;0;1;alpinisme;… pieds;montée;3;sèche;tendre;linéaire;accidentelle soi-même;290;40;50
+1516-74-02;11/01/2016;1;2016;;;74;chamonix;mont blanc;route col des montets;;;;;;1;1;0;0;0;0;0;0;1;voie de communication;;;4;;;;naturelle;;;
+1516-74-03;13/01/2016;1;2016;13:35;13;74;morzine;chablais;secteur arare;;;2255;40-44;NO;5;1;0;0;0;0;0;1;0;piste;ski;descente;3;sèche;dure;linéaire;naturelle;110;60;250
+1516-74-04;30/01/2016;1;2016;09:57;9;74;la clusaz;aravis;combe du grand crêt / tête pelouse;45.54349;6.30369;2500;40-44;NO;2;1;1;1;0;0;1;0;0;randonnée;ski;descente;2;sèche;dure;linéaire;accidentelle soi-même;440;150;150
+1516-74-05;12/02/2016;2;2016;;;74;chamonix;mont blanc;couloir ortha;;;;;NO;2;2;0;0;0;0;0;1;1;randonnée;raquettes;traversée;;;;;;;;
+1516-74-06;27/02/2016;2;2016;18:00;18;74;saint gervais les bains;mont blanc;mont lachat;45.86414678597452;6.79344642010466;2015;30-34;O;1;1;0;0;0;1;0;1;0;randonnée;raquettes;montée;3;sèche;tendre;linéaire;accidentelle soi-même;200;50;200
+1516-74-07;27/02/2016;2;2016;10:15;10;74;chamonix;mont blanc;lac du brévent;45.933421371607196;6.82563079264952;2100;30-34;SO;1;1;1;1;0;0;1;0;0;randonnée;ski;descente;3;sèche;dure;linéaire;accidentelle soi-même;100;75;
+1516-74-08;27/02/2016;2;2016;11:10;11;74;la clusaz;aravis;combe de la grande forclaz;45.93390980591135;6.521299810058128;1980;35-39;NO;3;1;1;1;0;0;0;0;1;randonnée;ski;descente;;sèche;dure;linéaire;accidentelle soi-même;90;30;40
+1516-74-10;09/03/2016;3;2016;;;74;le petit bornand des glières;aravis;pointe de sosay;;;;;;3;2;1;1;0;0;1;0;1;randonnée;ski;;3;sèche;;linéaire;accidentelle soi-même;;;150
+1516-74-09;27/02/2016;2;2016;13:45;13;74;sixt fer … cheval;chablais;couloir du lion;46.02083578296514;6.824246394136527;1750;35-39;SE;1;1;0;0;0;1;0;1;0;randonnée;… pieds;montée;3;sèche;tendre;linéaire;naturelle;100;20;200
+1516-88-01;03/03/2016;3;2016;13:45;13;88;saint maurice sur moselle;ballon d'alsace;belvedere de birken;47.4926;6.5046;1225;>45;E;2;1;0;0;0;1;0;1;0;randonnée;ski;traversée;;humide;;linéaire;accidentelle soi-même;200;50;
+1516-74-11;20/06/2016;6;2016;11:30;11;74;chamonix;mont blanc;tacul;45.86139073502624;6.885176834040952;4020;30-34;NO;2;3;1;0;1;2;1;2;0;alpinisme;… pieds;descente;;sèche;tendre;linéaire;accidentelle soi-même;1200;60;80
+1415-05-02;18/01/2015;1;2015;13:00;13;5;puy saint vincent;pelvoux;col du bal;;;2400;;NE;3;3;2;2;0;0;0;2;1;hors-piste;ski;descente;4;sèche;;linéaire;accidentelle soi-même;300;;
+1415-05-03;21/01/2015;1;2015;09:55;9;5;puy saint vincent;pelvoux;couloir des faveyrettes;44.48371;6.27305;2350;35-39;NO;2;2;1;0;1;1;2;0;0;hors-piste;ski;descente;3;sèche;dure;linéaire;accidentelle soi-même;400;15;100
+1415-05-04;24/01/2015;1;2015;11:40;11;5;ceillac;queyras;combe du bachas;44.38168;6.45597;2770;35-39;NE;6;6;6;6;0;0;6;0;0;randonnée;ski;descente;3;sèche;dure;linéaire;accidentelle soi-même;450;200;80
+1415-05-05;06/02/2015;2;2015;;;5;le monetier les bains;thabor;ruisseau rif blanc;;;;;;3;1;0;0;0;0;0;1;0;randonnée;ski;;;;;;;;;
+1415-05-06;08/02/2015;2;2015;13:30;13;5;molines en queyras;queyras;route col agnel;44.41530;6.56558;2340;30-34;SO;1;1;1;1;0;0;1;0;0;randonnée;raquettes;traversée;4;sèche;tendre;linéaire;accidentelle soi-même;50;120;120
+1415-05-07;09/02/2015;2;2015;10:45;10;5;cervières;queyras;col de chaudemaison;;;2400;30-34;O;3;1;1;1;0;0;1;0;0;randonnée;ski;traversée;4;sèche;tendre;linéaire;accidentelle soi-même;100;40;50
+1415-05-08;14/02/2015;2;2015;16:00;16;5;le monetier les bains;pelvoux;source des fraches;;;2200;>45;NO;1;1;0;0;0;1;0;1;0;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;240;2;15
+1415-05-09;16/02/2015;2;2015;;;5;cervières;queyras;col perdu;44.49172;6.44304;2550;35-39;NO;2;2;2;2;0;0;2;0;0;randonnée;raquettes;descente;3;sèche;dure;linéaire;accidentelle soi-même;200;70;70
+1415-05-10;01/04/2015;4;2015;14:45;14;5;pelvoux;pelvoux;col emile pic;44.57168;6.23123;3420;>45;SE;14;12;6;4;2;2;3;2;7;randonnée;ski;arrêt;;sèche;dure;linéaire;accidentelle soi-même;360;200;350
+1415-05-11;28/04/2015;4;2015;;;5;le monetier les bains;pelvoux;couloir davin;;;3000;40-44;N;1;1;0;0;0;0;1;0;0;alpinisme;… pieds;montée;;sèche;;linéaire;;800;100;
+1415-05-12;15/09/2015;9;2015;11:45;11;5;pelvoux;pelvoux;dome de neige des Ecrins;44.55232;6.21307;3965;40-44;N;8;8;5;1;4;0;7;1;0;alpinisme;… pieds;traversée;;humide;dure;linéaire;accidentelle soi-même;220;250;200
+1415-06-03;06/02/2015;2;2015;;;6;isola;mercantour;route accès isola M97;;;;;;3;3;0;0;0;0;0;0;3;voie de communication;véhicule route;traversée;4;sèche;;;naturelle;;;
+1415-06-04;16/02/2015;2;2015;10:15;10;6;saint dalmas de selvage;mercantour;route col bonnette lieudit Le Pra;;;;;;;3;2;2;0;1;0;0;3;randonnée;ski;montée;3;;;;;;;
+1415-09-01;18/01/2015;1;2015;13:00;13;9;auzat;haute ariege;secteur etang du pinet;42.40591;1.23254;2440;35-39;NO;2;1;1;1;0;0;1;0;0;alpinisme;… pieds;traversée;3;sèche;tendre;linéaire;accidentelle soi-même;50;;
+1415-09-02;03/03/2015;3;2015;15:00;15;9;l'hospitalet pres l'andorre;haute ariege;roc de carroux / voie RN 320;42.34491;1.47064;1900;40-44;SE;2;2;0;0;0;0;0;0;2;voie de communication;véhicule route;traversée;3;humide;dure;linéaire;naturelle;350;15;150
+1415-31-01;02/02/2015;2;2015;14:30;14;31;boutx;luchonnais;couloir fontaine de pan;;;;;N;5;5;1;1;0;0;1;1;3;hors-piste;ski;descente;4;sèche;tendre;linéaire;accidentelle soi-même;;;
+1415-38-01;28/01/2015;1;2015;12:20;12;38;villards de lans;vercors;combe chaulange;45.04126;5.36163;1870;35-39;SO;18;3;1;1;0;2;1;0;2;randonnée;ski;montée;2;sèche;dure;linéaire;accidentelle soi-même;170;200;250
+1415-38-02;07/02/2015;2;2015;15:00;15;38;Freney d'Oisans;grandes rousses;grandes buffes;45.04065;6.06307;1970;35-39;O;1;1;0;0;0;0;0;0;1;randonnée;ski;montée;;sèche;;linéaire;accidentelle soi-même;;40;40
+1415-38-03;08/02/2015;2;2015;11:30;11;38;villard de lans;vercors;roc cornafion;45.4975;5.36333;1830;40-44;SO;3;1;0;0;0;0;0;0;1;randonnée;ski;descente;;;;linéaire;accidentelle soi-même;90;80;50
+1415-38-04;22/02/2015;2;2015;13:15;13;38;saint honoré;oisans;combe de la mouche;44.47570;5.50175;1950;30-34;O;4;4;2;1;1;2;1;2;1;randonnée;ski;montée;3;humide;dure;linéaire;accidentelle soi-même;300;80;20
+1415-38-05;28/02/2015;2;2015;10:10;10;38;saint pierre de chartreuse;charteuse;combe ouest charmant som;45.19370;5.45413;1690;30-34;O;7;1;1;1;0;0;1;0;0;randonnée;ski;descente;2;sèche;tendre;linéaire;accidentelle soi-même;105;;10
+1415-38-06;05/03/2015;3;2015;13:00;13;38;allemond;belledonne;col de roche noire;45.11774;5.592636;2500;30-34;NE;2;1;1;1;0;0;0;0;1;randonnée;ski;;;sèche;;linéaire;accidentelle soi-même;;;
+1415-38-07;23/01/2015;1;2015;12:30;12;38;villard de lans;vercors;crête des crocs;45.44213;5.36228;;35-39;NO;4;1;0;0;0;0;0;1;0;randonnée;snowboard;descente;;;;;;;;
+1415-64-01;17/02/2015;2;2015;16:15;16;64;eaux bonnes;ossau;route D918 / ravin des arrious;42.57584;0.19413;1690;35-39;SO;5;5;4;4;0;1;0;3;2;randonnée;… pieds;traversée;3;humide;tendre;ponctuel;naturelle;365;;
+1415-65-02;01/02/2015;2;2015;08:15;8;65;aulon;haute bigorre;village / couloir La Peyrie;42.5210;0.1711;2200;35-39;SE;2;2;0;0;0;2;0;0;2;habitation;… pieds;arrêt;4;sèche;dure;linéaire;naturelle;1000;;
+1415-73-04;05/01/2015;1;2015;13:05;13;73;sainte foy tarentaise;haute tarentaise;face nord fogliettaz;45.34559;6.561766;2820;40-44;N;6;5;0;0;0;3;0;4;1;randonnée;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;330;800;100
+1415-73-05;15/01/2015;1;2015;15:10;15;73;tignes;haute tarentaise;couloir lac chardonnet;;;2550;>45;NE;2;1;1;1;0;0;0;1;0;hors-piste;ski;descente;3;humide;dure;linéaire;accidentelle soi-même;200;40;150
+1415-73-21;23/01/2015;1;2015;12:50;12;73;valloire;thabor;pointe des cerces face nord;45.442;6.29295;2980;35-39;NE;2;1;1;1;0;0;1;0;0;randonnée;ski;montée;3;sèche;dure;linéaire;accidentelle soi-même;530;250;100
+1415-73-06;29/01/2015;1;2015;;;73;aillons le vieux;bauges;col de la cochette;;;;;;1;1;1;1;0;0;1;0;0;randonnée;… pieds;arrêt;;;;;naturelle;;;
+1415-73-07;30/01/2015;1;2015;16:10;16;73;la perrière;vanoise;dou des lanches;;;2100;;;1;1;0;0;0;0;0;1;0;hors-piste;ski;descente;4;;;linéaire;accidentelle soi-même;;;
+1415-73-08;31/01/2015;1;2015;;;73;aussois;vanoise;ruisseau de la fournache;45.155509;6.434225;2370;30-34;S;1;1;1;1;0;0;1;0;0;relevés EDF / déplacement ski de rando;ski;montée;4;sèche;;linéaire;accidentelle soi-même;50;50;80
+1415-73-09;31/01/2015;1;2015;;;73;méribel;vanoise;secteur du verdet;;;;;;1;1;1;1;0;0;1;0;0;hors-piste;snowboard;descente;;;;linéaire;accidentelle soi-même;;;
+1415-73-10;02/02/2015;2;2015;08:55;8;73;valloire;haute maurienne;secteur Sétaz;;;2200;35-39;NE;2;1;0;0;0;1;0;0;1;minage;ski;descente;;sèche;;linéaire;accidentelle soi-même;;50;30
+1415-73-11;02/02/2015;2;2015;15:45;15;73;saint bon tarentaise;vanoise;hors-piste chanrossa;;;2250;;;2;1;1;1;0;0;0;0;1;hors-piste;snowboard;descente;;;;linéaire;accidentelle soi-même;;50;
+1415-73-12;02/02/2015;2;2015;16:55;16;73;la bathie;beaufortain;pionte de la grande combe;45.39383;6.312353;2150;30-34;NO;2;1;0;0;0;1;0;0;1;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;300;250;100
+1415-73-13;03/02/2015;2;2015;;;73;saint martin de belleville;vanoise;hors piste de l'entonnoir;;;;;;1;1;1;1;0;0;1;0;0;hors-piste;snowboard;descente;;;;linéaire;accidentelle soi-même;;;
+1415-73-14;07/02/2015;2;2015;13:03;13;73;peisey nancroix;vanoise;couloir des canadiens face nord bellecote;45.29544;6.461599;3050;40-44;NO;3;1;1;0;1;0;1;0;0;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;1250;30;50
+1415-73-15;03/03/2015;3;2015;11:35;11;73;orelle;vanoise;;;;;;;4;4;1;1;0;0;0;1;3;hors-piste;snowboard;descente;;;;linéaire;accidentelle soi-même;;;
+1415-73-16;03/03/2015;3;2015;12:00;12;73;orelle;vanoise;face ouest col rénod;;;;;SO;4;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;;100;
+1415-73-17;29/03/2015;3;2015;11:45;11;73;bonneval sur arc;haute maurienne;col du montet;45.25577;7.05378;3200;40-44;S;9;5;2;1;1;2;1;0;4;randonnée;ski;montée;2;sèche;tendre;linéaire;accidentelle soi-même;60;20;
+1415-73-18;31/03/2015;3;2015;12:28;12;73;tignes;haute tarentaise;couloir chardonnet;;;2550;30-34;NE;2;1;1;1;0;0;0;1;0;hors-piste;ski;descente;4;humide;dure;linéaire;accidentelle soi-même;150;200;80
+1415-73-19;06/04/2015;4;2015;13:35;13;73;bourg saint maurice;vanoise;couloir télécabine aiguille rouge;;;2700;;;3;1;0;0;0;0;0;1;0;hors-piste;ski;descente;;;;linéaire;accidentelle soi-même;400;;
+1415-73-20;06/04/2015;4;2015;;;73;saint jean de belleville;vanoise;mont du fut face nord;;;2730;;;2;1;0;0;0;0;0;0;1;randonnée;ski;descente;;sèche;;linéaire;accidentelle soi-même;400;;
+1415-74-02;21/01/2015;1;2015;12:00;12;74;chamonix;mont blanc;couloir requiin;;;2450;40-44;NE;7;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;50;20;
+1415-74-03;31/01/2015;1;2015;;;74;chatel;chablais;les combes;46.135904;6.484150;1960;35-39;O;2;1;1;1;0;0;0;0;1;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;90;40;80
+1415-74-04;31/01/2015;1;2015;12:30;12;74;chamonix;mont blanc;pré du rocher;45.90515848388159;6.8860030607805855;2190;30-34;NO;3;1;1;1;0;0;0;0;1;hors-piste;ski;descente;4;sèche;tendre;linéaire;accidentelle soi-même;70;20;40
+1415-74-05;02/02/2015;2;2015;16:25;16;74;chatel;chablais;sous le val linga;;;1900;;;4;4;0;0;0;0;0;1;3;hors-piste;ski;descente;4;sèche;tendre;linéaire;accidentelle soi-même;;;
+1415-04-01;08/02/2015;2;2015;11:20;11;4;le vernet;ubaye;sommet grisonniere;44.26127980684879;6.410656893332375;1910;35-39;NO;4;1;0;0;0;1;1;0;0;randonnée;ski;traversée;3;sèche;dure;linéaire;accidentelle soi-même;360;50;30
+1415-74-07;09/02/2015;2;2015;16:00;16;74;le grand bornand;aravis;piste noire lachat piste rouge lanche;;;;;;4;4;0;0;0;0;0;2;2;hors-piste;ski;descente;;sèche;dure;linéaire;accidentelle soi-même;;;
+1415-74-08;05/03/2015;3;2015;;;74;chatel;chablais;secteur piste rennes;;;;;;1;1;0;0;0;0;0;1;0;hors-piste;ski;descente;;sèche;dure;linéaire;accidentelle soi-même;;;
+1415-74-09;06/04/2015;4;2015;13:00;13;74;la clusaz;aravis;couloir lana / combe creuse;;;;;;3;3;1;1;0;1;0;2;1;randonnée;ski;montée;;sèche;;linéaire;accidentelle tiers;;;
+1415-74-06;08/02/2015;2;2015;11:55;11;74;cordon;aravis;croise baulet couloir nant d'enfer;45.89652575468682;6.544866232526041;1930;30-34;O;2;1;0;0;0;1;0;1;0;randonnée;ski;descente;2;humide;dure;linéaire;accidentelle soi-même;410;20;30
+1415-74-11;25/08/2015;8;2015;08:40;8;74;chamonix;mont blanc;face nord go–ter;;;;;;3;2;0;0;0;0;0;0;2;alpinisme;… pieds;;;;;;;;;
+1415-74-10;18/04/2015;4;2015;10:45;10;74;chamonix;mont blanc;face nord aiguille grands montets;45.94925265283693;6.96076394126266;3230;40-44;NE;2;1;0;0;0;1;1;0;0;equipement piste;ski;descente;2;humide;tendre;linéaire;accidentelle soi-même;100;25;20
+1415-05-01;31/12/2014;12;2014;12:50;12;5;le monetier les bains;thabor;secteur col du galibier;45.3353;6.23564;2750;30-34;E;4;1;1;1;0;0;1;0;0;randonnée;ski;traversée;3;sèche;dure;linéaire;accidentelle soi-même;100;100;70
+1415-06-01;07/12/2014;12;2014;10:45;10;6;isola;mercantour;cime lombarde;44.1215;7.0937;2600;35-39;SO;4;4;0;0;0;0;0;0;4;randonnée;ski;montée;;sèche;tendre;linéaire;accidentelle soi-même;100;100;20
+1415-06-02;28/12/2014;12;2014;11:40;11;6;saint etienne de tinee;mercantour;secteur cimetière des dames;44.13233;6.53277;2300;40-44;NE;3;1;1;1;0;0;1;0;0;hors-piste;ski;descente;2;sèche;dure;linéaire;accidentelle soi-même;225;15;30
+1415-65-01;12/12/2014;12;2014;;;65;sers;haute bigorre;pic de barbe;;;;;;4;2;0;0;0;2;0;2;0;randonnée;ski;montée;;sèche;;linéaire;accidentelle soi-même;;;
+1415-73-01;18/12/2014;12;2014;09:20;9;73;tignes;haute tarentaise;grattalu / aiguillette;;;2747;>45;SE;11;4;1;1;0;3;0;1;3;randonnée;ski;montée;3;sèche;dure;linéaire;accidentelle soi-même;;;
+1415-73-02;22/12/2014;12;2014;12:35;12;73;modane;vanoise;lac de chavière;45.161070;6.380940;3100;35-39;SE;5;2;1;1;0;1;1;0;1;randonnée;ski;descente;2;sèche;dure;linéaire;accidentelle soi-même;300;25;100
+1415-73-03;30/12/2014;12;2014;15:00;15;73;les allues;vanoise;lac de la chambre;45.190285;6.352517;2720;40-44;NO;2;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;170;400;40
+1415-74-01;24/12/2014;12;2014;;;74;les contamines montjoie;mont blanc;glacier armancette;45.48242;6.47014;3400;35-39;O;2;2;0;0;0;2;2;0;0;randonnée;ski;descente;2;sèche;dure;linéaire;accidentelle soi-même;1800;300;30
+1314-04-01;17/01/2014;1;2014;14:00;14;4;uvernet fours;ubaye;pra loup teleski du lac;;;;;;2;1;1;0;1;0;1;0;0;hors-piste;ski;descente;;;;linéaire;accidentelle soi-même;;;
+1314-05-04;05/01/2014;1;2014;15:00;15;5;pelvoux;pelvoux;ravin du bouisset;;;;;;3;1;0;0;0;0;0;1;0;hors-piste;ski;descente;;sèche;;linéaire;accidentelle soi-même;;;
+1314-05-05;25/01/2014;1;2014;17:00;17;5;névache;thabor;pointe riou blanc;;;;;;6;1;1;1;0;0;0;1;0;randonnée;ski;;;;;linéaire;accidentelle soi-même;;;
+1314-05-06;26/01/2014;1;2014;;;5;st etienne dévoluy;dévoluy;vallon d'ane;;;;;;2;1;0;0;0;0;0;1;0;randonnée;ski;montée;;sèche;;linéaire;accidentelle soi-même;;30;40
+1314-05-07;28/01/2014;1;2014;13:00;13;5;réallon;champsaur;col coupa;;;;;;5;2;0;0;0;2;0;0;2;randonnée;ski;;;sèche;;linéaire;accidentelle soi-même;;30;
+1314-05-08;17/02/2014;2;2014;;;5;st véran;queyras;chateau renard;;;;;;2;1;0;0;0;1;0;0;1;hors-piste;ski;descente;;;;linéaire;accidentelle soi-même;;;
+1314-05-09;02/03/2014;3;2014;12:00;12;5;la salle les alpes;thabor;crête echaillon;44.99943;6.58156;2560;30-34;NE;7;1;0;0;0;0;0;1;0;randonnée;ski;descente;;sèche;;linéaire;accidentelle soi-même;;5;30
+1314-05-10;05/03/2014;3;2014;;;5;chateauroux les alpes;champsaur;tête clotinailles;;;;;NE;;1;0;0;0;0;0;1;0;randonnée;ski;;;;;linéaire;accidentelle soi-même;;;
+1314-05-11;08/03/2014;3;2014;14:00;14;5;villar arene;oisans;passe de midi;;;;;NE;2;1;0;0;0;0;0;1;0;randonnée;ski;;;;;linéaire;accidentelle soi-même;;;
+1314-06-01;26/01/2014;1;2014;10:10;10;6;st etienne tinee;mercantour;Auron sous telesiege d“me;44.12448;6.54048;2300;35-39;E;2;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sèche;dure;linéaire;accidentelle soi-même;350;30;20
+1314-09-01;29/03/2014;3;2014;12:55;12;9;rabat les trois seigneurs;couserans;pic des trois seigneurs;;;2050;;NE;3;3;2;2;0;0;2;1;0;alpinisme;raquettes;montée;2;humide;tendre;linéaire;;700;;
+1314-09-02;06/03/2014;3;2014;10:30;10;9;ax les thermes;haute ariège;station le saquet;;;;;;4;1;1;1;0;0;0;1;0;hors-piste;ski;descente;4;sèche;;linéaire;accidentelle soi-même;;;
+1314-15-01;29/03/2014;3;2014;14:00;14;15;la vigerie;lioran;puy bataillouse;45.060575;2.432183;1540;40-44;N;1;1;0;0;0;1;0;1;0;randonnée;ski;montée;;humide;dure;linéaire;accidentelle soi-même;50;20;25
+1314-38-01;26/01/2014;1;2014;14:40;14;38;auris;grandes rousses;combe des girauds;45.03926;6.05497;2000;30-34;S;2;2;2;2;0;0;2;0;0;hors-piste;ski;descente;3;sèche;dure;linéaire;accidentelle soi-même;250;120;60
+1314-38-02;27/01/2014;1;2014;12:40;12;38;chamrousse;belledonne;piste lacs roberts;45.07682;5.54499;2170;30-34;SE;4;1;1;0;1;0;0;1;0;hors-piste;ski;arrêt;3;sèche;dure;linéaire;accidentelle tiers;50;100;100
+1314-38-03;31/01/2014;1;2014;15:50;15;38;revel;belledonne;grand colon face ouest;45.09680;5.55219;2165;30-34;O;2;1;1;1;0;0;1;0;0;randonnée;ski;descente;2;sèche;dure;linéaire;accidentelle tiers;720;30;30
+1314-38-04;06/03/2014;3;2014;13:45;13;38;la ferrière d'allevard;belledonne;couloir NO rocher blanc;;;;;;3;1;0;0;0;0;0;1;0;randonnée;ski;descente;3;;;linéaire;accidentelle soi-même;;;
+1314-38-05;13/03/2014;3;2014;17:00;17;38;pinsot;belledonne;couloir pertuis;;;;;O;1;1;0;0;0;1;0;1;0;randonnée;ski;traversée;2;humide;tendre;;naturelle;;;
+1314-66-01;26/01/2014;1;2014;14:00;14;66;err;cerdagne canigou;puigmal err;;;;;;7;1;0;0;0;1;0;0;1;randonnée;raquettes;;;;;linéaire;accidentelle soi-même;;;
+1314-68-01;26/01/2014;1;2014;;;68;stosswihr;vosges;grand couloir dagobert;48.02271;7.00476;1300;>45;N;2;2;0;0;0;0;0;2;0;alpinisme;… pieds;montée;;sèche;;linéaire;accidentelle soi-même;260;;
+1314-73-09;05/01/2014;1;2014;14:00;14;73;la léchère;beaufortain;croix de la bagnaz;;;2300;;;4;2;0;0;0;0;0;0;2;randonnée;ski;arrêt;4;sèche;tendre;linéaire;accidentelle soi-même;150;;
+1314-73-08;05/01/2014;1;2014;14:05;14;73;macot;vanoise;crête des bourtes;45.2956;6.4259;2350;35-39;NO;2;2;1;1;0;1;0;0;2;hors-piste;ski;descente;4;sèche;tendre;linéaire;accidentelle soi-même;250;30;100
+1314-73-10;07/01/2014;1;2014;11:00;11;73;champagny;vanoise;col des vés;45.264262;6.514138;2830;35-39;NO;4;1;0;0;0;0;0;1;0;hors-piste;ski;descente;3;sèche;;linéaire;accidentelle soi-même;310;50;100
+1314-73-11;09/01/2014;1;2014;12:30;12;73;valloire;maurienne;crête de lachat;;;2840;40-44;NO;3;3;0;0;0;0;0;2;1;randonnée;ski;montée;3;sèche;dure;linéaire;accidentelle soi-même;290;;
+1314-73-12;10/01/2014;1;2014;12:00;12;73;bonneval;haute maurienne;ouille mouta;45.214802;7.45146;2635;40-44;NO;2;1;1;1;0;0;0;1;0;randonnée;ski;traversée;2;sèche;;linéaire;accidentelle soi-même;300;120;80
+1314-73-13;25/01/2014;1;2014;13:45;13;73;presle;belledonne;"couloir SO ""intime"" Gargoton";45.41996;6.21212;2330;35-39;SO;2;2;1;1;0;1;1;1;0;randonnée;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;250;10;60
+1314-73-15;26/01/2014;1;2014;16:10;16;73;tignes;haute tarentaise;palet droite Tichat;;;2400;30-34;SE;2;1;1;1;0;0;0;1;0;hors-piste;ski;arrêt;3;sèche;dure;linéaire;accidentelle soi-même;10;15;50
+1314-73-17;27/01/2014;1;2014;16:30;16;73;montchavin;vanoise;;;;;;;;1;1;1;0;0;0;1;0;hors-piste;ski;descente;;;;linéaire;accidentelle soi-même;;;
+1314-73-20;19/03/2014;3;2014;14:50;14;73;bourg st maurice;vanoise;face ouest aiguille rouge grande cascade;;;;;NO;1;1;0;0;0;0;1;0;0;hors-piste;… pieds;montée;3;humide;tendre;linéaire;accidentelle soi-même;;;40
+1314-73-18;12/02/2014;2;2014;14:50;14;73;la léchère;beaufortin;pointe du dzonfié;45.34960;6.34326;2340;30-34;SO;2;1;1;1;0;0;0;1;0;randonnée;ski;descente;3;sèche;dure;linéaire;accidentelle soi-même;170;160;120
+1314-73-19;06/03/2014;3;2014;10:40;10;73;peisey;vanoise;nord bellecote;45.294372;6.463949;3150;40-44;N;3;1;0;0;0;0;1;0;0;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;;30;30
+1314-73-21;15/04/2014;4;2014;13:15;13;73;val isere;haute tarentaise;ruisseau du pisset;45.24244;6.57450;2375;35-39;NO;7;2;0;0;0;1;0;1;1;hors-piste;ski;descente;2;sèche;dure;linéaire;accidentelle soi-même;250;125;100
+1314-73-22;29/04/2014;4;2014;11:30;11;73;modane;haute maurienne;couloir sud aiguille peclet;45.16514;6.37269;3490;35-39;S;6;4;0;0;0;4;0;4;0;randonnée;… pieds;montée;2;humide;dure;linéaire;accidentelle soi-même;110;70;100
+1314-73-23;04/05/2014;5;2014;;;73;orelle;maurienne;roche des marches;;;;;;1;1;0;0;0;0;0;0;1;randonnée;ski;;;;;linéaire;naturelle sérac/corniche;;;
+1314-73-24;04/05/2014;5;2014;;;73;ste foy tarentaise;haute tarentaise;grande sassiere;;;;;;1;1;0;0;0;0;0;1;0;randonnée;ski;;;;;linéaire;accidentelle soi-même;;;
+1314-73-25;04/05/2014;5;2014;11:15;11;73;bessans;haute maurienne;face ouest pointe charbonnel;45.164826;7.3439;3600;>45;O;1;1;0;0;0;0;1;0;0;alpinisme;… pieds;montée;;humide;;linéaire;accidentelle soi-même;500;100;50
+1314-73-26;04/05/2014;5;2014;11:00;11;73;bessans;haute maurienne;selle de l'albaron;45.194424;7.062485;3430;40-44;SO;3;1;1;1;0;0;1;0;0;randonnée;ski;descente;;sèche;tendre;linéaire;accidentelle soi-même;310;200;100
+1314-73-27;18/05/2014;5;2014;12:30;12;73;bessans;haute maurienne;pointe charbonnel;;;;;NE;2;2;1;0;1;0;1;0;1;randonnée;ski;descente;;humide;tendre;;naturelle;;;
+1314-73-29;02/03/2014;3;2014;15:00;15;73;bonneval sur arc;haute maurienne;;;;2900;35-39;N;2;1;0;0;0;0;0;0;1;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;180;20;60
+1314-73-30;09/02/2014;2;2014;14:50;14;73;saint jean de belleville;vanoise;point 2482 combe pierreux;45.415449;6.425394;2400;40-44;NE;4;1;0;0;0;0;0;0;1;randonnée;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;350;20;30
+1314-74-06;05/01/2014;1;2014;17:30;17;74;les houches;mont blanc;couloir vogealle;45.92101672832807;6.803430766044558;2175;35-39;NO;2;1;0;0;0;1;0;1;0;randonnée;ski;descente;3;sèche;dure;linéaire;accidentelle soi-même;400;20;80
+1314-74-07;12/02/2014;2;2014;15:50;15;74;le grand bornand;aravis;mont lachat de chatillon;45.57460;6.28772;1975;40-44;SE;3;2;0;0;0;1;0;1;1;hors-piste;ski;descente;3;humide;dure;linéaire;accidentelle soi-même;225;15;30
+1314-73-16;26/01/2014;1;2014;10:05;10;73;modane;haute maurienne;couloir du seuil valfréjus;45.16467481880298;6.665579904872608;2200;35-39;NE;3;2;0;0;0;0;0;1;1;hors-piste;ski;traversée;;sèche;;linéaire;accidentelle soi-même;140;;
+1314-74-08;25/02/2014;2;2014;12:30;12;74;vallorcine;mont blanc;Mont Buet;46.02694364732046;6.8516448876050235;3040;>45;NE;2;1;1;0;1;0;1;0;0;randonnée;ski;descente;3;sèche;;linéaire;accidentelle soi-même;650;;
+1314-74-10;13/04/2014;4;2014;11:10;11;74;la clusaz;aravis;combe … marion;;;;;;;8;0;0;0;2;0;4;4;randonnée;ski;montée;;humide;tendre;linéaire;naturelle;;;
+1314-74-11;02/03/2014;3;2014;10:30;10;74;la clusaz;aravis;;;;;;;2;2;0;0;0;0;0;0;2;randonnée;ski;montée;;;;linéaire;accidentelle tiers;;10;
+1314-74-09;02/03/2014;3;2014;15:30;15;74;chamonix;mont blanc;aiguille belvedere;45.987010978180855;6.87634174604996;2880;35-39;SO;3;1;1;0;1;0;0;1;0;randonnée;ski;montée;2;humide;;linéaire;accidentelle soi-même;180;10;15
+1314-05-01;23/12/2013;12;2013;;;5;cervières;queyras;col peygus;;;2600;;;2;2;0;0;0;0;0;1;1;randonnée;ski;;;;;linéaire;accidentelle soi-même;;;
+1314-05-02;26/12/2013;12;2013;14:20;14;5;monetier;pelvoux;cucumelle;44.56046;6.30350;2565;35-39;SO;2;2;0;0;0;1;0;2;0;hors-piste;ski;traversée;4;sèche;dure;linéaire;accidentelle soi-même;350;120;60
+1314-05-03;27/12/2013;12;2013;14:50;14;5;la salle les alpes;pelvoux;cucumelle;44.55519;6.31314;2150;40-44;NE;1;1;1;1;0;0;1;0;0;hors-piste;… pieds;montée;3;sèche;dure;linéaire;accidentelle soi-même;15;50;50
+1314-73-01;13/10/2013;10;2013;12:10;12;73;tignes;haute tarentaise;pointe de la grande motte;;;3665;35-39;NE;5;2;0;0;0;1;0;0;2;hors-piste;ski;descente;;sèche;dure;linéaire;accidentelle soi-même;300;100;60
+1314-73-02;26/10/2013;10;2013;13:30;13;73;pralognan;vanoise;passage de rosoire;45.18056;6.43584;3450;>45;O;2;2;0;0;0;2;0;1;1;alpinisme;… pieds;montée;;sèche;dure;linéaire;accidentelle soi-même;150;100;80
+1314-73-03;22/12/2013;12;2013;11:15;11;73;pralognan;vanoise;entre chalet ritort et rosoireé lit du ruisseau du ritort;45.18661;6.41137;2150;35-39;NO;2;2;1;1;0;0;1;0;1;randonnée;ski;descente;1;sèche;;linéaire;accidentelle soi-même;150;80;50
+1314-73-04;26/12/2013;12;2013;11:00;11;73;aime;vanoise;dos des frasses;45.302779;6.394068;2245;35-39;N;2;1;1;1;0;0;1;0;0;hors-piste;ski;descente;3;sèche;dure;linéaire;accidentelle soi-même;145;;125
+1314-73-05;27/12/2013;12;2013;09:55;9;73;saint martin belleville;vanoise;boismint val thorens;45.165389;6.331406;2540;35-39;E;6;3;1;1;0;1;0;1;2;hors-piste;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;100;50;40
+1314-73-06;27/12/2013;12;2013;12:15;12;73;st bon tarentaise;vanoise;vallée avals;;;2100;35-39;NE;2;1;1;1;0;0;1;0;0;accès refuge gardien ski rando;ski;montée;3;sèche;tendre;linéaire;accidentelle soi-même;40;40;40
+1314-73-07;29/12/2013;12;2013;16:15;16;73;aime;vanoise;dos des frasses;45.506576114282865;6.659342025357228;2200;40-44;NO;1;1;0;0;0;0;0;1;0;hors-piste;snowboard;descente;;sèche;;linéaire;accidentelle soi-même;200;;
+1314-74-01;11/11/2013;11;2013;16:55;16;74;les contamines;mont blanc;aiguille croche;;;2300;30-34;SE;1;1;0;0;0;1;0;1;0;randonnée;ski;descente;;sèche;;linéaire;accidentelle soi-même;100;20;
+1314-74-02;01/12/2013;12;2013;12:25;12;74;avoriaz;chablais;pointe de vorlaz;46.10877;6.48004;2290;35-39;S;2;2;0;0;0;0;0;2;0;randonnée;ski;montée;;sèche;tendre;linéaire;accidentelle soi-même;150;30;
+1314-74-03;27/12/2013;12;2013;10:45;10;74;la clusaz;aravis;combe de torchere;45.5325;6.2915;2375;30-34;NO;3;2;2;2;0;0;2;0;0;hors-piste;ski;descente;4;sèche;tendre;linéaire;accidentelle soi-même;125;115;100
+1314-74-04;29/12/2013;12;2013;13:50;13;74;chatel;chablais;barbossine;;;;;;2;1;0;0;0;0;0;0;1;hors-piste;ski;descente;4;sèche;;linéaire;accidentelle tiers;;50;
+1314-74-05;30/12/2013;12;2013;12:25;12;74;sixt;chablais;passage du dérochoir;45.58047;6.44597;2150;30-34;N;2;1;0;0;0;1;0;1;0;randonnée;ski;descente;3;sèche;tendre;linéaire;accidentelle soi-même;60;40;80
+1213-04-01;19/03/2013;3;2013;15:30;15;4;montclar;ubaye;face ouest dormillouse;44.24236;6.22569;2340;35-39;O;3;1;1;1;0;0;1;0;0;hors-piste;;descente;4;humide;tendre;linéaire;accidentelle soi-même;450;150;
+1213-05-04;20/01/2013;1;2013;13:30;13;5;névache;thabor;;;;;;;1;1;0;0;0;0;0;1;0;randonnée;;;;;;linéaire;accidentelle soi-même;;;
+1213-05-05;03/02/2013;2;2013;;;5;montgenevre;thabor;vallon des baysses;;;;;;1;1;0;0;0;0;0;1;0;hors-piste;;descente;;;;linéaire;accidentelle soi-même;;;
+1213-05-06;06/02/2013;2;2013;;;5;freissiniere;pelvoux;lac palluel;;;;;;12;1;0;0;0;1;0;1;0;randonnée;;;;;;;;;;
+1213-05-07;13/02/2013;2;2013;14:15;14;5;arvieux;queyras;barre noire villargaudin;44.44331;6.44204;2400;30-34;E;2;1;0;0;0;0;0;1;0;randonnée;;descente;3;humide;tendre;linéaire;accidentelle soi-même;100;50;50
+1213-05-08;05/03/2013;3;2013;;;5;crévoux;embrunais parpaillon;goulotte barre des enfers;;;;;;5;5;0;0;0;0;4;1;0;alpinisme;;montée;2;sèche;;linéaire;naturelle;;;
+1213-05-09;09/03/2013;3;2013;10:30;10;5;molines;queyras;combe crose;;;2600;;;3;3;1;1;0;1;2;0;1;hors-piste;;descente;3;sèche;;linéaire;accidentelle soi-même;;;30
+1213-05-10;15/03/2013;3;2013;13:30;13;5;monetier les bains;oisans;route du galibier;;;;;;3;3;0;0;0;0;0;1;2;randonnée;;montée;;sèche;;linéaire;accidentelle soi-même;;;
+1213-05-11;22/03/2013;3;2013;13:00;13;5;ceillac;queyras;col tronchet;;;;;;10;2;0;0;0;0;1;0;1;randonnée;;;3;;;;;;;
+1213-05-12;25/03/2013;3;2013;;;5;puy st vincent;pelvoux;col de bal;;;;;;2;2;0;0;0;0;0;0;2;hors-piste;;descente;;sèche;;linéaire;accidentelle soi-même;;;
+1213-05-13;25/03/2013;3;2013;13:45;13;5;orcieres;champsaur;la coupa;44.37340;6.18089;2600;30-34;N;2;1;1;0;1;0;0;0;1;randonnée;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;500;50;
+1213-05-14;19/04/2013;4;2013;10:20;10;5;vars;embrunais parpaillon;piste bleue vallon crête peyrol;;;2300;;;1;1;0;0;0;0;0;1;0;piste;;descente;;;;linéaire;naturelle;;;
+1213-05-15;13/04/2013;4;2013;10:00;10;5;orcieres;champsaur;mourre froid;44.38396;6.23533;2500;30-34;NO;1;1;0;0;0;1;0;0;1;randonnée;;descente;3;sèche;dure;linéaire;accidentelle soi-même;200;60;70
+1213-05-16;13/04/2013;4;2013;13:00;13;5;orcieres;champsaur;mourre froid;44.3839;6.2338;2750;30-34;N;2;2;1;1;0;1;1;0;1;randonnée;;descente;3;sèche;dure;linéaire;accidentelle soi-même;250;200;40
+1213-06-01;15/04/2013;4;2013;13:25;13;6;st etienne tinee;mercantour;secteur dome station auron;44.1250;6.5425;2150;30-34;E;2;1;1;1;0;0;1;0;0;hors-piste;;descente;4;humide;tendre;linéaire;;100;100;70
+1213-09-01;15/03/2013;3;2013;;;9;ax les thermes;haute ariège;;;;;;;1;1;0;0;0;0;0;0;1;hors-piste;;descente;;;;linéaire;accidentelle soi-même;;;
+1213-09-02;15/03/2013;3;2013;;;9;ax les thermes;haute ariège;;;;;;;1;1;1;1;0;0;0;1;0;hors-piste;;descente;;;;linéaire;accidentelle soi-même;;;
+1213-38-02;02/01/2013;1;2013;;;38;la morte;oisans;pas de la mine;45.02023;5.54052;2450;35-39;O;3;1;0;0;0;0;0;1;0;randonnée;;traversée;;sèche;;linéaire;accidentelle soi-même;;;
+1213-38-03;12/01/2013;1;2013;11:30;11;38;pinsot;belledonne;pic des grandes lanches;;;;35-39;O;1;1;0;0;0;1;1;0;0;randonnée;;montée;3;sèche;;linéaire;accidentelle soi-même;;;
+1213-38-04;20/01/2013;1;2013;13:50;13;38;auris en oisans;grandes rousses;signal de l'homme;45.03931;6.04543;1790;35-39;SO;6;3;3;3;0;0;0;1;2;hors-piste;;descente;3;humide;dure;linéaire;accidentelle soi-même;60;30;20
+1213-38-05;30/01/2013;1;2013;;;38;chantelouve;oisans;voie cros de quinchiol / Gd Armet;44.59016;;2320;>45;SE;2;2;2;0;2;0;2;0;0;alpinisme;;montée;;humide;tendre;linéaire;naturelle;;;
+1213-38-06;19/03/2013;3;2013;11:45;11;38;La Ferrière;belledonne;secteur le pleynet F9;;5.56472;1850;;;1;1;1;0;1;0;0;1;0;hors-piste;;descente;4;sèche;;linéaire;accidentelle soi-même;;;
+1213-38-07;07/04/2013;4;2013;11:45;11;38;allemond;belledonne;col de roche noire;45.11098;5.59209;2600;40-44;E;50;3;0;0;0;3;0;1;2;randonnée;;montée;;humide;dure;linéaire;naturelle sérac/corniche;300;75;400
+1213-38-08;14/04/2013;4;2013;09:55;9;38;saint christophe en oisans;oisans;col de la lauze;;;2900;30-34;SE;8;2;0;0;0;0;0;1;1;randonnée;;descente;;humide;tendre;linéaire;accidentelle tiers;;;
+1213-38-09;17/04/2013;4;2013;;;38;le freney d'oisans;grandes rousses;proche refuge sarenne;;;;35-39;S;2;2;1;1;0;1;0;2;0;voie de communication;;traversée;;humide;dure;linéaire;naturelle;100;;
+1213-64-01;02/01/2013;1;2013;12:45;12;64;eaux bonnes;aspe ossau;vallon anglas;;;;;;2;1;1;1;0;0;1;0;0;hors-piste;;descente;;sèche;;linéaire;accidentelle soi-même;;;
+1213-65-01;06/03/2013;3;2013;16:00;16;65;st lary soulan;haute bigorre;GR Espiaube Plat Adet;;;;;;8;6;0;0;0;6;0;3;3;randonnée;;traversée;3;humide;tendre;;naturelle;;;
+1213-65-02;15/03/2013;3;2013;;;65;bagnères de bigorre;haute bigorre;sud pic du midi de bigorre;;;;;S;1;1;0;0;0;0;1;0;0;hors-piste;;descente;;;;linéaire;accidentelle soi-même;;;
+1213-73-05;20/01/2013;1;2013;;;73;valloire;maurienne;telesiege montissot;;;;;;1;1;1;1;0;0;1;0;0;hors-piste;;descente;4;;;;;;;
+1213-73-06;30/01/2013;1;2013;11:30;11;73;sainte marie de cuines;maurienne;crête de la raverotte;45.17349;6.16471;2000;30-34;NO;4;2;0;0;0;2;0;2;0;randonnée;;traversée;;humide;dure;linéaire;accidentelle soi-même;600;40;50
+1213-73-07;03/02/2013;2;2013;;;73;saint martin de belleville (val thorens);vanoise;lac du lou;;;;;;2;2;0;0;0;0;0;1;1;hors-piste;;descente;;;;;;;;
+1213-73-08;08/02/2013;2;2013;;;73;saint martin de belleville (val thorens);vanoise;cime caron;;;;;;3;3;0;0;0;0;0;0;3;hors-piste;;descente;;;;;;;;
+1213-73-10;13/02/2013;2;2013;12:55;12;73;cote d'aime;vanoise;combe benite;;;2400;;O;7;5;1;1;0;1;0;1;4;randonnée;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;200;100;130
+1213-73-11;20/02/2013;2;2013;10:00;10;73;valloire;maurienne;camp des rochilles;;;2510;30-34;O;22;2;1;1;0;1;1;0;1;entrainement militaire descente couloir;;descente;;sèche;dure;linéaire;accidentelle soi-même;110;20;60
+1213-73-12;26/02/2013;2;2013;16:40;16;73;pralognan;vanoise;cirque du petit arcellin;45.23017;6.45689;2100;30-34;NO;1;1;0;0;0;1;0;1;0;randonnée;;traversée;3;sèche;tendre;linéaire;accidentelle soi-même;80;20;20
+1213-73-13;02/03/2013;3;2013;16:40;16;73;sainte foy tarentaise;haute tarentaise;sous pointe des gavies / ruisseau des gavies;45.35446;6.57202;2200;30-34;N;2;1;0;0;0;1;0;1;0;hors-piste;;descente;3;;tendre;ponctuel;accidentelle soi-même;100;;
+1213-73-14;05/03/2013;3;2013;16:15;16;73;valloire;maurienne;combe des granges;;;;35-39;NO;2;2;1;1;0;1;0;2;0;hors-piste;;descente;;sèche;dure;linéaire;accidentelle soi-même;;;
+1213-73-15;06/03/2013;3;2013;11:00;11;73;modane;maurienne;vallée perdue valfréjus;45.09269;6.39255;2200;30-34;NO;2;2;0;0;0;2;0;2;0;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;70;150;100
+1213-73-16;06/03/2013;3;2013;11:30;11;73;tignes;haute tarentaise;couloir bois de la laye;45.28134;6.55355;2200;35-39;N;2;2;2;1;1;0;2;0;0;hors-piste;;descente;3;sèche;dure;linéaire;accidentelle soi-même;360;100;80
+1213-73-17;18/03/2013;3;2013;13:10;13;73;montvalezan;haute tarentaise;hp des ecudets;45.38230;6.50412;1880;35-39;SO;2;1;1;1;0;0;1;0;0;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;100;60;50
+1213-73-09;08/02/2013;2;2013;11:10;11;73;saint bon tarentaise;vaoise;sous pas du roc merlet;45.36660891949922;6.6372356318708565;2350;30-34;NO;3;2;1;1;0;1;1;0;1;hors-piste;;descente;2;sèche;tendre;linéaire;accidentelle soi-même;40;70;50
+1213-73-18;19/03/2013;3;2013;15:55;15;73;saint martin de belleville (val thorens);vanoise;lac du lou;45.296249657563365;6.5349031310654055;1990;40-44;NO;5;1;1;1;0;0;0;1;0;hors-piste;;descente;;sèche;tendre;linéaire;accidentelle soi-même;15;30;80
+1213-73-20;19/03/2013;3;2013;;;73;les allues;vanoise;télésiège cote brune;;;;;N;1;1;0;0;0;0;0;1;0;hors-piste;;descente;;;;linéaire;accidentelle soi-même;;;
+1213-73-21;29/03/2013;3;2013;16:15;16;73;bourg saint maurice;vanoise;piste rouge grand renard balise nø14;;;2490;40-44;E;6;1;1;1;0;0;1;0;0;piste;;traversée;3;sèche;tendre;linéaire;naturelle;50;60;20
+1213-73-22;01/04/2013;4;2013;14:00;14;73;les allues;vanoise;aiguille du fruit;45.21128;6.37495;2900;>45;NO;3;2;0;0;0;0;0;2;0;randonnée;;montée;3;sèche;tendre;linéaire;accidentelle soi-même;600;10;
+1213-73-23;01/04/2013;4;2013;;;73;saint martin de belleville (val thorens);vanoise;face ouest aiguille des st pères;;;2800;;O;3;1;0;0;0;0;0;1;0;hors-piste;;descente;;;;linéaire;accidentelle soi-même;;;
+1213-73-24;14/04/2013;4;2013;;;73;aussois;vanoise;chaise aux papes / dent parrachée;45.17182;6.45138;3600;30-34;SE;;6;6;6;0;0;3;3;0;randonnée;;montée;3;sèche;dure;linéaire;accidentelle tiers;400;400;
+1213-73-25;02/05/2013;5;2013;10:25;10;73;pralognan;vanoise;grands couloirs grande casse;45.2416;6.49012;3530;>45;O;4;3;1;1;0;2;1;2;0;alpinisme;;montée;;humide;dure;linéaire;accidentelle soi-même;500;350;50
+1213-73-19;19/03/2013;3;2013;15:05;15;73;les avanchers;maurienne;hors piste des lauzières;45.44292575456428;6.379231641636423;1825;30-34;NE;6;1;1;1;0;0;0;1;0;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;30;25;60
+1213-74-03;19/01/2013;1;2013;13:10;13;74;abondance;chablais;mont de grange;;;2100;40-44;O;2;1;0;0;0;0;0;1;0;randonnée;;montée;3;sèche;tendre;linéaire;accidentelle soi-même;100;10;30
+1213-74-04;05/02/2013;2;2013;16:10;16;74;chatel;chablais;télésiège des combes;;;;;;1;1;1;0;1;0;0;0;1;hors-piste;;descente;;sèche;;linéaire;accidentelle soi-même;;;40
+1213-74-05;08/02/2013;2;2013;10:55;10;74;chamonix;mont blanc;brévent nant pcheu;45.55482;6.50140;2280;35-39;SE;1;1;1;1;0;0;1;0;0;hors-piste;;descente;2;sèche;dure;linéaire;accidentelle soi-même;1000;150;80
+1213-74-06;26/02/2013;2;2013;09:30;9;74;saint gervais;mont blanc;mont lachat;45.86970;6.78810;1970;35-39;SO;15;6;0;0;0;0;0;1;5;randonnée;;montée;1;sèche;tendre;linéaire;accidentelle soi-même;170;30;20
+1213-74-07;19/03/2013;3;2013;;;74;bernex;chablais;;;;;;;1;1;1;0;1;0;1;0;0;randonnée;;descente;;;;;;;;
+1213-74-08;22/03/2013;3;2013;12:45;12;74;samoens;chablais;couloir pas de la latte;46.0816;6.4734;2000;40-44;NO;2;1;0;0;0;0;0;1;0;hors-piste;;descente;3;sèche;dure;linéaire;accidentelle soi-même;300;25;70
+1213-74-09;22/03/2013;3;2013;09:35;9;74;chamonix;mont blanc;carlaveyron;45.55598;6.49299;2070;40-44;O;2;1;0;0;0;1;0;1;0;randonnée;;descente;2;sèche;tendre;linéaire;accidentelle soi-même;50;25;80
+1213-74-10;01/04/2013;4;2013;13:30;13;74;contamines;beaufortain;col des chasseurs;;;2400;35-39;N;3;2;0;0;0;2;0;1;1;randonnée;;descente;;sèche;tendre;linéaire;accidentelle soi-même;;100;30
+1213-74-11;14/04/2013;4;2013;13:10;13;74;vallorcine;mont blanc;tete de la chevrette;46.01439;6.54133;1970;30-34;S;4;1;0;0;0;0;0;1;0;randonnée;;descente;4;humide;tendre;linéaire;accidentelle soi-même;300;40;50
+1213-74-12;13/08/2013;8;2013;03:50;3;74;chamonix;mont blanc;face nord tacul;;;4300;40-44;N;6;3;2;2;0;1;2;1;0;alpinisme;;montée;;sèche;dure;linéaire;naturelle sérac/corniche;250;;
+1213-05-01;14/12/2012;12;2012;;;5;la grave;oisans;rd 1091 les traverses;;;;;;3;3;0;0;0;0;0;2;1;voie de communication;;;;;;;naturelle;;;
+1213-05-02;16/12/2012;12;2012;12:25;12;5;risoul;embrunais parpaillon;crete de razis;44.597714;6.648739;2520;30-34;NO;1;1;1;1;0;0;1;0;0;hors-piste;;descente;4;sèche;tendre;linéaire;accidentelle soi-même;140;300;190
+1213-05-03;26/12/2012;12;2012;15:30;15;5;molines en queyras;queyras;chateau renard couloir NE;;;2865;>45;N;1;1;0;0;0;1;1;0;0;hors-piste;;descente;3;sèche;dure;linéaire;accidentelle soi-même;620;100;60
+1213-26-01;09/12/2012;12;2012;;;26;bezaudun sur bine;vercors diois;pas de sierra le veyou;;;1270;40-44;S;;1;0;0;0;0;0;1;0;randonnée;;;;;;;;;;
+1213-38-01;13/12/2012;12;2012;12:45;12;38;saint christophe sur guiers;chartreuse;col de léchaud;45.23203;5.48382;1680;30-34;NO;2;2;2;2;0;0;1;1;0;randonnée;;montée;;sèche;dure;linéaire;accidentelle soi-même;100;90;
+1213-73-01;05/12/2012;12;2012;11:25;11;73;tignes;haute tarentaise;secteur paquerette;;;2600;30-34;N;11;2;2;2;0;0;1;1;0;hors-piste;;descente;4;sèche;tendre;linéaire;accidentelle soi-même;150;80;60
+1213-73-02;12/12/2012;12;2012;12:55;12;73;tignes;haute tarentaise;pente barthelemy aiguille percee;;;2750;35-39;NO;7;4;2;1;1;0;0;3;1;hors-piste;;descente;4;sèche;dure;linéaire;accidentelle soi-même;250;70;100
+1213-73-03;21/12/2012;12;2012;12:05;12;73;val isere;haute tarentaise;pointe du grand vallon creux de l'ouille;;;2755;30-34;N;3;3;1;1;0;0;1;0;2;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;300;200;300
+1213-73-04;28/12/2012;12;2012;;;73;saint martin de belleville (val thorens);vanoise;lac du lou;;;;;;5;1;1;1;0;0;0;1;0;hors-piste;;descente;;;;;;;;
+1213-74-01;30/10/2012;10;2012;11:55;11;74;chamonix;mont blanc;aiguille marbrée;45.85122553770268;6.941153556972861;3500;30-34;SE;2;2;0;0;0;0;0;1;1;alpinisme;;montée;;sèche;dure;linéaire;accidentelle soi-même;250;15;15
+1112-04-01;16/02/2012;2;2012;14:45;14;4;saint paul s/ ubaye;ubaye;col girardin crête observatoire;44.36274;6.49429;2800;30-34;SO;4;1;0;0;0;0;0;1;0;randonnée;;montée;3;sèche;dure;linéaire;accidentelle soi-même;300;400;40
+1112-05-02;10/03/2012;3;2012;11:25;11;5;ristolas;queyras;pic de ségur;44.44286;6.58041;2770;30-34;NO;6;1;0;0;0;0;0;0;1;randonnée;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;80;20;50
+1112-05-03;20/03/2012;3;2012;10:00;10;5;saint crepin;queyras;pic beal traversier;;;2800;40-44;N;4;1;0;0;0;0;0;1;0;randonnée;;montée;2;sèche;tendre;linéaire;accidentelle soi-même;50;5;30
+1112-05-04;24/03/2012;3;2012;11:30;11;5;saint veran;queyras;pas de la cula;44.39326;6.54389;2980;35-39;NO;7;1;0;0;0;0;0;1;0;randonnée;;descente;2;sèche;dure;linéaire;accidentelle soi-même;50;80;80
+1112-26-01;05/02/2012;2;2012;12:55;12;26;glandage;vercors;jocou;44.424337;5.385103;1680;30-34;S;3;2;1;1;0;1;1;1;0;randonnée;;montée;2;sèche;dure;linéaire;accidentelle soi-même;140;40;100
+1112-31-01;18/02/2012;2;2012;;;31;bagnères de luchon;luchonnais;pic d'aubas;42.444766;0.394289;2030;30-34;NO;5;5;0;0;0;0;0;0;5;randonnée;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;;150;100
+1112-31-02;05/04/2012;4;2012;15:30;15;31;bagnères de luchon;luchonnais;sentier cascade enfer;;;;;NE;;2;2;2;0;0;1;1;0;randonnée;;arrêt;2;humide;tendre;;naturelle;;;
+1112-38-01;06/02/2012;2;2012;15:30;15;38;la morte;oisans;pas de la mine;45.031326;5.901677;2400;30-34;NO;2;1;1;1;0;0;0;1;0;randonnée;;descente;3;sèche;dure;linéaire;accidentelle soi-même;100;80;30
+1112-38-02;17/02/2012;2;2012;08:25;8;38;saint pierre de chartreuse;chartreuse;combe bovinant;45.225235;5.485264;1774;35-39;O;1;1;1;1;0;0;0;1;0;randonnée;;montée;3;sèche;dure;linéaire;accidentelle soi-même;165;25;40
+1112-38-03;17/02/2012;2;2012;14:05;14;38;vaujany;grandes rousses;rissiou;45.10730;6.04903;2050;35-39;SE;4;1;1;1;0;0;0;1;0;randonnée;;montée;3;sèche;dure;linéaire;accidentelle soi-même;30;40;100
+1112-38-04;23/03/2012;3;2012;12:10;12;38;sainte agnes;belledonne;ferrouillet;45.12360;5.59590;2200;35-39;N;2;1;1;0;1;0;0;1;0;randonnée;;descente;2;sèche;tendre;linéaire;accidentelle soi-même;80;80;80
+1213-74-02;06/12/2012;12;2012;12:45;12;74;serraval;aravis;sulens;45.826057661802935;6.369410313534949;1710;40-44;O;2;2;1;1;0;1;1;0;1;randonnée;;traversée;;sèche;tendre;linéaire;accidentelle soi-même;50;100;40
+1112-65-01;18/02/2012;2;2012;;;65;bagnère de bigorre;haute bigorre;pain de sucre;;;;;;1;1;1;1;0;0;1;0;0;hors-piste;;descente;3;sèche;;linéaire;accidentelle soi-même;;20;
+1112-65-02;18/02/2012;2;2012;;;65;vieille aure;haute bigorre;corneblanque;;;;;;1;1;0;0;0;1;0;0;1;hors-piste;;descente;3;sèche;;linéaire;accidentelle soi-même;;;
+1112-65-03;19/02/2012;2;2012;;;65;bagnère de bigorre;haute bigorre;la blanche;;;;;;2;1;0;0;0;1;0;1;0;hors-piste;;descente;2;sèche;;linéaire;accidentelle soi-même;400;150;100
+1112-73-01;01/02/2012;2;2012;10:25;10;73;valloire;maurienne;combe aiguille noire;;;;;;19;10;6;6;0;0;1;5;4;randonnée;;traversée;2;sèche;;linéaire;accidentelle soi-même;;;
+1112-38-05;20/04/2012;4;2012;15:45;15;38;vaujany;grandes rousses;couloir perrin;45.1317004258058;6.10201965623362;2600;40-44;O;2;1;1;0;1;0;0;0;1;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;100;50;40
+1112-73-03;27/02/2012;2;2012;;;73;doucy en bauges;bauges;;;;;;;1;1;1;1;0;0;1;0;0;randonnée;;;2;humide;tendre;linéaire;naturelle;;;
+1112-73-04;09/04/2012;4;2012;11:30;11;73;pralognan;haute maurienne;combe de rosoire;;;3200;;NO;7;3;0;0;0;0;0;0;3;randonnée;;montée;2;sèche;tendre;linéaire;accidentelle soi-même;300;;
+1112-73-05;09/04/2012;4;2012;11:30;11;73;valmeinier;maurienne;roche noire;;;2800;;;2;1;1;1;0;0;1;0;0;randonnée;;traversée;2;sèche;tendre;linéaire;accidentelle soi-même;;50;
+1112-73-02;18/02/2012;2;2012;11:05;11;73;jarsy;bauges;face SO mont de la Coche;45.667458049723145;6.223734181079973;1980;30-34;SO;2;1;0;0;0;1;0;1;0;randonnée;;traversée;3;sèche;tendre;linéaire;accidentelle soi-même;250;5;50
+1112-73-06;17/04/2012;4;2012;19:00;19;73;saint martin de belleville;vanoise;mont du borgne;45.30192848402022;6.6063281767692645;2950;40-44;NO;3;1;1;1;0;0;1;0;0;randonnée;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;200;180;100
+1112-73-08;29/04/2012;4;2012;13:40;13;73;bonneval;vanoise;;;;;;O;15;1;0;0;0;0;0;1;0;randonnée;;montée;;;;linéaire;accidentelle soi-même;;;
+1112-74-01;21/01/2012;1;2012;10:00;10;74;praz sur arly;mont blanc;crêt du midi;;;1780;>45;NE;3;1;0;0;0;1;0;0;1;minage;;traversée;4;sèche;tendre;linéaire;accidentelle soi-même;25;;40
+1112-74-02;29/01/2012;1;2012;15:55;15;74;chamonix;mont blanc;couloir cosmique/la para;45.5337;6.5151;2300;;NO;4;1;1;1;0;0;1;0;0;hors-piste;;descente;2;humide;dure;linéaire;accidentelle soi-même;1000;100;30
+1112-73-07;17/04/2012;4;2012;19:00;19;73;saint martin de belleville;vanoise;mont du borgne;45.30192848402022;6.6063281767692645;2950;40-44;NO;3;1;0;0;0;1;0;0;1;randonnée;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;400;;100
+1112-74-03;04/02/2012;2;2012;12:30;12;74;thollon les mémises;chablais;tete de neuva;46.367963950590365;6.736883390744491;1840;35-39;NO;4;1;0;0;0;0;1;0;0;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;300;70;50
+1112-74-05;16/02/2012;2;2012;;;74;contamines montjoie;mont blanc;envers mont joly;;;;;;3;3;0;0;0;0;1;0;2;hors-piste;;descente;2;;;linéaire;accidentelle soi-même;;;
+1112-74-04;04/02/2012;2;2012;11:15;11;74;mieussy;chablais;combe du vélard;46.15138136537421;6.561433861945105;1780;;NO;4;1;1;0;1;0;0;1;0;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;50;10;15
+1112-74-06;21/02/2012;2;2012;10:00;10;74;bellevaux;chablais;pointe de chalune;46.180208791220906;6.577469661551132;2050;40-44;O;2;2;0;0;0;0;1;1;0;randonnée;;montée;3;sèche;tendre;linéaire;accidentelle soi-même;200;20;50
+1112-74-08;28/04/2012;4;2012;12:55;12;74;chamonix;mont blanc;glacier du milieu;;;;;;3;1;0;0;0;0;1;0;0;alpinisme;;;;sèche;;linéaire;accidentelle soi-même;;;
+1112-74-07;03/04/2012;4;2012;15:50;15;74;chamonix;mont blanc;bec de la cluy;45.991588;6.959983;1900;30-34;NO;2;1;1;0;1;0;1;0;0;randonnée;;traversée;2;humide;tendre;linéaire;naturelle;300;10;
+1112-74-09;12/07/2012;7;2012;05:20;5;74;chamonix;mont blanc;mont maudit;45.84948712340163;6.8747447095806535;4200;40-44;N;23;23;9;9;0;0;9;7;7;alpinisme;;montée;;sèche;dure;linéaire;naturelle sérac/corniche;200;;
+1011-65-02;08/05/2011;5;2011;10:00;10;65;gedre;haute bigorre;pic de Gabiedou;42.719622875365395;0.09459442206330827;2280;>45;NO;2;1;1;;;;1;0;0;randonnée;;montée;;humide;tendre;linéaire;naturelle;100;;
+1112-05-01;10/12/2011;12;2011;14:40;14;5;puy st vincent;pelvoux;vallon de narreyroux;;;2600;<30;NE;2;1;1;1;0;0;0;1;0;randonnée;;descente;;sèche;tendre;linéaire;accidentelle soi-même;;25;30
+1011-05-01;08/01/2011;1;2011;11:06;11;5;monetier les bains;pelvoux;cibouit;;;;;;2;1;1;;;;0;0;1;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;;100;50
+1011-05-03;19/02/2011;2;2011;13:10;13;5;orcières;champsaur;col de la montagne haute / mourre froid;;;2800;35-39;N;6;3;1;;;;0;1;2;randonnée;;montée;3;sèche;tendre;linéaire;accidentelle soi-même;200;150;80
+1011-05-02;30/01/2011;1;2011;10:00;10;5;molines;queyras;col agnel;44.688296388273194;6.978866152958157;2650;35-39;O;8;4;1;;;;1;0;3;randonnée;;montée;2;sèche;tendre;linéaire;accidentelle soi-même;30;40;100
+1011-05-05;02/03/2011;3;2011;16:40;16;5;val des prés;queyras;vallon de Vachette / secteur ombilic;;;2005;35-39;NO;3;1;0;;;;0;0;1;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;500;60;60
+1011-05-06;16/03/2011;3;2011;14:30;14;5;ceillac;queyras;col du tronchet;;;2600;35-39;NO;;1;1;;;;0;0;1;randonnée;;;4;sèche;tendre;linéaire;accidentelle soi-même;;;
+1011-05-07;18/03/2011;3;2011;14:00;14;5;ceillac;queyras;ravin clausis;44.38329;6.51409;2300;30-34;N;2;1;1;;;;1;0;0;randonnée;;descente;4;sèche;dure;linéaire;accidentelle soi-même;50;90;50
+1011-05-04;26/02/2011;2;2011;16:10;16;5;orcières;champsaur;col combeau / grande autane;44.65107028265496;6.387560916625337;2100;40-44;N;7;3;0;;;;0;1;2;randonnée;;descente;3;sèche;tendre;linéaire;naturelle;100;5;30
+1011-05-08;19/03/2011;3;2011;12:05;12;5;ceillac;queyras;vallon beaubarnon;44.64024419215997;6.838935368106755;2530;30-34;N;4;4;3;;;;3;0;1;randonnée;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;150;500;60
+1011-05-10;03/04/2011;4;2011;11:30;11;5;risoul;embrunnais;les c“tes du lièvre;;;2400;;NO;2;1;1;;;;0;1;0;hors-piste;;descente;4;sèche;dure;linéaire;accidentelle soi-même;;;
+1011-09-01;18/02/2011;2;2011;;;9;ustou;couserans;etang de la lacarde;42.44305;1.16224;2000;30-34;N;2;1;1;;;;0;0;1;randonnée;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;80;350;40
+1011-31-01;22/02/2011;2;2011;;;31;O“;;vallon d'esquierry;42.45208;0.27562;2250;35-39;SE;2;2;2;;;;2;0;0;randonnée;;descente;4;humide;tendre;ponctuel;naturelle;180;;
+1011-38-03;12/01/2011;1;2011;13:30;13;38;les deux alpes;oisans;chalance;;;2800;30-34;SO;4;2;0;;;;0;0;2;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;;;
+1011-38-04;21/02/2011;2;2011;14:00;14;38;les deux alpes;oisans;chalance;;;2500;30-34;SO;2;2;0;;;;0;0;2;hors-piste;;;3;sèche;tendre;linéaire;accidentelle soi-même;80;45;30
+1011-38-05;28/02/2011;2;2011;;;38;corren‡on en vercors;vercors;rancs de combevieux;45.00184;5.32405;1850;30-34;N;4;3;3;;;;1;2;0;hors-piste;;traversée;3;sèche;tendre;linéaire;accidentelle soi-même;150;50;70
+1011-65-01;06/03/2011;3;2011;13:30;13;65;cauteret;haute bigorre;refuge d'ilhéou/pic Né;;;2000;;;3;3;1;;;;0;1;2;randonnée;;;2;;;linéaire;accidentelle soi-même;;;
+1011-05-09;19/03/2011;3;2011;15:30;15;5;molines;queyras;rif ousselat;44.7160424997295;6.89815692320845;2540;40-44;N;2;1;1;;;;1;0;0;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;450;800;70
+1011-66-01;05/03/2011;3;2011;12:50;12;66;porté puymorens;capcir puymorens;face NO pic de l'Estagnol;;;2300;35-39;NO;2;1;1;;;;0;1;0;hors-piste;;descente;3;sèche;dure;linéaire;accidentelle tiers;100;15;60
+1011-73-07;11/01/2011;1;2011;11:03;11;73;val isère;haute tarentaise;pointe du grand vallon;45.26389;7.02166;2700;35-39;N;7;5;4;;;;4;0;1;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;700;70;80
+1011-73-08;26/02/2011;2;2011;11:30;11;73;montricher albanne;maurienne;col du pertuite grande chible;45.10429;6.23096;2500;30-34;NE;2;1;0;;;;0;0;1;randonnée;;descente;2;sèche;dure;linéaire;accidentelle soi-même;50;100;70
+1011-73-09;04/03/2011;3;2011;15:15;15;73;val isère;haute tarentaise;barriere de quartz;;;2400;35-39;NO;2;1;1;;;;0;1;0;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;120;60;50
+1011-73-10;04/03/2011;3;2011;;;73;villarodin bourget;maurienne;station la norma;;;;;;2;1;0;;;;0;1;0;hors-piste;;descente;3;;;;;;;
+1011-73-11;05/03/2011;3;2011;14:30;14;73;bessans;haute maurienne;andagne;;;3000;;NO;3;2;1;;;;0;1;1;hors-piste;;descente;4;sèche;tendre;linéaire;accidentelle soi-même;300;200;180
+1011-73-12;18/03/2011;3;2011;12:00;12;73;val isère;haute tarentaise;envers de cugna‹;;;2850;35-39;NO;6;1;1;;;;1;0;0;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;580;120;90
+1011-73-13;18/03/2011;3;2011;13:00;13;73;méribel;vanoise;mont du vallon lac du borgne;;;;;;;1;1;;;;1;0;0;hors-piste;;descente;3;sèche;tendre;linéaire;;;;
+1011-73-14;20/03/2011;3;2011;14:35;14;73;champagny;vanoise;Glières;;;;;;4;1;1;;;;1;0;0;randonnée;;;3;;;;;;;
+1011-73-15;21/03/2011;3;2011;12:40;12;73;lanslebourg;haute maurienne;;;;2530;;NE;2;2;0;;;;0;0;2;hors-piste;;descente;3;sèche;dure;linéaire;accidentelle soi-même;180;40;60
+1011-73-16;21/03/2011;3;2011;12:54;12;73;ste foy tarentaise;haute tarentaise;pointe de l'argentière;;;2750;35-39;NO;10;2;2;;;;0;1;1;randonnée;;descente;3;sèche;dure;linéaire;accidentelle soi-même;400;80;60
+1011-73-17;31/03/2011;3;2011;11:10;11;73;val isère;haute tarentaise;solaise;;;3000;35-39;SE;2;2;1;;;;0;1;1;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;80;30;50
+1011-73-18;01/04/2011;4;2011;11:35;11;73;val isère;haute tarentaise;face est de Charvet;;;2660;40-44;E;7;1;0;;;;0;1;0;hors-piste;;traversée;3;humide;tendre;ponctuel;accidentelle soi-même;600;;
+1011-73-19;03/04/2011;4;2011;13:00;13;73;bessans;haute maurienne;vallon oney - ouille arbéron;;;2500;35-39;NO;8;4;0;;;;0;1;3;randonnée;;descente;3;sèche;dure;linéaire;accidentelle soi-même;;;
+1011-73-20;16/05/2011;5;2011;09:35;9;73;orelle;vanoise;col de gebroulaz;;;3434;30-34;E;1;1;0;;;;0;0;1;randonnée;;montée;;sèche;dure;linéaire;accidentelle soi-même;150;200;
+1011-73-22;10/01/2011;1;2011;;;73;tignes;haute tarentaise;couloir des tuffs;;;2400;35-39;O;4;1;0;;;;0;1;0;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle tiers;200;20;20
+1011-73-23;20/03/2011;3;2011;10:00;10;73;tignes;haute tarentaise;oreilles de mickey;;;2600;;SO;3;2;0;;;;0;2;0;hors-piste;;descente;3;sèche;;linéaire;accidentelle tiers;150;80;150
+1011-74-09;03/03/2011;3;2011;;;74;vacheresse;chablais;pointe de bénévent;;;;;;3;3;0;;;;0;2;1;randonnée;;;3;;;linéaire;accidentelle soi-même;150;;
+1011-74-10;17/03/2011;3;2011;15:15;15;74;chamonix;mont blanc;plan de l'aiguille torrent de blaitiere;45.54284;6.53423;2230;35-39;N;5;1;0;;;;0;1;0;randonnée;;montée;3;sèche;dure;linéaire;accidentelle soi-même;450;40;40
+1011-74-11;20/03/2011;3;2011;12:05;12;74;magland;aravis;face nord pointe d'Areu;45.982606753253435;6.583189836659246;2430;35-39;NO;3;1;1;;;;1;0;0;randonnée;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;500;350;40
+1011-74-12;04/06/2011;6;2011;17:25;17;74;chamonix;mont blanc;aiguille du chardonnet;45.58085;6.59512;3650;>45;SO;2;1;1;;;;1;0;0;alpinisme;;descente;;humide;tendre;ponctuel;naturelle;150;;
+1011-26-01;03/12/2010;12;2010;16:00;16;26;ombleze;vercors;roc de toulan;44.53268;5.14054;1000;30-34;O;1;1;0;;;;0;1;0;randonnée;;montée;;sèche;tendre;linéaire;accidentelle soi-même;;40;40
+1011-38-01;05/12/2010;12;2010;11:45;11;38;st pierre de chartreuse;chartreuse;col des ayes;45.18397;5.50239;1570;35-39;NE;3;3;3;;;;3;0;0;randonnée;;montée;;sèche;tendre;linéaire;accidentelle soi-même;100;25;50
+1011-38-02;26/12/2010;12;2010;15:15;15;38;alpe d'huez;grandes rousses;pic blanc;;;3200;;O;2;1;0;;;;0;1;0;hors-piste;;descente;3;sèche;tendre;linéaire;accidentelle soi-même;;;
+1011-63-01;28/11/2010;11;2010;14:00;14;63;le mont dore;sancy;puy redon / couloir de l'envers du redon;45.31580;2.4823;1725;40-44;NO;2;1;0;;;;0;1;0;randonnée;;descente;;sèche;tendre;linéaire;accidentelle soi-même;200;;
+1011-68-01;17/12/2010;12;2010;12:40;12;68;mittlach;hohneck;couloir du rainkopf;48.0260;6.58592;1300;30-34;E;2;1;0;;;;0;1;0;randonnée;;descente;;sèche;tendre;linéaire;accidentelle soi-même;200;30;30
+1011-68-02;28/12/2010;12;2010;13:45;13;68;Metzeral;hohneck;wormspel;48.216;7.1138;1244;35-39;NE;5;1;0;;;;0;1;0;alpinisme;;traversée;;sèche;tendre;linéaire;accidentelle soi-même;90;25;25
+1011-73-01;01/11/2010;11;2010;09:00;9;73;Bessans;Haute Maurienne;couloir Roche MIchel;;;3100;35-39;N;3;3;3;;;;3;0;0;alpinisme;;montée;;sèche;tendre;linéaire;accidentelle soi-même;700;150;50
+1011-73-02;12/11/2010;11;2010;08:20;8;73;val isère;haute tarentaise;RD col Iseran Le Quartz;;;2480;;N;5;2;0;;;;1;1;0;voie de communication;;montée;;humide;tendre;linéaire;;100;;
+1011-73-03;09/12/2010;12;2010;12:37;12;73;val isère;haute tarentaise;charvet couloir des pisteurs;45.25399;6.57133;2650;>45;N;2;2;1;;;;1;1;0;hors-piste;;descente;;sèche;tendre;linéaire;accidentelle soi-même;300;3;100
+1011-73-04;10/12/2010;12;2010;15:00;15;73;orelle;vanoise;hors-piste sous cime caron;45.1579;6.33327;2820;30-34;S;9;4;0;;;;0;1;3;hors-piste;;traversée;;sèche;tendre;linéaire;accidentelle soi-même;200;80;80
+1011-73-05;26/12/2010;12;2010;09:34;9;73;val isère;haute tarentaise;combe du signal;45.25475;7.01406;2740;40-44;N;4;2;2;;;;1;0;1;hors-piste;;traversée;3;sèche;tendre;linéaire;accidentelle soi-même;100;50;140
+1011-73-06;14/12/2010;12;2010;12:50;12;73;tignes;haute tarentaise;grande combe / grande sassière;45.30222;6.58336;3100;35-39;SO;7;1;1;;;;1;0;0;randonnée;;montée;3;sèche;tendre;linéaire;accidentelle soi-même;150;50;60
+1011-73-21;02/12/2010;12;2010;11:30;11;73;tignes;haute tarentaise;tovière;;;2580;35-39;O;3;1;1;;;;0;1;0;hors-piste;;descente;;sèche;tendre;linéaire;accidentelle tiers;80;50;50
+1011-74-01;28/11/2010;11;2010;12:00;12;74;mieussy;chablais;haute-pointe;;;1950;40-44;SE;15;2;2;;;;0;0;2;randonnée;;montée;;sèche;tendre;linéaire;accidentelle soi-même;100;20;10
+1011-74-02;04/12/2010;12;2010;13:05;13;74;la clusaz;aravis;combe borderan;45.5310;6.2830;2350;;NO;3;3;1;;;;0;3;0;randonnée;;montée;;sèche;tendre;linéaire;accidentelle tiers;400;50;100
+1011-74-03;21/12/2010;12;2010;13:20;13;74;chamonix;chablais;combe d'encrenaz;46.00277491920038;6.911217132862983;2300;40-44;SE;3;1;1;;;;0;0;1;randonnée;;descente;3;sèche;dure;linéaire;accidentelle soi-même;400;20;40
+1011-74-04;21/12/2010;12;2010;;;74;samoens;chablais;station;;;;;;2;2;0;;;;0;2;0;hors-piste;;descente;3;;;linéaire;accidentelle soi-même;;;
+1011-74-05;22/12/2010;12;2010;11:00;11;74;contamines;mont blanc;chalet balme;45.44576;6.42333;2050;35-39;SO;9;1;1;;;;0;1;0;randonnée;;traversée;3;sèche;dure;linéaire;accidentelle soi-même;250;80;50
+1011-74-06;22/12/2010;12;2010;11:00;11;74;Hauteluce;mont blanc;col de la fenêtre;;;2150;<30;O;2;2;1;;;;0;2;0;randonnée;;montée;3;sèche;tendre;linéaire;accidentelle soi-même;50;50;40
+1011-74-07;24/12/2010;12;2010;15:00;15;74;Vallorcine;mont blanc;balme;;;2175;>45;NE;1;1;0;;;;0;1;0;minage;;traversée;3;sèche;tendre;linéaire;accidentelle soi-même;75;15;30
+1011-74-08;26/12/2010;12;2010;10:55;10;74;le reposoir;aravis;col de l'encrenaz;;;1950;30-34;S;3;1;1;;;;0;1;0;randonnée;;montée;3;sèche;dure;linéaire;accidentelle soi-même;30;15;20
