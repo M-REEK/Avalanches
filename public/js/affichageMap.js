@@ -10,9 +10,24 @@ center: [6.147068, 46.227253], // starting position [lng, lat]
 zoom: 10 // starting zoom
 });
 
+var layerList = document.getElementById('menu');
+    var inputs = layerList.getElementsByTagName('input');
+    
+    function switchLayer(layer) {
+    var layerId = layer.target.id;
+    map.setStyle('mapbox://styles/mapbox/' + layerId);
+    }
+    
+    for (var i = 0; i < inputs.length; i++) {
+    inputs[i].onclick = switchLayer;
+    }
+
 // Add zoom and rotation controls to the map.
 mymap.addControl(new mapboxgl.NavigationControl());
 mymap.addControl(new mapboxgl.FullscreenControl());
+
+
+
 
 // Affichage des éléments sur la map
 mymap.on('load', function() {
@@ -38,23 +53,24 @@ mymap.on('load', function() {
     // Points
     mymap.addSource('avalanchesPoints', {
         type: 'vector',
-        url: 'mapbox://aymerict.9z9uzl9n'
+        url: 'mapbox://aymerict.ck6xd6rmb17jl2nph9fwsq40b-7hmlm'
     });
     mymap.addLayer({
-        'id': 'avalanches-activite-2017',
+        'id': 'avalanches-activite',
         'type': 'circle',
         'source': 'avalanchesPoints',
-        'source-layer': 'tableau-accidents-2017-2018-861t01',
+        'source-layer': 'AvalanchesActivit',
         'paint': {
         'circle-radius': 6,
         'circle-color': '#B42222'
         },
         'filter': ['==', '$type', 'Point']
-    }); 
+    });      
 });
 
 //Events
 
+    //Polygones
     // When a click event occurs on a feature in the states layer, open a popup at the
     // location of the click, with description HTML from its properties.
     mymap.on('click', 'avalanches-boundary', function(e) {
@@ -71,6 +87,25 @@ mymap.on('load', function() {
 
     // Change it back to a pointer when it leaves.
     mymap.on('mouseleave', 'avalanches-boundary', function() {
+    mymap.getCanvas().style.cursor = '';
+    });
+
+    //Points
+    mymap.on('click', 'avalanches-activite', function(e) {
+        var cause='cause départ';
+    new mapboxgl.Popup()
+    .setLngLat(e.lngLat)
+    .setHTML("date: " + e.features[0].properties.date + " </br>emportés: " + e.features[0].properties.emportés + " </br>décès: "+ e.features[0].properties.décédés + " </br>activité pratiquée: "+ e.features[0].properties.activité + " </br>groupe: "+ e.features[0].properties.groupe)
+    .addTo(mymap);
+    });
+
+    // Change the cursor to a pointer when the mouse is over the states layer.
+    mymap.on('mouseenter', 'avalanches-activite', function() {
+    mymap.getCanvas().style.cursor = 'pointer';
+    });
+
+    // Change it back to a pointer when it leaves.
+    mymap.on('mouseleave', 'avalanches-activite', function() {
     mymap.getCanvas().style.cursor = '';
     });
 
