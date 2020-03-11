@@ -19,11 +19,12 @@ class DataAvalancheSpider(scrapy.Spider):
         #for text in response.css('div.avalanche container'):
         yield {
             'date': response.css('div.avalanche-date').get(),
-            'latitude' : response.css('head > script:nth-child(13)').get(),
+            'next_page' : response.css('div.pull-right').get()
+            #'latitude' : response.css('head > script:nth-child(13)').get(),
             #'longitude' : response.css('head > script:nth-child(13)').get()#.re("^(\+|-)?(?:180(?:(?:\.0{1,6})?)|(?:[0-9]|[1-9][0-9]|1[0-7][0-9])(?:(?:\.[0-9]{1,6})?))$"),
         }
 
-        next_page = response.css('div.pull-right.prevnext > a ::attr("href")').get()
+        next_page = response.css('.pull-right').get()
         #next_page = response.css('h1 a.btn').attrib["href"]
         print("page suivante : " + str(next_page))
         if next_page is not None :

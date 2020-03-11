@@ -5,7 +5,7 @@ Created on Tue Feb 25 15:57:51 2020
 @author: et8ge
 """
 
-import csv
+import json
 import sklearn
 
 #with open('Dataset_Avalanches_Activité_originel.csv', newline='') as csvfile:
@@ -14,15 +14,34 @@ import sklearn
 #        print(row)
 
 
+with open('C:/wamp64/www/Avalanches/app/models/dataset/Dataset_Avalanches_Activité_originel.json') as json_data:
+    data_dict = json.load(json_data)
+for row in data_dict :
+    print(row)
 
-import pandas as pd
 
-ma_ligne = 10
-ma_colonne = 10
-with open("Dataset_Avalanches_Activité_originel.csv") as f:
-    reader = pd.read_csv(f)
-ma_valeur = reader.iloc[ma_ligne, ma_colonne]
-print(reader)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
