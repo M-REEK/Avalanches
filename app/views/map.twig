@@ -7,28 +7,14 @@
           <div id="" class="col-md-3"></div>
           <div id="mapid" class="col-md-9"></div>
           <div id="menu">
-              <input
-              id="streets-v11"
-              type="radio"
-              name="rtoggle"
-              value="streets"
-              checked="checked"
-              />
-              <label for="streets">streets</label>
-              <input id="light-v10" type="radio" name="rtoggle" value="light" />
-              <label for="light">light</label>
-              <input id="dark-v10" type="radio" name="rtoggle" value="dark" />
-              <label for="dark">dark</label>
-              <input id="outdoors-v11" type="radio" name="rtoggle" value="outdoors" />
-              <label for="outdoors">outdoors</label>
-              <input id="satellite-v9" type="radio" name="rtoggle" value="satellite" />
-              <label for="satellite">satellite</label>
-              </div>
+              <input id="check" type="checkbox" checked data-toggle="toggle" data-on="Afficher<br>Photo interprétation " data-off="Afficher<br>Avalanches" data-onstyle="success" data-offstyle="danger" onchange="handleChange(event)">
           </div>
+
+        </div>
         <div class="row">
           <div class="col-md-4_offset-4" id="info"></div>
         </div>
-    </div>
+      </div>
 
     <!-- Création de la map -->
      <script src="{{ base_url() }}/js/affichageMap.js"</script>
