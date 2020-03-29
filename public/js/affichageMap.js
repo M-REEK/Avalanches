@@ -12881,7 +12881,7 @@ mymap.on('load', function() {
         mymap.on('click', 'points', function(e) {
 
         $('#date').text(e.features[0].properties.date); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-        $('#groupe').text(e.features[0].properties.groupe); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
+        $('#cause').text(e.features[0].properties.cause_depart); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
         $('#commune').text(e.features[0].properties.commune); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
         $('#emportes').text(e.features[0].properties.emportes); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
         $('#massif').text(e.features[0].properties.massif); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
