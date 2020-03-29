@@ -4,12 +4,77 @@
     {% block content %}
       <div class="container-fluid">
         <div class="row">
-          <div id="" class="col-md-3"></div>
-          <div id="mapid" class="col-md-9"></div>
-          <div id="menu">
+          <div id="menuGauche" class="col-md-3">
+            <div id ="infos">
+              <div class="row menuGauche titre">
+                <h1>Infos sur l'avalanche</h1>
+              </div>
+              <div class="row menuGauche">
+                <div class="col-md-6">
+                  <span>Date : </span>
+                  <span id="date">3</span>
+                </div>
+                <div class="col-md-6">
+                  <span >Groupe : </span>
+                  <span id="groupe">3</span>
+                </div>
+              </div>
+              <div class="row menuGauche">
+                <div class="col-md-6">
+                  <span >Commune : </span>
+                  <span id="commune">3</span>
+                </div>
+                <div class="col-md-6">
+                  <span>Emportés : </span>
+                  <span id="emportes">3</span>
+                </div>
+              </div>
+              <div class="row menuGauche">
+                <div class="col-md-6">
+                  <span >Massif : </span>
+                  <span id="massif">3</span>
+                </div>
+                <div class="col-md-6">
+                  <span>Blessés : </span>
+                  <span id="blesses">3</span>
+                </div>
+              </div>
+              <div class="row menuGauche">
+                <div class="col-md-6">
+                  <span >Site : </span>
+                  <span id="site">3</span>
+                </div>
+                <div class="col-md-6">
+                  <span>Décédés : </span>
+                  <span id="decedes">3</span>
+                </div>
+              </div>
+              <div class="row menuGauche">
+                <div class="col-md-6">
+                  <span >Neige : </span>
+                  <span id="neige">3</span>
+                </div>
+                <div class="col-md-6">
+                  <span>Indemnes : </span>
+                  <span id="indemnes">3</span>
+                </div>
+              </div>
+              <div class="row menuGauche">
+                <div class="col-md-6">
+                  <span >Orientation : </span>
+                  <span id="orientation">3</span>
+                </div>
+                <div class="col-md-6">
+                  <span>Activité : </span>
+                  <span id="activité">3</span>
+                </div>
+              </div>           
+            </div>
+            <div id="checkbox">
               <input id="check" type="checkbox" checked data-toggle="toggle" data-on="Afficher<br>Photo interprétation " data-off="Afficher<br>Avalanches" data-onstyle="success" data-offstyle="danger" onchange="handleChange(event)">
+            </div>
           </div>
-
+          <div id="mapid" class="col-md-9"></div>
         </div>
         <div class="row">
           <div class="col-md-4_offset-4" id="info"></div>

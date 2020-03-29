@@ -12845,11 +12845,13 @@ mymap.on('load', function() {
                     mymap.easeTo({
                         zoom: 10
                     });
+                $('#infos').hide();
         } else {
                 mymap.setLayoutProperty('points', 'visibility', 'visible');
                 mymap.setLayoutProperty('clusters', 'visibility', 'visible');
                 mymap.setLayoutProperty('cluster-count', 'visibility', 'visible');
                 mymap.setLayoutProperty('avalanches-boundary', 'visibility', 'none');
+                $('#infos').show();
         }
     }
 
@@ -12874,12 +12876,24 @@ mymap.on('load', function() {
         });
 
     //Points
+        
+        
         mymap.on('click', 'points', function(e) {
-            var cause='cause départ';
-        new mapboxgl.Popup()
-        .setLngLat(e.lngLat)
-        .setHTML("date: " + e.features[0].properties.date + " </br>emportés: " + e.features[0].properties.emportes + " </br>décès: "+ e.features[0].properties.decedes + " </br>activité pratiquée: "+ e.features[0].properties.activite + " </br>groupe: "+ e.features[0].properties.groupe)
-        .addTo(mymap);
+
+        $('#date').text(e.features[0].properties.date); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
+        $('#groupe').text(e.features[0].properties.groupe); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
+        $('#commune').text(e.features[0].properties.commune); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
+        $('#emportes').text(e.features[0].properties.emportes); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
+        $('#massif').text(e.features[0].properties.massif); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
+        $('#blesses').text(e.features[0].properties.blesses); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
+        $('#site').text(e.features[0].properties.site); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
+        $('#neige').text(e.features[0].properties.cohesion_neige); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
+        $('#indemnes').text(e.features[0].properties.indemnes); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
+        $('#orientation').text(e.features[0].properties.orientation); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
+        $('#activité').text(e.features[0].properties.activite); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
+        $('#indemnes').text(e.features[0].properties.indemnes); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
+
+        
         });
 
         // Change the cursor to a pointer when the mouse is over the states layer.

@@ -21,7 +21,7 @@
 
 
 /*
-    Menu
+    Nav
 */
     nav{
         font-family: "McLaren", cursive;;
@@ -103,6 +103,38 @@
             color: ivory;
             text-align: center;
         }
+
+
+    /*
+        Menu Carte
+    */
+
+    #menuGauche{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        color: #FFFCD3;
+    }
+
+    .menuGauche{
+        margin-bottom: 1.5rem;
+    }
+
+    .titre{
+        align-self: center;
+    }
+    h1{
+        margin: auto;
+    }
+
+    #checkbox{
+        align-self: center;
+    }
+
+        
+
+
+
 
     /*
         Footer
