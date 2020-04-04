@@ -15,4 +15,8 @@ class Controller{
     public function map(Request $request, Response $response){
         $this->container->view->render($response,'map.twig');
     }
+
+    public function aboutUs(Request $request, Response $response){
+        $this->container->view->render($response,'aboutUs.twig');
+    }
 }

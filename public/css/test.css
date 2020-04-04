@@ -109,28 +109,53 @@
         Menu Carte
     */
 
-    #menuGauche{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        color: #FFFCD3;
-    }
+        #menuGauche{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            color: #FFFCD3;
+        }
 
-    .menuGauche{
-        margin-bottom: 1.5rem;
-    }
+        .menuGauche{
+            margin-bottom: 1.5rem;
+        }
 
-    .titre{
-        align-self: center;
-    }
-    h1{
-        margin: auto;
-    }
+        .titre{
+            align-self: center;
+        }
+        h1{
+            margin: auto;
+        }
 
-    #checkbox{
-        align-self: center;
-    }
+        #checkbox{
+            align-self: center;
+        }
 
+
+    /*
+        About Us
+    */
+        #apropos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #FFFCD3;
+        }
+
+        #apropos h1{
+            margin: auto;
+            color: #FFFCD3;
+        }
+        #apropos h2{
+            margin-left: 5rem;
+            margin-bottom: 2rem;
+            color: #FFFCD3;
+        }
+
+        .aboutUs{
+            margin-bottom: 2rem;
+            margin-left: 2.5rem;
+        }
         
 
 
@@ -140,25 +165,25 @@
         Footer
     */
 
-    .footer {
-        height: 6rem;
-        bottom: 0;
-        width: 100%;
-        margin-top: 40px;;
-        background-color: #FFFCD3;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .footer .row .col:nth-child(n+2){
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        font-family: 'Spinnaker', sans-serif;
-        font-size: 1.2rem;
-    }
+        .footer {
+            height: 6rem;
+            bottom: 0;
+            width: 100%;
+            margin-top: 40px;;
+            background-color: #FFFCD3;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .footer .row .col:nth-child(n+2){
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            font-family: 'Spinnaker', sans-serif;
+            font-size: 1.2rem;
+        }
 
 
 

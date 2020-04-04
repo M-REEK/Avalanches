@@ -7,7 +7,7 @@
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ base_url() }}/css/test.css">
+    <link rel="stylesheet" href="../public/css/test.css">
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|McLaren|Shadows+Into+Light+Two|Spinnaker&display=swap" rel="stylesheet">
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css" rel="stylesheet" />
@@ -17,7 +17,7 @@
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-custom"style="padding: initial;">
-      <a class="navbar-brand" href="#" style="padding: inherit";><img src="{{ base_url() }}/img//icons8-montagne-100.png"><span>AVALANCHES - Data Mining</span> </a>
+      <a class="navbar-brand" href="#" style="padding: inherit";><img src="../public/img//icons8-montagne-100.png"><span>AVALANCHES - Data Mining</span> </a>
       <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,19 +25,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#">MAP </a>
+            <a class="nav-link active" href="{{path_for('map')}}">MAP </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CHARTS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">MENU 1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">MENU 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="{{path_for('aboutUs')}}">About us</a>
           </li>
   
       </div>
