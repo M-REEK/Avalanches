@@ -4,77 +4,89 @@
     {% block content %}
       <div class="container-fluid">
         <div class="row">
-          <div id="menuGauche" class="col-md-3">
+          <div id="menuGauche" class="col-md-5">
             <div id ="infos">
               <div class="row menuGauche titre">
                 <h1>Infos sur l'avalanche</h1>
               </div>
+              <div id="divImage" class="row menuGauche">
+                <div >
+                  <img id="image" src="">
+                </div>
+              </div>
               <div class="row menuGauche">
                 <div class="col-md-6">
-                  <span>Date : </span>
+                  <span class="item">Date : </span>
                   <span id="date"></span>
                 </div>
                 <div class="col-md-6">
-                  <span >Cause : </span>
+                  <span class="item">Origine : </span>
                   <span id="cause"></span>
                 </div>
               </div>
               <div class="row menuGauche">
                 <div class="col-md-6">
-                  <span >Commune : </span>
-                  <span id="commune"></span>
-                </div>
-                <div class="col-md-6">
-                  <span>Emportés : </span>
-                  <span id="emportes"></span>
-                </div>
-              </div>
-              <div class="row menuGauche">
-                <div class="col-md-6">
-                  <span >Massif : </span>
+                  <span class="item">Massif : </span>
                   <span id="massif"></span>
                 </div>
                 <div class="col-md-6">
-                  <span>Blessés : </span>
-                  <span id="blesses"></span>
-                </div>
-              </div>
-              <div class="row menuGauche">
-                <div class="col-md-6">
-                  <span >Site : </span>
-                  <span id="site"></span>
-                </div>
-                <div class="col-md-6">
-                  <span>Décédés : </span>
+                  <span class="item">Décédés : </span>
                   <span id="decedes"></span>
                 </div>
               </div>
               <div class="row menuGauche">
                 <div class="col-md-6">
-                  <span >Neige : </span>
-                  <span id="neige"></span>
+                  <span class="item">Site : </span>
+                  <span id="site"></span>
                 </div>
                 <div class="col-md-6">
-                  <span>Indemnes : </span>
-                  <span id="indemnes"></span>
+                  <span class="item">Neige : </span>
+                  <span id="neige"></span>
                 </div>
               </div>
               <div class="row menuGauche">
                 <div class="col-md-6">
-                  <span >Orientation : </span>
+                  <span class="item">Orientation : </span>
                   <span id="orientation"></span>
                 </div>
                 <div class="col-md-6">
-                  <span>Activité : </span>
-                  <span id="activité"></span>
+                  <span class="item">Activité : </span>
+                  <span id="activite"></span>
                 </div>
+              </div>           
+              <div class="row menuGauche">
+                <div class="col-md-12">
+                  <span class="item">Description : </span>
+                  <span id="description"></span>
+                </div>
+              </div>           
+              <div class="row menuGauche">
+                <div class="col-md-12">
+                  <span class="item">Source : </span>
+                  <span ><a id="source" href="" target="_blank" ></a></span>
+                </div>
+              </div>           
+                     
+                                
+              <div id="legende" class="row menuGauche">      
+                <div id="nc_m" class="col-md-2">NC</div>
+                <div id="zero_m" class="col-md-2">0</div>
+                <div id="un_m" class="col-md-2">1</div>
+                <div id="cinq_m" class="col-md-2">5</div>
+                <div id="huit_m" class="col-md-2">8</div>
+              </div>         
+              <div id="legende" class="row menuGauche">      
+                <div >décès par avalanche</div>
               </div>           
             </div>
             <div id="checkbox">
               <input id="check" type="checkbox" checked data-toggle="toggle" data-on="Afficher<br>Photo interprétation " data-off="Afficher<br>Avalanches" data-onstyle="success" data-offstyle="danger" onchange="handleChange(event)">
             </div>
           </div>
-          <div id="mapid" class="col-md-9"></div>
+          <div class="col-md-7">
+            <div id="mapid"></div>
+            <div id="info"></div>
+          </div>
         </div>
         <div class="row">
           <div class="col-md-4_offset-4" id="info"></div>
@@ -82,7 +94,7 @@
       </div>
 
     <!-- Création de la map -->
-     <script src="../public/js/affichageMap.js"</script>
+     <script src="public/js/affichageMap.js"</script>
      <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
     
     {% endblock %}

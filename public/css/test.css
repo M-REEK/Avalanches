@@ -115,20 +115,49 @@
             justify-content: space-around;
             color: #FFFCD3;
         }
-
+        #menuGauche img{
+            height: 9rem;
+        }
+        .item{
+            color: #705D3F;
+        }
+        #divImage{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        #legende{
+            display: flex;
+            justify-content: center;
+        }
         .menuGauche{
             margin-bottom: 1.5rem;
         }
-
         .titre{
             align-self: center;
         }
         h1{
             margin: auto;
+            color: #705D3F;
         }
-
         #checkbox{
             align-self: center;
+        }
+
+        #zero_m{
+            background-color: #27FB19;
+        }
+        #un_m{
+            background-color: #FAC814;
+        }
+        #cinq_m{
+            background-color: #E37907;
+        }
+        #huit_m{
+            background-color: #FF3005;
+        }
+        #nc_m{
+            background-color: #0237E6;
         }
 
 
@@ -141,20 +170,43 @@
             justify-content: center;
             color: #FFFCD3;
         }
+        #apropos .row{
+            display: flex;
+            flex-direction: column;
+        }
 
         #apropos h1{
             margin: auto;
-            color: #FFFCD3;
+            color: #705D3F;
         }
         #apropos h2{
             margin-left: 5rem;
             margin-bottom: 2rem;
-            color: #FFFCD3;
+            color: #705D3F;
         }
 
         .aboutUs{
             margin-bottom: 2rem;
             margin-left: 2.5rem;
+        }
+
+        .techno{
+            display: flex;
+            justify-content: start;
+            align-content: center;
+            margin-bottom: 3rem;
+        }
+        .techno .logo{
+            width: 14rem;
+        }
+        .techno .imgLogo{
+            width: 12rem;
+            height: 7rem;
+        }
+        .techno .descriptifTechno{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
         
 
@@ -184,6 +236,10 @@
             font-family: 'Spinnaker', sans-serif;
             font-size: 1.2rem;
         }
+
+    /*
+        
+    */
 
 
 
