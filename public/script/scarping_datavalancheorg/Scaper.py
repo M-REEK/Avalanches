@@ -11,14 +11,6 @@ from bs4 import BeautifulSoup
 import re
 import json
 
-# Fontions for MANUALLY PROCESSING
-# def val_or_none(var):
-#     if (var[0] is None):
-#         var = ""
-#     else:
-#         var = var[0]
-#     return var
-
 url_patern = 'http://www.data-avalanche.org/avalanche/'
 url_init = 'http://www.data-avalanche.org/avalanche/1351431005476'
 url_last = 'http://www.data-avalanche.org/avalanche/1585675415865'
@@ -30,13 +22,13 @@ url_3_tier_init = 'http://www.data-avalanche.org/avalanche/1514801165640'
 
 # Ouverture du navigateur et accès à la premiere avalanche du site
 driver = webdriver.Firefox()
-driver.get(url_3_tier_init)
+driver.get(url_init)
 
 #creation du json final
 json_avalanche = []
 
 # pour chaque page...
-for i in range(3000):
+for i in range(1):
     # extraction de toute la page en html
     html_page = BeautifulSoup(driver.page_source, 'html.parser')
     # extraction des balise <script> sur la page
@@ -53,18 +45,79 @@ for i in range(3000):
     #Création du dictionnaire json
     data_dict = json.loads(data)
 
+    # ajout d'une propriété renseignant le nombre de décédés
+    data_dict["décédés"] = "nc"
+
+    # modification du format de dateStr
+    bon_format = data_dict["dateStr"].replace(" ", "/")
+    data_dict["dateStr"] = bon_format
+
+    # ajout d'une propriété renseigant uniquement le mois
+    mois = re.findall("[0-3][0-9]/([0-1][0-9])/[0-9]{4}", data_dict["dateStr"])
+    data_dict["mois"] = mois[0]
+
+    #ajout d'une propriété renseignant uniquement l'année
+    annee = re.findall("[0-3][0-9]/[0-1][0-9]/([0-9]{4})", data_dict["dateStr"])
+    data_dict["année"] = annee[0]
+
     #Ajout de l'url de la page de l'avalanche au dictionnaire
     data_dict["URL"] = driver.current_url
 
     #dumping du dict
-    json_avalanche.append(json.dumps(data_dict).encode().decode('unicode-escape'))
-    print(json.dumps(data_dict).encode().decode('unicode-escape'))
+    json_avalanche.append(data_dict)
 
-    #affichage des infos du dictionnaire
-    # print("----------Infos Scrapées----------")
-    # for cle, val in data_dict.items() :
-    #     print(cle + " : " + str(val))
+    print(json_avalanche)
 
+    with open('DataAvalancheOrg_test.json', 'w', encoding='utf-8') as json_file:
+        json.dump(json_avalanche, json_file)
+
+    # 1er tier
+    if (driver.current_url == 'http://www.data-avalanche.org/avalanche/1362850966301') :
+        with open('DataAvalancheOrg1.json', 'w', encoding='utf-8') as json_file:
+            json.dump(json_avalanche, json_file)
+
+    # 2ieme tier
+    elif (driver.current_url == 'http://www.data-avalanche.org/avalanche/1514795696856') :
+        with open('DataAvalancheOrg2.json', 'w', encoding='utf-8') as json_file:
+            json.dump(json_avalanche, json_file)
+
+# Recherche du bouton pour passer à l'avalanche suivante
+    try :
+        button = driver.find_element_by_css_selector('a.btn:nth-child(2)')
+        element = WebDriverWait(driver, 10).until(lambda x: x.find_element_by_css_selector("a.btn:nth-child(2)"))
+        button.click()
+    except selenium.common.exceptions.ElementClickInterceptedException :
+        url_fail = driver.current_url
+
+        # Compare les 2 dernieres URL ratées
+        # Si elles sont identiques mais différentes de la premiere avalanche du site,
+        # Alors c'est la derniere avalanche du site
+        if(url_fail_prec == url_fail) and (url_fail != url_init) :
+            print("Derniere avalanche !")
+
+            #serialisation du JSON
+            with open('DataAvalancheOrg3.json', 'w', encoding='utf-8') as json_file:
+                json.dump(json_avalanche, json_file)
+
+            driver.close()
+        else :
+            print("problème de connection, chargement de la page trop long...")
+            print("Page non-scrapée : " + url_fail)
+            url_fail_prec = url_fail
+            continue
+    except selenium.common.exceptions.InvalidSessionIdException :
+        print("Fermeture du navigateur")
+
+driver.close()
+
+
+# Fontions for MANUALLY PROCESSING
+# def val_or_none(var):
+#     if (var[0] is None):
+#         var = ""
+#     else:
+#         var = var[0]
+#     return var
 
 ###   MANUALLY PROCESSING... FAIL !
 #
@@ -194,43 +247,3 @@ for i in range(3000):
 #     print("Risque meteo france = " + risque_meteo_france)
 #
 #     print("lat, long : " + lat + ", " + long)
-
-    # 1er tier
-    if (driver.current_url == 'http://www.data-avalanche.org/avalanche/1362850966301') :
-        with open('DataAvalancheOrg1.json', 'w', encoding='utf-8') as json_file:
-            json_file.write(json.dumps(json_avalanche).encode().decode('unicode-escape'))
-
-    # 2ieme tier
-    elif (driver.current_url == 'http://www.data-avalanche.org/avalanche/1514795696856') :
-        with open('DataAvalancheOrg2.json', 'w', encoding='utf-8') as json_file:
-            json_file.write(json.dumps(json_avalanche).encode().decode('unicode-escape'))
-
-# Recherche du bouton pour passer à l'avalanche suivante
-    try :
-        button = driver.find_element_by_css_selector('a.btn:nth-child(2)')
-        element = WebDriverWait(driver, 10).until(lambda x: x.find_element_by_css_selector("a.btn:nth-child(2)"))
-        button.click()
-    except selenium.common.exceptions.ElementClickInterceptedException :
-        url_fail = driver.current_url
-
-        # Compare les 2 dernieres URL ratées
-        # Si elles sont identiques mais différentes de la premiere avalanche du site,
-        # Alors c'est la derniere avalanche du site
-        if(url_fail_prec == url_fail) and (url_fail != url_init) :
-            print("Derniere avalanche !")
-
-            #serialisation du JSON
-            with open('DataAvalancheOrg3.json', 'w', encoding='utf-8') as json_file:
-                json_file.write(json.dumps(json_avalanche).encode().decode('unicode-escape'))
-                #json.dump(json_avalanche, json_file, ensure_ascii=False)
-
-            driver.close()
-        else :
-            print("problème de connection, chargement de la page trop long...")
-            print("Page non-scrapée : " + url_fail)
-            url_fail_prec = url_fail
-            continue
-    except selenium.common.exceptions.InvalidSessionIdException :
-        print("Fermeture du navigateur")
-
-driver.close()
