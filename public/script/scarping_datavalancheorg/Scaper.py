@@ -4,6 +4,9 @@ Created on Wed Mar 11 16:33:59 2020
 
 @author: et8ge
 """
+import os
+import string
+
 import selenium
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -14,21 +17,41 @@ import json
 url_patern = 'http://www.data-avalanche.org/avalanche/'
 url_init = 'http://www.data-avalanche.org/avalanche/1351431005476'
 url_last = 'http://www.data-avalanche.org/avalanche/1585675415865'
-url_temp = 'http://www.data-avalanche.org/avalanche/1542443688305'
-url_fail_prec = url_init
+url_temp = 'http://www.data-avalanche.org/avalanche/1549397713022'
+url_check_last = url_init
 
-url_2_tier_init = 'http://www.data-avalanche.org/avalanche/1362834789133'
-url_3_tier_init = 'http://www.data-avalanche.org/avalanche/1514801165640'
+# constante du nombre maximal de lignes au-dela de laquelle elle seront insérée dans le document
+CACHE_NB_LIGNES_MAX = 100
+# nombre de boucle que l'algo doit effectuer, doit être supérieur au nombre total d'avalanches contenues sur le site
+BOUCLE_MAX = 3000
+# nom du fichier cible
+FICHIER_CIBLE = "DataAvalancheOrg_test.json"
+# liste-cache des avalanches chargées
+list_avalanche = []
+
+# suppression du fichier json s'il existe
+if (os.path.isfile(FICHIER_CIBLE)) :
+    while(1) :
+        print("fichier cible existant !")
+        rep = input("Voulez-vous le supprimer ? (y/n)")
+        if rep == "y" or rep =="Y" or rep == "o" or rep == "O" or rep == "oui" or rep == "yes" or rep == "yep":
+            os.remove(FICHIER_CIBLE)
+            print("le fichier a été supprimé, un nouveau sera crée.")
+            break
+
+        elif rep == "n" or rep == "N" or rep == "non" or rep == "no" or rep == "nop":
+            print("fichier conservé, les avalanches seront placées à la suite.")
+            break
+
+        else :
+            print("la commande na pas été comprise, veuillez la réitérer...")
 
 # Ouverture du navigateur et accès à la premiere avalanche du site
 driver = webdriver.Firefox()
-driver.get(url_init)
-
-#creation du json final
-json_avalanche = []
+driver.get(url_temp)
 
 # pour chaque page...
-for i in range(1):
+for i in range(BOUCLE_MAX):
     # extraction de toute la page en html
     html_page = BeautifulSoup(driver.page_source, 'html.parser')
     # extraction des balise <script> sur la page
@@ -63,23 +86,53 @@ for i in range(1):
     #Ajout de l'url de la page de l'avalanche au dictionnaire
     data_dict["URL"] = driver.current_url
 
-    #dumping du dict
-    json_avalanche.append(data_dict)
+    # nettoyage de la description de l'avalanche
+    raw_desc = BeautifulSoup(data_dict["description"], features="html.parser").get_text() # retire toutes les balises html
+    substitut = str.maketrans("\n\t\r", "   ") # créé une substitution pour les caractère spéciaux
+    clean_desc = raw_desc.translate(substitut) # applique la subsitution à la description
+    data_dict["description"] = clean_desc # affecte la description nettoyé à la propriété ad hoc de l'avalanche
 
-    print(json_avalanche)
+    # retraint de la propriété auteurs_photos (inutile)
+    del data_dict["auteurs_photos"]
 
-    with open('DataAvalancheOrg_test.json', 'w', encoding='utf-8') as json_file:
-        json.dump(json_avalanche, json_file)
+    # Si le fichier n'existe pas, il est créé et la premiere avalanche y est insérée
+    if not (os.path.isfile(FICHIER_CIBLE)):
+        print("# Création du fichier ' " + FICHIER_CIBLE + "'")
+        with open(FICHIER_CIBLE, 'w', encoding='utf-8') as json_file:
+            json.dump(data_dict, json_file)
+        print("| Ajout de l'avalanche " + str(data_dict["id"]) + " au fichier")
+    else :
+        # accrétion des données dans un tableau
+        list_avalanche.append(data_dict)
+        print("Ajout de l'avalanche " + str(data_dict["id"]) + " à la liste cache")
 
-    # 1er tier
-    if (driver.current_url == 'http://www.data-avalanche.org/avalanche/1362850966301') :
-        with open('DataAvalancheOrg1.json', 'w', encoding='utf-8') as json_file:
-            json.dump(json_avalanche, json_file)
+    # vidage de la liste des avalanches quand le nombre de lignes est supérieur à CACHE_NB_LIGNES_MAX
+    if(len(list_avalanche) >= CACHE_NB_LIGNES_MAX) :
+        print("# vidage de la liste cache")
+        with open(FICHIER_CIBLE, 'a', encoding='utf-8') as json_file:
+            for a in list_avalanche :
+                json_file.write(",\n")  # ajoute une virgule et un saut de ligne à la fin de chaque ligne
+                json.dump(a, json_file)
+        print("# vidage de la liste cache")
+        for a in list_avalanche :
+            print("| Ajout de l'avalanche " + str(a["id"]) + " au fichier")
+        list_avalanche.clear()
 
-    # 2ieme tier
-    elif (driver.current_url == 'http://www.data-avalanche.org/avalanche/1514795696856') :
-        with open('DataAvalancheOrg2.json', 'w', encoding='utf-8') as json_file:
-            json.dump(json_avalanche, json_file)
+    # #dumping du dict
+    # json_avalanche.append(data_dict)
+    #
+    # with open('DataAvalancheOrg_test.json', 'w', encoding='utf-8') as json_file:
+    #     json.dump(json_avalanche, json_file)
+    #
+    # # 1er tier
+    # if (driver.current_url == 'http://www.data-avalanche.org/avalanche/1362850966301') :
+    #     with open('DataAvalancheOrg1.json', 'w', encoding='utf-8') as json_file:
+    #         json.dump(json_avalanche, json_file)
+    #
+    # # 2ieme tier
+    # elif (driver.current_url == 'http://www.data-avalanche.org/avalanche/1514795696856') :
+    #     with open('DataAvalancheOrg2.json', 'w', encoding='utf-8') as json_file:
+    #         json.dump(json_avalanche, json_file)
 
 # Recherche du bouton pour passer à l'avalanche suivante
     try :
@@ -92,22 +145,30 @@ for i in range(1):
         # Compare les 2 dernieres URL ratées
         # Si elles sont identiques mais différentes de la premiere avalanche du site,
         # Alors c'est la derniere avalanche du site
-        if(url_fail_prec == url_fail) and (url_fail != url_init) :
-            print("Derniere avalanche !")
-
+        if(url_check_last == url_fail) and (url_fail != url_init) :
+            print("Dernieres avalanches !")
+            # suppression de la derniere entrée, qui correspond au doublon de la précédente, i.e. la derniere
+            list_avalanche.pop(len(list_avalanche)-1)
             #serialisation du JSON
-            with open('DataAvalancheOrg3.json', 'w', encoding='utf-8') as json_file:
-                json.dump(json_avalanche, json_file)
-
+            with open(FICHIER_CIBLE, 'a', encoding='utf-8') as json_file:
+                for a in list_avalanche:
+                    json_file.write(",\n")  # ajoute une virgule et un saut de ligne à la fin de chaque ligne
+                    json.dump(a, json_file)
+            print("# vidage de la liste cache")
+            for a in list_avalanche:
+                print("| Ajout de l'avalanche " + str(a["id"]) + " au fichier")
+            list_avalanche.clear()
             driver.close()
         else :
-            print("problème de connection, chargement de la page trop long...")
-            print("Page non-scrapée : " + url_fail)
-            url_fail_prec = url_fail
+            print("problème de connection, chargement de la page trop long... (ou derniere page et cest normal !)")
+            print("Page non-scrapée (ou derniere page et c'est normal !) : " + url_fail)
+            url_check_last = url_fail
             continue
     except selenium.common.exceptions.InvalidSessionIdException :
         print("Fermeture du navigateur")
+        continue
 
+# fermeture du navigateur
 driver.close()
 
 

@@ -1,6 +1,6 @@
 import simplejson as json
 
-data = json.load(open('DataAvalancheOrg_test.json'))
+data = json.load(open('DataAvalancheOrg.json'))
 
 geojson = {
     "type": "FeatureCollection",
@@ -15,7 +15,7 @@ geojson = {
      } for d in data]
 }
 
-output = open('DataAvalancheOrg_test.geojson', 'w')
+output = open('DataAvalancheOrg.geojson', 'w')
 json.dump(geojson, output)
 
 print(geojson)
