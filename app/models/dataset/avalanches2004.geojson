@@ -1,0 +1,13 @@
+{"type": "FeatureCollection", "features": [
+    {"type": "Feature", "geometry": {"type": "Point", "coordinates": [6.437709308904, 45.1531248743614]}, "properties": {"id": 50000137, "observateur": "Duclos Alain", "pays": "France", "massif": "Maurienne", "sommet": "La s\u00e9taz des Pr\u00e9s", "itineraire": "Sous t\u00e9l\u00e9si\u00e8ge de Montissot", "orientation": "NW", "dateEvenement": 1077490800000, "dateAvalanche": 1077490800000, "dateStr": "23/02/2004", "heureAuPlusTot": "15:00:00", "description": "Plaque avec neige de culture. Deux skieurs venaient de descendre le versant oppos\u00e9 en snow blades. Ayant atteint le fond du ruisseau, ils l'on travers\u00e9 pour remonter \u00e0 pied la courte pente et rejoindre la piste. La plaque s'est d\u00e9clench\u00e9e alors que le second skieur \u00e9tait dans la pente alors que le premier avait atteint la piste. Au del\u00e0 des jalons de balisage, toute pente \u00e0 plus de 30\u00b0 est susceptible de partir en plaque. Le ruisseau a constitu\u00e9 un pi\u00e8ge en accumulant la neige et en participant \u00e0 la noyade de la victime.", "declenchement_a_distance": false, "distance_declenchement": 0, "caracteristique": "", "denivele": 0, "origine_principale": "Pi\u00e9ton", "origine_secondaire": "", "altitude_depart": 1735, "commentaire_zone_depart": "", "epaisseur_rupture": 50, "epaisseur_max_rupture": 90, "longueur_rupture": 30, "type_ecoulement_principal": "Dense", "commentaire_type_ecoulement": "", "altitude_arrivee": 0, "commentaire_zone_arrivee": "", "qualite_neige": "", "commentaire_qualite_neige": "Neige de culture sous le neige r\u00e9cente", "commentaire_qualite_transportee": "", "risque_meteo_france": "Inconnu", "latitude": 45.1531248743614, "longitude": 6.437709308904, "thumbnail": "https://lh3.googleusercontent.com/-mmH8Hhfe8Oo/UCAXF88BEUI/AAAAAAAAHmw/s6oO8m74KD0/s88/version-50000579-GORYARKRNOBLVVESVAXM.jpg", "d\u00e9c\u00e9d\u00e9s": "nc", "mois": "02", "ann\u00e9e": "2004", "URL": "http://www.data-avalanche.org/avalanche/50000137"}}
+
+
+
+
+
+
+
+
+
+
+            ]}
