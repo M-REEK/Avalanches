@@ -19,4 +19,7 @@ class Controller{
     public function aboutUs(Request $request, Response $response){
         $this->container->view->render($response,'aboutUs.twig');
     }
+    public function pageGege(Request $request, Response $response){
+        $this->container->view->render($response,'pageGege.twig');
+    }
 }
