@@ -9,4 +9,5 @@ $app = new \Slim\App(['settings' => $config]);
 require('app/container.php');
 $app->get('/', \App\Controller::class . ':map')->setName('map');
 $app->get('/aboutUs', \App\Controller::class . ':aboutUs')->setName('aboutUs');
+$app->get('/pageGege', \App\Controller::class . ':pageGege')->setName('pageGege');
 $app->run();
