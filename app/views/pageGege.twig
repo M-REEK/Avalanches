@@ -1079,7 +1079,6 @@ th {
   box-sizing: border-box;
 }
 html {
-  font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
@@ -12229,6 +12228,103 @@ nav{
         font-size: 1.3rem;
         background-color:#FFFCD3 ;
         color: #202021;
+    }
+    .navbar-brand img{
+        width: 5rem;
+        color: #202021;
+    }
+    .navbar-brand{
+        margin-right: 18%;
+        font-family: "slopes";
+        font-size: 2.5rem;
+        color: #202021;
+    }
+    .nav-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 3rem;
+    }
+
+    .nav-item a{
+        color: #202021;
+    }
+    
+   
+    .nav-item:last-child a{
+        margin-left: 5rem;
+    }
+    .nav-item a:hover{
+        color: seagreen;
+    }
+
+    .navbar-toggler{
+        color: #202021;
+    }
+
+    nav a span{
+        margin-left: 8%;
+    }
+
+    .active{
+        color: red;
+    }
+
+    .footer {
+            height: 6rem;
+            bottom: 0;
+            width: 100%;
+            margin-top: 40px;;
+            background-color: #FFFCD3;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .footer .row .col:nth-child(n+2){
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            font-family: 'Spinnaker', sans-serif;
+            font-size: 1.2rem;
+        }
+        @media (min-width: 1462px){
+        .navbar-expand-custom {
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+        .navbar-expand-custom .navbar-nav {
+            flex-direction: row;
+        }
+        .navbar-expand-custom .navbar-nav .nav-link {
+            padding-right: .5rem;
+            padding-left: .5rem;
+        }
+        .navbar-expand-custom .navbar-collapse {
+            display: flex!important;
+        }
+        .navbar-expand-custom .navbar-toggler {
+            display: none;
+        }
+    }
+    @media (max-width: 627px){
+        .footer .row .col:nth-child(n+2){
+            font-size: 0.7rem;
+        }
+        .navbar-brand img{
+            width: 3rem;
+            color: #202021;
+        }
+        .navbar-brand{
+            font-size: 1.5rem;
+        }
+        nav{
+            font-family: "McLaren", cursive;;
+            font-size: 1rem;
+            background-color:#FAE8C3 ;
+            color: #202021;
+        }
     }
 </style>
 
