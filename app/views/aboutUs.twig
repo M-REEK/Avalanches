@@ -1,0 +1,124 @@
+{% extends "layout.twig" %}
+
+    {% block content %}
+
+        <div id="apropos" class="container-fluid">
+
+            <div class="row aboutUs">
+                <h2>Les développeurs</h2>
+                <div>
+                    Nous sommes deux étudiants de Licence 3 Informatique à l'Université Lyon I.
+                </div>
+            </div>
+            <div class="row aboutUs">
+                <h2>Le contexte</h2>
+                <div>
+                    Ce site a été réalisé dans le cadre de l'UE LIFPROJET.<br>
+                    L'objectif de cette UE est de mener à bien un projet informatique en groupe de deux ou trois étudiants.
+                </div>
+            </div>
+            <div class="row aboutUs">
+                <h2>Le sujet</h2>
+                <div>
+                    Le principe de ce projet est de choisir une source de données accessible (open data, data crawling, etc), <br>de collecter ces données, les analyser, et construire un “explorable” permettant à n'importe qui d'explorer ces données de manière interactive. <br><br>
+                    La thématique des avalanches a été très vite validée, l'un de nous étant passionné de montagne.<br>
+                    Le support web a été choisi car nous voulions progresser dans cette matière<br><br>
+
+                    Plusieurs sources de données ont été explorées et exploitées:<br><br>
+                    Tout d'abord nous avons trouvé un premier jeu de données de <a href="https://www.data.gouv.fr/en/datasets/clpa-photo-interpretation-zones-des-phenomenes-davalanche-de-rhone-alpes/">Photo-interprétation</a><br><br>
+
+                    Par la suite nous avons exploité un jeu de données montrant les accidents dûs aux avalanches trouvé sur <a href="http://www.anena.org/5041-bilan-des-accidents.htm">Photo-interprétation</a><br><br>
+
+                    Enfin nous avons utilisé un scrapper afin de parcourir les site <a href="http://www.data-avalanche.org/">data-avalanche.org</a> et de récupérer des données sur les avalanches qu'il recense<br><br>
+
+                    Nous avons utilisé l'outil <a href="https://www.mapbox.com/">MAPBOX</a> afin de créer une carte interactive affichant<br><br>
+                </div>
+            </div>
+
+            <div class="row aboutUs">
+                <h2>Les technologies</h2>
+                <div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/Slim-Php.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        SLIM est un micro Framework PHP très léger. Il est idéal pour créer des applications web et des API.<br>
+                        Etant plus léger il laisse plus de libertés que de gros framework tels que Symfony ou Laravel du fait qu'il contient moins de fonctionnalités.
+                    </div>
+                </div>
+                
+                <div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/twig.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        Twig est un moteur de templates qui peut être intégré à Slim PHP. Il permet une gestion plus fine des différentes pages.
+                    </div>
+                </div>
+                
+                <div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/htmlCSS.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        Ces sont les langages de bases de la programmation web, ils permettent de gérer les contenu d'une page web ainsi que son design de manière statique
+                    </div>
+                </div>
+                
+                <div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/bootstrap.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        Bootstrap est une librairie CSS permettant de créer des modèles de pages et de rendre cohérent le design d'un site plus facilement.
+                    </div>
+                </div>
+
+                <div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/JS.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        JavaScript est un langage coté client qui permet de rendre des pages web dynamiques et interactives pour l'utilisateur.
+                    </div>
+                </div>
+                
+                <div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/jQuery.svg">
+                    </div>
+                    <div class="descriptifTechno">
+                        JQuery est une librairie Javascript. Elle rend le code plus lisible et plus simple. <br>
+                        Nous n'avions pas besoin denous servir de JQuery en plus de JavaScript, mais nous voulions progresser dans ces deux langages.
+                    </div>
+                </div>
+                
+                <div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/mapbox.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        MAPBOX GL JS est une autre librairie JavaScript. Elle nous a été indispensable dans l'affichage de la carte et dans son utilisation.
+                    </div>
+                </div>
+                
+                <div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/python.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        Contrairement aux précédents, ce langage n'est pas prédestiné au web. Il nous a servi a parcourir un site web et d'en extraire les données voulues.
+                    </div>
+                </div>
+
+                
+            </div>    
+        </div>
+        
+        
+        
+    
+    
+    
+    
+     {% endblock %}
