@@ -25,13 +25,13 @@
                     Le support web a été choisi car nous voulions progresser dans cette matière<br><br>
 
                     Plusieurs sources de données ont été explorées et exploitées:<br><br>
-                    Tout d'abord nous avons trouvé un premier jeu de données de <a href="https://www.data.gouv.fr/en/datasets/clpa-photo-interpretation-zones-des-phenomenes-davalanche-de-rhone-alpes/">Photo-interprétation</a><br><br>
+                    Tout d'abord nous avons trouvé un premier jeu de données de <a href="https://www.data.gouv.fr/en/datasets/clpa-photo-interpretation-zones-des-phenomenes-davalanche-de-rhone-alpes/">Photo-interprétation</a> collecté par l'IRSTEA, nommé CLPA.<br><br>
 
-                    Par la suite nous avons exploité un jeu de données montrant les accidents dûs aux avalanches trouvé sur <a href="http://www.anena.org/5041-bilan-des-accidents.htm">Photo-interprétation</a><br><br>
+                    Par la suite nous avons exploité un jeu de données montrant les accidents dûs aux avalanches trouvé sur le site de l'<a href="http://www.anena.org/5041-bilan-des-accidents.htm">l'ANENA</a>.<br><br>
 
-                    Enfin nous avons utilisé un scrapper afin de parcourir les site <a href="http://www.data-avalanche.org/">data-avalanche.org</a> et de récupérer des données sur les avalanches qu'il recense<br><br>
+                    Enfin nous avons utilisé un scraper afin de parcourir le site <a href="http://www.data-avalanche.org/">data-avalanche.org</a> et de récupérer des données sur les avalanches que l'association a recensées.<br><br>
 
-                    Nous avons utilisé l'outil <a href="https://www.mapbox.com/">MAPBOX</a> afin de créer une carte interactive affichant<br><br>
+                    Nous avons utilisé l'outil <a href="https://www.mapbox.com/">MAPBOX</a> afin de créer une carte interactive affichant les données.<br><br>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@
                         <img class="imgLogo" src="public/img/htmlCSS.png">
                     </div>
                     <div class="descriptifTechno">
-                        Ces sont les langages de bases de la programmation web, ils permettent de gérer les contenu d'une page web ainsi que son design de manière statique
+                        Ce sont les langages de bases de la programmation web, ils permettent de gérer les contenus d'une page web ainsi que son design de manière statique.
                     </div>
                 </div>
                 
@@ -70,7 +70,7 @@
                         <img class="imgLogo" src="public/img/bootstrap.png">
                     </div>
                     <div class="descriptifTechno">
-                        Bootstrap est une librairie CSS permettant de créer des modèles de pages et de rendre cohérent le design d'un site plus facilement.
+                        Bootstrap est une bibliothèque CSS permettant de créer des modèles de page et de rendre cohérent le design d'un site plus facilement.
                     </div>
                 </div>
 
@@ -88,8 +88,8 @@
                         <img class="imgLogo" src="public/img/jQuery.svg">
                     </div>
                     <div class="descriptifTechno">
-                        JQuery est une librairie Javascript. Elle rend le code plus lisible et plus simple. <br>
-                        Nous n'avions pas besoin denous servir de JQuery en plus de JavaScript, mais nous voulions progresser dans ces deux langages.
+                        JQuery est une bibilothèque Javascript. Elle rend le code plus lisible et plus simple. <br>
+                        Nous n'avions pas besoin de nous servir de JQuery en plus de JavaScript, mais nous voulions progresser dans ces deux langages.
                     </div>
                 </div>
                 
@@ -98,7 +98,7 @@
                         <img class="imgLogo" src="public/img/mapbox.png">
                     </div>
                     <div class="descriptifTechno">
-                        MAPBOX GL JS est une autre librairie JavaScript. Elle nous a été indispensable dans l'affichage de la carte et dans son utilisation.
+                        MAPBOX GL JS est une autre bibliothèque JavaScript. Elle nous a été indispensable dans l'affichage de la carte et dans son utilisation.
                     </div>
                 </div>
                 
@@ -107,7 +107,103 @@
                         <img class="imgLogo" src="public/img/python.png">
                     </div>
                     <div class="descriptifTechno">
-                        Contrairement aux précédents, ce langage n'est pas prédestiné au web. Il nous a servi a parcourir un site web et d'en extraire les données voulues.
+                        Contrairement aux précédents, ce langage n'est pas prédestiné au web.<br>
+						Il nous a servi à scrapper des données sur le Réseau, formater les données afin de garantir leur affichage sur le site et analyser le dataset issue du site data-avalanche.org.<br>
+						Python est l'un des langages de prédilection dans le domaine de la manipulation et l'analyse de données, mais également lorsque l'on souhaite mettre en place des scripts légers et performants.
+                    </div>
+                </div>
+				<div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/scrapy.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        Scrapy est un outil de développement de robots d'indexation (plus communément appelés crawlers, web-spiders ou encore scrapers) en python.<br>
+						Nous avons utilisé ce module dans le but de réunir des données à afficher sur la carte du site.<br>
+						Or il s'est avéré que cette technologie n'était pas adaptée au site ayant le plus de données (data-avalanche.org) car les pages été gérées dynamiquement (i.e. en utilisant du JS).<br>
+						Nous avons donc dû adopter une solution plus adaptée.
+                    </div>
+                </div>
+				<div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/selenium.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        Selenium, à l'instar de scrapy, est (entre autres) utilisé pour parcourir le web à la recherche d'informations. <br>
+						Initialement, il s'agit d'un outil interagissant avec les navigateurs web dans le but de procéder à des tests dynamiques en simulant le comportement d'un utilisateur.<br>
+						Selenium nous a donc permis de répondre à l'inéfficacité de scrapy à parcourir des sites dynamiques.
+                    </div>
+                </div>
+				<div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/numpy.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        Numpy est la bibilothèque python permettant entre autre la manipulation de tableau car python se base essentiellement sur un système de listes.<br>
+						Suite à quelques essais avec ce module, nous avons davantage opté pour pandas/matplotlib.<br>
+						Les tableaux proposés par Numpy ne permettent de gérer que des données de types similaires,<br>
+						par ailleurs la conversion du fichier json vers ces tableaux est plus complexe qu'avec les structures de données de pandas. 
+                    </div>
+                </div>
+				<div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/scipy.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        Scipy, qui fournit notamment des outils de statistiques (et plus généralement scientifiques), a été couplé dans un premier temps à Numpy afin de faire émerger du sens de ce dataset.<br>
+						Scipy nous semblait particulièrement intéressant dans la mesure où il nous fournissait des données sous la forme de matrices creuses.<br>
+						Cela nous aurait ainsi permis de gagner en fluidité lors de la manipulation d'importants volumes de données.<br>
+						Néanmoins, nous avions sous-estimé la puissance de calcul de nos machines, car même sans cette technologie, le temps d'éxécution est tout à fait acceptable.<br>
+						Or, une fois de plus, nous nous sommes réorienté vers les 2 bibliothèques suivantes.
+                    </div>
+                </div>
+				<div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/pandas.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        Pandas répondait parfaitement à nos besoins. En effet, cette bibliothèque python a été conçue pour la manipulation et l'annalyse de données.<br>
+						Pandas se manifeste particulierement à travers ses structures de données : Les dataframes et leurs composants, les séries.<br>
+						Toutes les structure contenant les données sur la page concernant l'analyse du dataset ont été permises par Pandas. 
+                    </div>
+                </div>
+				<div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/matplotlib.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        MatPlotLib est le module python qui nous a permis de réprésenter les données sur des courbes, 'pie', histogrammes en barres, etc..<br>
+						Inspirée de MatLab, il s'agit probablement de la lib la plus célèbre de python dans la représentation de données.<br>
+						Toutes les figures présentes sur la page de l'analyse ont été réalisées avec MatPlotLib.
+                    </div>
+                </div>
+				<div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/Spyder.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        Spyder est l'IDE utilisé initialement pour la partie faite en python (essentiellement les scrapers).<br>
+						Cependant, Sur les conseils de notre entourage, nous avons décidé de tenter par la suite la solution proposée par JetBrain : PyCharm.<br>
+						Au terme des parties conçues avec les IDE python, Spyder s'est avéré plus simple d'utilisation et plus léger.
+                    </div>
+                </div>
+				<div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/PyCharm.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        PyCharm (community édition) est l'environnement de développement intégré développé par JetBrain.<br>
+						Il offre un confort certain pour les projets de grande envergure, cepandant pour les scripts plus modestes, un IDE plus léger est plus adéquate.
+                    </div>
+                </div>
+				<div class="techno">
+                    <div class="logo">
+                        <img class="imgLogo" src="public/img/jupyter.png">
+                    </div>
+                    <div class="descriptifTechno">
+                        Jupyter notebook est une application web, et donc accesible via un navigateur, permettant d'interpréter du code python (parmi tant d'autres).<br>
+						Il se compose d'une liste de cellule au sein desquelles on peut exécuter du code mais également incorporer des cellules dites markdown permettant le traitement et la mise en forme de texte.<br>
+						Enfin, le fichier final peut être exporté en HTML, comme vous pouvez le constater sur la page de l'annalyse du dataset.<br>
+						En effet, c'est une technologie parfaite lorsque l'on souhaite exposer du code, faire une démonstration, etc...
                     </div>
                 </div>
 
