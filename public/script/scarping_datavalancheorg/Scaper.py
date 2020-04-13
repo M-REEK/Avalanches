@@ -17,7 +17,7 @@ import json
 url_patern = 'http://www.data-avalanche.org/avalanche/'
 url_init = 'http://www.data-avalanche.org/avalanche/1351431005476'
 url_last = 'http://www.data-avalanche.org/avalanche/1585675415865'
-url_temp = 'http://www.data-avalanche.org/avalanche/1549397713022'
+url_temp = 'http://www.data-avalanche.org/avalanche/50000058'
 url_check_last = url_init
 
 # constante du nombre maximal de lignes au-dela de laquelle elle seront insérée dans le document
@@ -49,6 +49,8 @@ if (os.path.isfile(FICHIER_CIBLE)) :
 # Ouverture du navigateur et accès à la premiere avalanche du site
 driver = webdriver.Firefox()
 driver.get(url_temp)
+
+
 
 # pour chaque page...
 for i in range(BOUCLE_MAX):
@@ -117,22 +119,6 @@ for i in range(BOUCLE_MAX):
         for a in list_avalanche :
             print("| Ajout de l'avalanche " + str(a["id"]) + " au fichier")
         list_avalanche.clear()
-
-    # #dumping du dict
-    # json_avalanche.append(data_dict)
-    #
-    # with open('DataAvalancheOrg_test.json', 'w', encoding='utf-8') as json_file:
-    #     json.dump(json_avalanche, json_file)
-    #
-    # # 1er tier
-    # if (driver.current_url == 'http://www.data-avalanche.org/avalanche/1362850966301') :
-    #     with open('DataAvalancheOrg1.json', 'w', encoding='utf-8') as json_file:
-    #         json.dump(json_avalanche, json_file)
-    #
-    # # 2ieme tier
-    # elif (driver.current_url == 'http://www.data-avalanche.org/avalanche/1514795696856') :
-    #     with open('DataAvalancheOrg2.json', 'w', encoding='utf-8') as json_file:
-    #         json.dump(json_avalanche, json_file)
 
 # Recherche du bouton pour passer à l'avalanche suivante
     try :
