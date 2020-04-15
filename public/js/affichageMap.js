@@ -3807,9 +3807,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches1983', function(e) {
@@ -3824,9 +3823,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches1986', function(e) {
@@ -3841,26 +3839,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
-        
-        });
-        mymap.on('click', 'avalanches1990', function(e) {
-          var srcImage = e.features[0].properties.thumbnail;
-          var lien = e.features[0].properties.URL;
-            $('#date').text(e.features[0].properties.dateStr); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $('#cause').text(e.features[0].properties.origine_principale); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $('#massif').text(e.features[0].properties.massif); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $('#site').text(e.features[0].properties.sommet); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $('#neige').text(e.features[0].properties.qualite_neige); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $('#orientation').text(e.features[0].properties.orientation); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
-            $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches1991', function(e) {
@@ -3875,9 +3855,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches1992', function(e) {
@@ -3892,9 +3871,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches1993', function(e) {
@@ -3909,9 +3887,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches1994', function(e) {
@@ -3926,9 +3903,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches1995', function(e) {
@@ -3943,9 +3919,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches1996', function(e) {
@@ -3960,9 +3935,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches1997', function(e) {
@@ -3977,7 +3951,6 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $("#source").attr("src",lien);
         
@@ -3994,9 +3967,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches1999', function(e) {
@@ -4011,9 +3983,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2000', function(e) {
@@ -4028,9 +3999,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2001', function(e) {
@@ -4045,9 +4015,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2002', function(e) {
@@ -4064,7 +4033,7 @@ mymap.on('load', function() {
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2003', function(e) {
@@ -4079,9 +4048,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2004', function(e) {
@@ -4096,9 +4064,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2005', function(e) {
@@ -4113,9 +4080,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2006', function(e) {
@@ -4130,9 +4096,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2007', function(e) {
@@ -4147,9 +4112,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2008', function(e) {
@@ -4164,9 +4128,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2009', function(e) {
@@ -4181,9 +4144,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2010', function(e) {
@@ -4198,9 +4160,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2011', function(e) {
@@ -4215,9 +4176,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2012', function(e) {
@@ -4232,9 +4192,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2013', function(e) {
@@ -4249,9 +4208,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2014', function(e) {
@@ -4266,9 +4224,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2015', function(e) {
@@ -4283,9 +4240,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2016', function(e) {
@@ -4300,9 +4256,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2017', function(e) {
@@ -4317,9 +4272,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2018', function(e) {
@@ -4334,9 +4288,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
         mymap.on('click', 'avalanches2019', function(e) {
@@ -4351,9 +4304,8 @@ mymap.on('load', function() {
             $('#activite').text(e.features[0].properties.activité); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#decedes').text(e.features[0].properties.décédés); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
             $('#description').text(e.features[0].properties.description); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#image").attr("src",srcImage);
             $('#source').text(e.features[0].properties.URL); // remplace le contenu actuel du paragraphe par "Nouveau contenu !"
-            $("#source").attr("src",lien);
+            $("#source").attr("href",lien);
         
         });
 
