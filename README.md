@@ -40,7 +40,7 @@ La récupération de données sur le web a été réalisée grace à un scrapper
 
 ### L'architecture
 
-Le fichier index.php agit comme point d'entrée du site et de controlleur
+Le fichier index.php agit comme point d'entrée du site et pointe vers le controlleur
 
 Le dossier app contient d'un coté les différentes pages du site & de l'autre les fichiers geojson dans lesquels sont renseignées les données sur les avalanches
 
