@@ -208,6 +208,9 @@
             flex-direction: column;
             justify-content: center;
         }
+        #scrapper{
+            margin-left: 2rem;
+        }
         
 
 

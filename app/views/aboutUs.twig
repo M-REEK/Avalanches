@@ -7,6 +7,7 @@
             <div class="row aboutUs">
                 <h2>Les développeurs</h2>
                 <div>
+                    Ce site web a été développé par Gérome Ferrand et Aymeric Touche.<br>
                     Nous sommes deux étudiants de Licence 3 Informatique à l'Université Lyon I.
                 </div>
             </div>
@@ -32,6 +33,19 @@
                     Enfin nous avons utilisé un scraper afin de parcourir le site <a href="http://www.data-avalanche.org/">data-avalanche.org</a> et de récupérer des données sur les avalanches que l'association a recensées.<br><br>
 
                     Nous avons utilisé l'outil <a href="https://www.mapbox.com/">MAPBOX</a> afin de créer une carte interactive affichant les données.<br><br>
+                </div>
+            </div>
+            <div class="row aboutUs">
+                <h2>Nos objectifs</h2>
+                <div>
+                    <ul class="list-group">
+                        <li>Collecter des données sur le net  <span class="badge badge-success">OK</span></li>
+                        <li>Analyser les caractéristiques principales d’une avalanche  <span class="badge badge-success">OK</span></li>
+                        <li>Cartographier les avalanches en fonction de ces caractéristiques  <span class="badge badge-success">OK</span></li>
+                        <li>Etablir une analyse graphique via des statistiques  <span class="badge badge-success">OK</span></li>
+                        <li>Faire ressortir des indicateurs et en dégager un sens  <span class="badge badge-danger">KO</span></li>
+                        <li>Rester ouverts aux possibilités offertes par les jeux de données collectés  <span class="badge badge-success">OK</span></li>
+                    </ul>
                 </div>
             </div>
 
@@ -206,9 +220,71 @@
 						En effet, c'est une technologie parfaite lorsque l'on souhaite exposer du code, faire une démonstration, etc...
                     </div>
                 </div>
+            </div>  
+            <div class="row aboutUs">
+                <h2>La carte interactive</h2>
+                <div>
+                    Le site MapBox.com permet de créer un fond de carte que nous avons adapté au sujet, avec les reliefs. La carte interactive a été créée grâce à la bibliothèque MAPBOX GL JS qui est une librairie JavaScript.<br>
+                    Cet outil permet de créer différents layers traduisant les fichiers geojson préalablement créés ou récupérés. Ces layers sont ajouté à la carte, les avalanches sont alors représentées sur la carte.<br>
+                    Des scripts en JavaScript ou JQuery sont implémentés afin d’afficher les différents layers selon ce que souhaite l’utilisateur.
+                </div>
+            </div>
+            <div class="row aboutUs">
+                <h2>Le scrapper</h2>
+                <div>
+                    Toutes les parties collecte, formatage et analyse de données ont été réalisées en python.<br>
+                    Le scrapper a, dans un premier temps, été développé avec la bibliothèque Scrapy avec l’IDE Spyder. <br>Or à la suite des conseils de notre entourage et dans un soucis de découverte, nous avons migré le projet sur PyCharm. <br>Par ailleurs, afin de pouvoir parcourir des sites web dont le contenu est géré dynamiquement, nous avons dû recourir aux solutions offertes par la lib. Selenium.<br>
+                    Ce programme nous a permis de réunir 2035 avalanches supplémentaires à notre base de données.<br><br>
+                    Le programme passe de page en page sur le site data-avalanche.org, et procède par étape :<br><br>
+                    <ul id="scrapper" class="list-group">
+                        <li>Il récupère la page HTML</li>
+                        <li>Sélectionne la zone contenant les données nécessaires à la formation du dataset</li>
+                        <li>Décode la chaine de caractère</li>
+                        <li>Charge les données dans un dictionnaire</li>
+                        <li>Ajoute les cases nécessaires à l’uniformisation de nos jeux de données</li>
+                        <li>Retire les propriétés qui porte peu d’intérêt pour notre utilisation des données</li>
+                        <li>Nettoie la propriété description de tout les caractère parasites (balise html, \n, \r, \t, etc…)</li>
+                        <li>Ajoute la ligne à une liste cache</li>
+                        <li>Transfert la liste dans un fichier json</li> 
+                     </ul>
 
-                
-            </div>    
+
+                </div>
+            </div>  
+            <div class="row aboutUs">
+                <h2>L'organisation du travail</h2>
+                <div>
+                    Trois tâches ont rapidement été identifiées. <br>
+                    La première étant de trouver des donnée, la seconde de créer une application web.<br><br>
+                    La recherche de données a été réalisée en binôme, nous avons passé du temps à deux là-dessus.<br>
+                    Par la suite l’un de nous s’est occupé principalement de l’application web en elle-même et du traitement des données récupérées afin de les afficher correctement sur la carte et de rendre l’application interactive.<br>
+                    L’autre s’est chargé de créer un scrapper en python afin de parcourir le site data-avalanche.org, de récupérer les données concernant les avalanches cataloguées et de les traduire dans des fichiers geojson. <br>
+                    Ces fichiers ont ensuite servi de base de données pour l’application web, en plus de celles déjà mise à disposition directement sur d’autre sites.<br><br>
+                </div>
+                <div>
+                    Un dépôt GitHub a été créé, chacun pouvait donc avancer sur l’implémentation des fonctionnalités qu’il avait à réaliser.<br>
+                    Au début du projet nous travaillions souvent ensemble à l’université ou chez nous. Tout le travail était réalisé en lors de ces séances fréquentes afin que chacun puisse participer à toutes les fonctionnalités.<br>
+                    En revanche depuis le début du confinement, chacun les deux aspects du projet est devenu assez hermétiques et nous travaillions sur nos parties respectives, la communication étant devenue plus difficile. 
+                </div>
+            </div>  
+            <div class="row aboutUs">
+                <h2>Les défis</h2>
+                <div>
+                    Nous avons dû nous former sur de nouvelles technologies connues ou non pour mener à bien ce projet.<br><br>
+                    Nous ne voulions pas faire un site web classique en tout html bien que cela aurait été possible et n’aurait rien changé au rendu, mais nous n’aurions pas progressé.<br>
+                    Pour cela il a fallu se renseigner sur les Frameworks PHP existant et en sélectionner un adapté à la structure et l’envergure du projet.<br>
+                    Plusieurs jours ont été nécessaires afin de nous familiariser avec Slim PHP et ses techniques.<br><br>
+                    Au dernier moment nous avons découvert un conflit entre le serveur partagé hébergeant notre site et Slim PHP concernant les requêtes http.<br>
+                    Une solution de secours tout html a été conçue en quelques dizaines de minutes. Finalement nous avons pu gérer ce problème et conserver une architecture plus avancée.<br><br>
+                    La méthode d’affichage des données sur une carte interactive nous était totalement étrangère, et nos compétences en JavaScript et JQuery limitées.<br> 
+                    Nous nous sommes donc formés pendant des jours sur ces technologies. <br><br>
+                    L’outil leaflet proposé à été remplacé par mapbox qui est plus complet et possède une documentation très fournie ainsi qu’un système d’hébergement.<br>
+                    Cette solution d’hébergement nous a été très utile concernant la partie photo-interprétation, <br>
+                    les données étant trop volumineuses nous avons pu ainsi en déléguer le traitement ce qui a permis un gain de temps considérable au chargement de la carte.<br><br>
+                    Enfin, comme cité précédemment, la crise sanitaire et le confinement que nous vivons a été un réel frein à l’avancement de notre projet. <br>
+                    Collaborer à distance aura constitué un défi majeur que nous avons relevé en modifiant notre stratégie de fonctionnement.
+                </div>
+            </div>  
         </div>
         
         
